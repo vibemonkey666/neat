@@ -1,0 +1,2 @@
+// Generated embedded-text module; original text is unchanged.
+module.exports = "\n\nimport('./lib/tools.mjs').then((tools) => {\n  const result = tools.installTools();\n  process.stdout.write(JSON.stringify({ ok: !!result.ok, log: String(result.log || '').slice(-20000), remedy: result.remedy || null }));\n}).catch((e) => { process.stdout.write(JSON.stringify({ ok: false, log: String((e && e.message) || e) })); });\n";

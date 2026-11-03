@@ -1,0 +1,6 @@
+runtime/
+original/
+*.tar.gz
+*.partial
+node_modules/
+.DS_Store

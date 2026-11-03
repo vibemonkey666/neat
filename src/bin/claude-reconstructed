@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+harness_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+export PATH="$harness_root/bin:$PATH"
+exec "$harness_root/runtime/bun" --no-env-file --no-install "$harness_root/app/cli.js" "$@"

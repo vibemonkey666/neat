@@ -1,0 +1,33 @@
+// Recovered JavaScript source; compiled-input directive removed
+// Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
+// By using Claude Code, you agree that all code acceptance or rejection decisions you make,
+// and the associated conversations in context, constitute Feedback under Anthropic's Commercial Terms,
+// and may be used to improve Anthropic's products, including training models.
+// You are responsible for reviewing any code suggestions before use.
+
+// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
+
+// Version: 2.1.310
+import { Plr } from "./chunk-4nzy53ma.js";
+import { mS } from "./chunk-dvghjmtr.js";
+function OU(o, n) {
+  let e = mS(o, "fable_5_mitigations", n);
+  if (e !== void 0) return e;
+  if (o === "claude-mythos-5") return !0;
+  return !1;
+}
+function ELe(o) {
+  return !Plr() && mS(o, "fable_5_1_prompt_bundle") === !0;
+}
+function lKe(o) {
+  return o.startsWith("claude-fable-");
+}
+function hJs(o) {
+  return o.startsWith("claude-mythos-");
+}
+function s7n(o) {
+  return !1;
+}
+export { OU, ELe, lKe, hJs, s7n };
+
+//# sourceMappingURL=chunk-5bd63sq9.js.map

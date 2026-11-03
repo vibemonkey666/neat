@@ -1,0 +1,2 @@
+// Generated embedded-text module; original text is unchanged.
+module.exports = "# Message Batches - C#\n\n## Message Batches API\n\n```csharp\nvar batch = await client.Messages.Batches.Create(new() {\n    Requests = [\n        new() { CustomID = \"req-1\", Params = new() { Model = \"{{OPUS_ID}}\", MaxTokens = 1024, Messages = [...] } },\n    ],\n});\n// Poll client.Messages.Batches.Retrieve(batch.ID) until ProcessingStatus == \"ended\",\n// then iterate client.Messages.Batches.Results(batch.ID).\n```\n\n";

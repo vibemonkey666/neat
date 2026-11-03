@@ -1,0 +1,860 @@
+// Recovered JavaScript source; compiled-input directive removed
+// Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
+// By using Claude Code, you agree that all code acceptance or rejection decisions you make,
+// and the associated conversations in context, constitute Feedback under Anthropic's Commercial Terms,
+// and may be used to improve Anthropic's products, including training models.
+// You are responsible for reviewing any code suggestions before use.
+
+// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
+
+// Version: 2.1.310
+import { De } from "./chunk-2qx8pe6s.js";
+import { L, ke } from "./chunk-wrtp8qz8.js";
+import { c } from "./chunk-acd8w9vv.js";
+import { d, E, G } from "./chunk-fs43t96t.js";
+import { g, f } from "./chunk-brszmkb3.js";
+import { _, te, t } from "./chunk-4kxznmzw.js";
+import { p } from "./chunk-qmkm2x59.js";
+import { tu, Ns, TI, mc } from "./chunk-5rw2zfa0.js";
+import { Dn } from "./chunk-qywdxehb.js";
+import { vl, zg } from "./chunk-6xjawpfq.js";
+import { fe } from "./chunk-xe386mry.js";
+import { hr } from "./chunk-dc0nzty2.js";
+import { QV } from "./chunk-7c3thgax.js";
+import { zk } from "./chunk-pbffp8rf.js";
+import { He } from "./chunk-1hp0t8kv.js";
+import { Qer, Ie } from "./chunk-g2mvjkdk.js";
+import { lR, ti, T2r, xzt, Gk, hoe, hvt, C_e } from "./chunk-gq77tz5k.js";
+import { uI, ue } from "./chunk-ajtyjx88.js";
+import { CO } from "./chunk-mpcygg5e.js";
+import { Fd } from "./chunk-p56qmwgb.js";
+import { FAe } from "./chunk-vn4qkmxw.js";
+import { Fdn } from "./chunk-783pymr7.js";
+import { Qne, hyt } from "./chunk-d24cd7f5.js";
+import { Hk } from "./chunk-qry0merp.js";
+import { i7 } from "./chunk-5nq3yzmr.js";
+import { to } from "./chunk-vjef4vba.js";
+import { H } from "./chunk-p8tprgqa.js";
+import { o, u } from "./chunk-0bqrj5ah.js";
+import { $r } from "./chunk-a2y39866.js";
+import { ve } from "./chunk-vk5p9xv3.js";
+var DD = {};
+$r(DD, {
+  ASKED_MAX: () => K,
+  ASKED_ROW_SCHEMA: () => V,
+  EMPTY_PANES: () => Qer,
+  PANE_ID_MAX: () => T2r,
+  askedLatch: () => R,
+  askedPaneOf: () => Sdn,
+  closePane: () => kdn,
+  closePanesOf: () => FGs,
+  cycledPaneId: () => UGs,
+  default: () => DD,
+  everyPane: () => PTe,
+  focusPane: () => SQ,
+  forgetAsked: () => q,
+  forgetDismissed: () => v,
+  hasAsked: () => h,
+  isToastHoldShown: () => $Ho,
+  keepAsked: () => P,
+  keptAsked: () => O,
+  nextPaneId: () => FHo,
+  offerPlacement: () => Tdn,
+  openFloor: () => I,
+  openPane: () => BGs,
+  paneCloseProblem: () => jGs,
+  paneIdProblem: () => xzt,
+  paneManners: () => Q,
+  paneOpenProblem: () => WGs,
+  panesOf: () => GGs,
+  panesStore: () => ia,
+  placeWaiting: () => zGs,
+  placeWaitingRemote: () => $Nr,
+  placedPanes: () => T,
+  placementAtOpen: () => X,
+  raiseClose: () => gyt,
+  rememberAsked: () => KGs,
+  remotePlacement: () => QYn,
+  seedAsked: () => C,
+  settleFocusRequest: () => FNr,
+  showPane: () => UNr,
+  shownPane: () => zUt,
+  withKeptAsked: () => z,
+  withoutPane: () => W
+});
+function se() {
+  let e = new Map(),
+    r = new Set(),
+    n = () => [...e.values()],
+    i = De();
+  return {
+    attach: (s) => {
+      let a = e.get(s.clientId);
+      if ((r.delete(s.clientId), a === void 0)) return (e.set(s.clientId, s), !0);
+      if (s.viewport !== void 0 || s.answers !== void 0)
+        e.set(s.clientId, {
+          ...a,
+          ...(s.viewport !== void 0 && { viewport: { ...a.viewport, ...s.viewport } }),
+          ...(s.answers !== void 0 && { answers: s.answers })
+        });
+      return !1;
+    },
+    detach: (s) => {
+      let a = e.get(s);
+      return (e.delete(s), r.delete(s), i.emit(s), a);
+    },
+    hasSurface: (s) => n().some((a) => a.surface === s),
+    list: n,
+    surfaces: () => L(n().map((s) => s.surface)),
+    onDetach: (s) => i.subscribe(s),
+    missed: (s) => {
+      if (e.has(s)) r.add(s);
+    },
+    heard: (s) => void r.delete(s),
+    isSilent: (s) => r.has(s)
+  };
+}
+var IE = ve(se(), (e) => {
+  for (let r of e.list()) e.detach(r.clientId);
+});
+var JYn = () => IE.list().filter((e) => e.viewport?.isFullscreen !== void 0);
+function ie() {
+  return IE.list().filter((e) => e.viewport !== void 0);
+}
+var hY = ve(to(), (e) => e.set(void 0));
+function d8(e) {
+  let { name: r, marketplace: n } = mc(e);
+  return n === Ns && zk(r) !== void 0;
+}
+var R = ve(to(), (e) => e.set(void 0));
+var K = 64;
+var Sdn = (e, r) => ({ plugin: e, id: r });
+var V = p(() => u({ plugin: o(), id: o() }));
+var wdn = ve(to(), (e) => e.set(void 0));
+var vdn = ve(to(), (e) => e.set(void 0));
+var Edn = ve(to(), (e) => e.set(void 0));
+var WUt = (e, r) => `${e}\x00${r}`;
+function GUt(e, r) {
+  return Edn.get()?.get(WUt(e, r)) ?? 0;
+}
+function myt(e, r) {
+  let n = new Map(e);
+  for (let i of r) n.delete(i);
+  return n;
+}
+function NHo(e, r) {
+  let n = WUt(e, r),
+    i = GUt(e, r) + 1;
+  (wdn.set(myt(wdn.get() ?? new Map(), [n])),
+    vdn.set(myt(vdn.get() ?? new Map(), [n])),
+    Edn.set(new Map(Edn.get()).set(n, i)));
+}
+var ia = ve(
+  () => Ie().panes,
+  (e) => e().setState(() => Qer)
+);
+function W(e, r) {
+  let n = e.open.filter((l) => !r(l)),
+    i = e.unplaced.filter((l) => !r(l));
+  if (n.length === e.open.length && i.length === e.unplaced.length) return e;
+  let a = new Set([...n, ...i].map((l) => l.id)),
+    m = (l) => (a.has(l ?? "") ? l : null);
+  return {
+    open: n,
+    unplaced: i,
+    asked: e.asked,
+    shownId: m(e.shownId) ?? n.at(-1)?.id ?? null,
+    focusedId: m(e.focusedId),
+    focusRequest: m(e.focusRequest),
+    placements: e.placements,
+    closing: e.closing.filter((l) => a.has(l))
+  };
+}
+function kdn(e) {
+  (ia().setState((r) => W(r, (n) => n.id === e)), NHo("Pane", e));
+}
+var PTe = (e) => [...e.open, ...e.unplaced];
+function h(e, r) {
+  return e.asked.some((n) => n.id === r.id && n.plugin === r.plugin);
+}
+import { dirname as pe, resolve as fo } from "path";
+function c8({ pluginStorageId: e, pluginRoot: r }) {
+  let { name: n, marketplace: i } = mc(e),
+    s = FAe(e),
+    a = pe(fo(r)),
+    l = [a, pe(a)].includes(i7()) ? "dev_mods" : "plugin_dir",
+    k = s ? "managed" : i === tu ? l : "installed",
+    A = d8(e) ? "builtin" : k;
+  return { provenance: c(A), ...Fdn(n, i, s ? new Set([n]) : null) };
+}
+function O(e) {
+  let r = e.pluginPanes?.asked;
+  return Array.isArray(r)
+    ? r.flatMap((n) => {
+        let i = V().safeParse(n);
+        return i.success ? [i.data] : [];
+      })
+    : [];
+}
+var z = (e, r) => ({ ...e, pluginPanes: { ...e.pluginPanes, asked: r } });
+function P(e, r) {
+  let n = r === "asked",
+    i = !1;
+  uI((s) => {
+    let a = O(s),
+      m = a.filter((l) => l.plugin !== e.plugin || l.id !== e.id);
+    return (
+      (i = m.length < a.length !== n),
+      i ? z(s, n ? [...m, Sdn(e.plugin, e.id)].slice(-K) : m) : s
+    );
+  }).then((s) => {
+    if (i) {
+      let a = Hk(e.plugin),
+        m = a && c8(a);
+      s
+        ? g("plugin_function_hooks_pane_ask", m)
+        : f("plugin_function_hooks_pane_ask", "not_persisted", m);
+    }
+  });
+}
+function q(e) {
+  (ia().setState((r) =>
+    h(r, e) ? { ...r, asked: r.asked.filter((n) => n.plugin !== e.plugin || n.id !== e.id) } : r
+  ),
+    P(e, "dismissed"));
+}
+function v(e, r, n) {
+  if (r.kind === "person" && n !== void 0) q(Sdn(n, e));
+}
+async function gyt(e, r) {
+  let n = ia().getState(),
+    i = n.closing.includes(e),
+    s = r.kind === "unload",
+    a = PTe(n).find((x) => x.id === e)?.plugin,
+    m = !1;
+  if (s) kdn(e);
+  if (i) return;
+  let l = CO("ui.close").filter((x) => !s || x.name !== a);
+  if (l.length === 0) {
+    (kdn(e), v(e, r, a));
+    return;
+  }
+  if (!s) ia().setState((x) => ({ ...x, closing: [...x.closing, e] }));
+  try {
+    let x = await lR({
+        e: { id: e, origin: r },
+        handlers: l,
+        site: hoe("ui.close"),
+        bottom: (S) => {
+          if (S.id !== e || ia().getState().closing.includes(e)) (kdn(S.id), (m = S.id === e));
+          return Promise.resolve({ value: void 0 });
+        }
+      }),
+      k = ia().getState();
+    if (k.closing.includes(e) && PTe(k).some((S) => S.id === e))
+      t(
+        `ui.close ${e} (${r.kind}): kept open by a hook` + (x.deny === void 0 ? "" : ` (${x.deny})`)
+      );
+  } catch (x) {
+    t(`ui.close ${e} (${r.kind}): the chain failed: ` + d(x), { level: "error" });
+  } finally {
+    if (
+      (ia().setState((x) =>
+        x.closing.includes(e) ? { ...x, closing: x.closing.filter((k) => k !== e) } : x
+      ),
+      m)
+    )
+      v(e, r, a);
+  }
+}
+function FGs(e) {
+  let r = PTe(ia().getState());
+  for (let n of r) if (n.plugin === e) gyt(n.id, { kind: "unload" });
+}
+function UGs(e, r) {
+  let n = e.open.length,
+    i = e.open.findIndex((a) => a.id === e.shownId);
+  return n > 1 && i >= 0 ? (e.open[(i + r + n) % n]?.id ?? null) : null;
+}
+var SQ = (e) =>
+  ia().setState((r) => {
+    let n = e === null || r.open.some((m) => m.id === e),
+      i = n ? e : r.focusedId,
+      s = n && e !== null ? e : r.shownId;
+    return r.focusedId === i && r.shownId === s && r.focusRequest === null
+      ? r
+      : { ...r, focusedId: i, shownId: s, focusRequest: null };
+  });
+var zUt = (e) => e.open.find((r) => r.id === e.shownId);
+var $Ho = (e) => e.placements > 0 && zUt(e)?.holdToasts === !0;
+function FHo(e) {
+  let r = e.open.findIndex((n) => n.id === e.focusedId);
+  return e.open[r + 1]?.id ?? null;
+}
+function Tdn() {
+  return (
+    ia().setState((e) => ({ ...e, placements: e.placements + 1 })),
+    () => ia().setState((e) => ({ ...e, placements: e.placements - 1 }))
+  );
+}
+var I = (e, r) => (h(e, r) ? Qne : hyt);
+function Q(e) {
+  return {
+    ...(e.closeOnEscape && { closeOnEscape: e.closeOnEscape }),
+    ...(e.holdToasts && { holdToasts: e.holdToasts }),
+    ...(e.rows !== void 0 && { rows: e.rows }),
+    ...(e.columns !== void 0 && { columns: e.columns })
+  };
+}
+function T(e, r, n) {
+  let i = e.open.some((a) => a.id === r.id),
+    s = e.open.map((a) => (a.id === r.id ? { ...r, plugin: a.plugin } : a));
+  return {
+    open: i ? s : [...e.open, r],
+    unplaced: e.unplaced.filter((a) => a.id !== r.id),
+    asked: e.asked,
+    shownId: i ? e.shownId : (e.focusedId ?? r.id),
+    focusedId: e.focusedId,
+    focusRequest: n,
+    placements: e.placements,
+    closing: e.closing
+  };
+}
+function QYn() {
+  let e = ie();
+  if (e.length === 0) return;
+  if (JYn().length > 0) return { isPlaced: !0 };
+  return {
+    isPlaced: !1,
+    reason: `no attached surface places panes (${e.map((n) => n.clientId).join(", ")}): placed when a surface that does attaches; once they detach, as a fresh open is`
+  };
+}
+function X(e, r, n) {
+  let i = hY.get()?.columns,
+    s = I(e, r);
+  if (i === void 0) return QYn() ?? { isPlaced: !0 };
+  if (n || i >= s) return { isPlaced: !0 };
+  return {
+    isPlaced: !1,
+    reason: `unasked below ${s} columns (${i} now${s === Qne ? ", an id the person opened before" : ""}): placed when the person opens it, or when the terminal is widened to ${s} columns`
+  };
+}
+function C() {
+  if (R.get()) return;
+  R.set(!0);
+  let e = O(ue());
+  if (e.length === 0) return;
+  ia().setState((r) => ({ ...r, asked: [...e.filter((n) => !h(r, n)), ...r.asked] }));
+}
+function BGs(e, r, n) {
+  C();
+  let i = e.title ?? e.id,
+    s = e.focus === !0 ? e.id : void 0,
+    a = Q(e),
+    m = { id: e.id, plugin: r },
+    l = (y) =>
+      y?.title === i &&
+      y.closeOnEscape === a.closeOnEscape &&
+      y.holdToasts === a.holdToasts &&
+      y.rows === a.rows &&
+      y.columns === a.columns,
+    x,
+    k = !1;
+  if (
+    (ia().setState((y) => {
+      let M = n && !h(y, m),
+        Z = y.open.find((b) => b.id === e.id),
+        D = y.unplaced.find((b) => b.id === e.id),
+        ee = Z !== void 0,
+        Ce = D !== void 0,
+        oe = { id: e.id, plugin: D?.plugin ?? r };
+      ((x = ee ? { isPlaced: !0 } : X(y, oe, n)), (k = M));
+      let re = x.isPlaced,
+        Ee = l(Z) && s === void 0 && !M,
+        N = { ...oe, title: i, ...a },
+        ne = M ? { ...y, asked: [...y.asked, m] } : y,
+        Me = {
+          ...ne,
+          unplaced: Ce ? y.unplaced.map((b) => (b.id === e.id ? N : b)) : [...y.unplaced, N]
+        },
+        Re = ee ? Ee : !re && l(D) && !M,
+        _e = re ? T(ne, N, s ?? y.focusRequest) : Me;
+      return Re ? y : _e;
+    }),
+    k)
+  )
+    P(m, "asked");
+  let A = x ?? { isPlaced: !0 },
+    S = hY.get()?.columns ?? "unmeasured",
+    Y = n ? "asked" : "unasked",
+    $e = A.isPlaced ? "placed" : `waits unplaced (${A.reason})`;
+  return (t(`ui.open ${r} ${e.id} (${Y}, ${S} columns): ${$e}`), A);
+}
+function jGs(e) {
+  let r = ti(e?.origin) === ti({ kind: "plugin" });
+  return xzt(e?.id) ?? (r ? void 0 : "origin is the engine's to set");
+}
+function F(e) {
+  return Array.isArray(e) && e.length > 0 && e.every((n) => typeof n === "string") && e[0] !== ""
+    ? void 0
+    : "takes argv, a non-empty list of strings naming the command first";
+}
+function j(e, r) {
+  return e === void 0 || (H(e) && Object.values(e).every((i) => typeof i === "string"))
+    ? void 0
+    : `${r} is an object of strings`;
+}
+function G_i(e) {
+  let r = typeof e?.name !== "string" || e.name === "",
+    n = e?.fallback === void 0;
+  return r
+    ? "takes the flag's name"
+    : n
+      ? "takes a fallback, the value where the flag table has no say"
+      : void 0;
+}
+var $Gs = (e) => e !== void 0 && typeof e !== "string";
+function DHo(e, r) {
+  return typeof e === "number" && Number.isInteger(e) && e > 0 && e <= r;
+}
+function HHo(e) {
+  let r;
+  try {
+    r = _(e);
+  } catch (a) {
+    return `value is not JSON data: ${d(a)}`;
+  }
+  let n = r;
+  if (typeof n !== "string")
+    return `value is not JSON data: ${e === void 0 ? "undefined" : `a ${typeof e}`}`;
+  return n.length > C_e ? `the value is ${n.length} characters, over the ${C_e} limit` : void 0;
+}
+function NNr(e) {
+  return typeof e?.key === "string" ? void 0 : "takes a key";
+}
+function z_i(e) {
+  let r = e?.agentId,
+    n = e?.as,
+    i = r === void 0 || (typeof r === "string" && r !== ""),
+    s = n === void 0 || n === "api";
+  if (!i) return `takes agentId, a non-empty string (got ${String(r)})`;
+  return s ? void 0 : `takes as "api" or none (got ${String(n)})`;
+}
+import { isAbsolute as _o, win32 as Fo } from "path";
+function K_i(e) {
+  let r = e?.names;
+  if (!Array.isArray(r)) return "takes names, a list of relative .md file names";
+  for (let n of ["of", "below"]) {
+    let i = e?.[n];
+    if (i !== void 0 && (typeof i !== "string" || i === ""))
+      return `takes ${n}, a path, when given`;
+  }
+  for (let n of r) {
+    if (typeof n !== "string" || !n.toLowerCase().endsWith(".md"))
+      return `takes names, each a .md file name (${JSON.stringify(n)})`;
+    if (_o(n) || Fo.isAbsolute(n) || n.split(/[\\/]/).includes(".."))
+      return `takes names, each relative with no ".." (${n})`;
+  }
+  return;
+}
+function jUt(e) {
+  let r = e?.path;
+  return typeof r !== "string" || r === "" ? "takes a path" : void 0;
+}
+function V_i(e) {
+  let r = e?.as === "text" || e?.as === "bytes";
+  return jUt(e) ?? (r ? void 0 : 'as is "text" or "bytes"');
+}
+function q_i(e) {
+  let r = typeof e?.resolve === "boolean";
+  return jUt(e) ?? (r ? void 0 : "resolve is true or false");
+}
+var XYn = 600000;
+function Y_i(e) {
+  let r = F(e?.argv);
+  if (r !== void 0) return r;
+  let n = e?.init;
+  if (n === void 0) return;
+  if (!H(n)) return "takes init, { cwd?, env?, stdin?, timeoutMs? }";
+  if (n.cwd !== void 0 && (typeof n.cwd !== "string" || n.cwd === ""))
+    return "init.cwd is a non-empty path";
+  let s = j(n.env, "init.env");
+  if (s !== void 0) return s;
+  if (n.stdin !== void 0 && typeof n.stdin !== "string") return "init.stdin is a string";
+  return n.timeoutMs !== void 0 && !DHo(n.timeoutMs, XYn)
+    ? `init.timeoutMs is a whole number of ms, 1 to ${XYn}`
+    : void 0;
+}
+function X_i(e) {
+  if (!H(e)) return "takes { argv, cwd?, env?, input? }";
+  let { argv: r, cwd: n, env: i, input: s } = e,
+    a = n !== void 0 && (typeof n !== "string" || n === ""),
+    m = s !== void 0 && typeof s !== "string";
+  return (
+    F(r) ??
+    (a ? "cwd is a non-empty path" : void 0) ??
+    j(i, "env") ??
+    (m ? "input is a string" : void 0)
+  );
+}
+function LHo(e) {
+  let r = e?.name,
+    n = e?.description,
+    i = typeof r !== "string" || !hvt.test(r),
+    s = typeof n === "string" && !!n.trim();
+  return (
+    (i ? "name is letters, digits, _ or - (up to 64)" : void 0) ??
+    (s ? void 0 : "needs a description")
+  );
+}
+var J_i = (e) => NNr(e) ?? HHo(e?.value);
+function Q_i(e) {
+  if (!H(e)) return "inputSchema must be a JSON schema object";
+  try {
+    _(e);
+    return;
+  } catch (r) {
+    return `inputSchema is not JSON data: ${d(r)}`;
+  }
+}
+var e7e = (e) => (typeof e === "string" ? void 0 : "takes a string text");
+function Z_i(e) {
+  let r = e?.breakdown,
+    n = e?.columns;
+  if (!(r === void 0 || r === "summary" || r === "full"))
+    return `takes breakdown "summary" or "full" (got ${String(r)})`;
+  return n === void 0 || (typeof n === "number" && Number.isInteger(n) && n > 0)
+    ? void 0
+    : `takes columns, a positive whole number (got ${String(n)})`;
+}
+function WGs(e) {
+  let r = e?.title,
+    n = r !== void 0,
+    i = typeof r === "string" && Gk(r),
+    s = ["focus", "closeOnEscape", "holdToasts"].find((m) => e?.[m] !== void 0 && e[m] !== !0),
+    a = ["rows", "columns"].find((m) => {
+      let l = e?.[m];
+      return l !== void 0 && !(typeof l === "number" && Number.isInteger(l) && l > 0);
+    });
+  return (
+    xzt(e?.id) ??
+    (n ? e7e(r) : void 0) ??
+    (i ? "title holds a control character" : void 0) ??
+    (s === void 0 ? void 0 : `${s} is true or left out`) ??
+    (a === void 0 ? void 0 : `${a} is a positive whole number or left out (got ${String(e?.[a])})`)
+  );
+}
+function GGs(e) {
+  let r = ia().getState(),
+    n = new Set(r.open);
+  return Object.freeze(
+    PTe(r)
+      .filter((i) => i.plugin === e)
+      .map((i) =>
+        Object.freeze({
+          id: i.id,
+          title: i.title,
+          isShown: r.shownId === i.id,
+          isFocused: r.focusedId === i.id,
+          isPlaced: n.has(i)
+        })
+      )
+  );
+}
+function zGs(e) {
+  let r = ia().getState().unplaced;
+  ia().setState((i) =>
+    i.unplaced.filter((s) => e >= I(i, s)).reduce((s, a) => T(s, a, s.focusRequest), i)
+  );
+  let n = new Set(ia().getState().open);
+  for (let i of r.filter((s) => n.has(s)))
+    t(`ui.open ${i.plugin} ${i.id} (waiting, ${e} columns): placed`);
+}
+function $Nr(e) {
+  let r = ia().getState().unplaced;
+  if (r.length === 0) return;
+  ia().setState((n) => n.unplaced.reduce((i, s) => T(i, s, i.focusRequest), n));
+  for (let n of r) t(`ui.open ${n.plugin} ${n.id} (waiting, ${e}): placed`);
+}
+function KGs(e) {
+  C();
+  let r = !1;
+  if ((ia().setState((n) => ((r = !h(n, e)), r ? { ...n, asked: [...n.asked, { ...e }] } : n)), r))
+    P(e, "asked");
+}
+function FNr(e) {
+  let { focusRequest: r } = ia().getState();
+  if (r === null) return;
+  e ? SQ(r) : ia().setState((n) => ({ ...n, focusRequest: null }));
+}
+var UNr = (e) =>
+  ia().setState((r) =>
+    r.shownId === e || !r.open.some((i) => i.id === e)
+      ? r
+      : { ...r, shownId: e, focusedId: r.focusedId === null ? null : e }
+  );
+function W_i(e) {
+  let r = e ?? fe();
+  return QV(r) ?? hr(r) ?? ke();
+}
+var me = (e) =>
+  e.catch(() => {
+    return;
+  });
+function $Ge() {
+  let e = Promise.resolve();
+  return (r) => {
+    let n = e.then(r, r);
+    return ((e = me(n)), n);
+  };
+}
+var nt = /^(con|prn|aux|nul|com[1-9]|lpt[1-9])(\.|$)/i;
+var de = 64;
+var st = 12;
+var it = {
+  realpath: !1,
+  retries: { retries: 10, minTimeout: 5, maxTimeout: 100 },
+  onCompromised: (e) => {
+    t(`$.store lock compromised: ${d(e)}`, { level: "warn" });
+  }
+};
+function le() {
+  let e = new Map();
+  return (r) => {
+    let n = e.get(r) ?? $Ge();
+    return (e.set(r, n), n);
+  };
+}
+var ft = /^[a-z0-9._-]+$/;
+var at = le();
+import { mkdir as ut } from "fs/promises";
+import { dirname as xt } from "path";
+import { join as lt } from "path";
+import { createHash as mt } from "crypto";
+function ce(e) {
+  if (ft.test(e) && !nt.test(e) && e.length <= de && e !== "." && e !== "..") return `${e}.json`;
+  let n = e.replace(/[^a-zA-Z0-9_-]/g, "_"),
+    i = mt("sha256").update(e).digest("hex").slice(0, st);
+  return `${n.slice(0, de) || "plugin"}-${i}.json`;
+}
+var w = (e) => lt(Fd(), "store", ce(e));
+async function xe(e) {
+  let r = w(e);
+  return (await ut(xt(r), { recursive: !0, mode: 448 }), r);
+}
+import { utimes as gt } from "fs/promises";
+async function yt(e, r) {
+  let n = new Date();
+  try {
+    await gt(r, n, n);
+  } catch (i) {
+    t(`$.store (${e}): could not touch ${r}: ${d(i)}`, { level: "warn" });
+  }
+}
+import { randomUUID as wt } from "crypto";
+import { constants as St } from "fs";
+import {
+  copyFile as Pt,
+  link as Tt,
+  mkdir as At,
+  unlink as bt,
+  writeFile as Ot
+} from "fs/promises";
+import { dirname as It } from "path";
+import { readFile as ht } from "fs/promises";
+async function ye(e) {
+  let r = await ht(w(e), "utf8").catch((n) => {
+    if (G(n)) return;
+    throw n;
+  });
+  return r === void 0 ? void 0 : [e, r];
+}
+async function he(e) {
+  let r = await TI(e).reduce(async (m, l) => (await m) ?? ye(l), Promise.resolve(void 0));
+  if (r === void 0) return !1;
+  let [n, i] = r,
+    s = w(e),
+    a = `${s}.carry-${wt()}`;
+  try {
+    if (!H(te(i))) return !1;
+    return (
+      await At(It(s), { recursive: !0 }),
+      await Ot(a, i, { flag: "wx" }),
+      await Tt(a, s).catch(async (m) => {
+        if (E(m) === "EEXIST") throw m;
+        await Pt(a, s, St.COPYFILE_EXCL);
+      }),
+      !0
+    );
+  } catch (m) {
+    let l = E(m) === "EEXIST";
+    return (
+      t(
+        `$.store (${e}): ` +
+          (l
+            ? `${n}'s store was carried by another session`
+            : `could not carry ${n}'s store: ${d(m)}`),
+        { level: l ? "debug" : "warn" }
+      ),
+      l
+    );
+  } finally {
+    await bt(a).catch(() => {
+      return;
+    });
+  }
+}
+import { readFile as we } from "fs/promises";
+async function Ct(e, r) {
+  try {
+    return await we(r, "utf8");
+  } catch (n) {
+    if (!G(n)) throw n;
+  }
+  if (!(await he(e))) return;
+  try {
+    return await we(r, "utf8");
+  } catch (n) {
+    if (G(n)) return;
+    throw n;
+  }
+}
+var Pe = {
+  async read(e) {
+    let r = w(e),
+      n;
+    try {
+      n = await Ct(e, r);
+    } catch (s) {
+      throw new He(`${e}: store file ${r} is unreadable (${d(s)})`);
+    }
+    if (n === void 0) return {};
+    let i;
+    try {
+      i = te(n);
+    } catch (s) {
+      throw new He(`${e}: store file ${r} is malformed (${d(s)})`);
+    }
+    if (!H(i)) throw new He(`${e}: store file ${r} is malformed (the JSON is not an object)`);
+    return (await yt(e, r), i);
+  },
+  write: async (e, r) =>
+    Dn(
+      await xe(e),
+      `${_(r, null, 2)}
+`,
+      384
+    ),
+  async lock(e) {
+    let r = await xe(e);
+    return vl(r, { lockfilePath: `${r}.lock`, ...it });
+  }
+};
+function Te() {
+  let e = to();
+  return { setBackend: e.set, backendOverride: e.get };
+}
+var Ft = Te();
+var be = () => Ft.backendOverride() ?? Pe;
+var J = 256;
+async function Oe(e, r) {
+  try {
+    if (e.event !== "keys" && e.key.length > J)
+      throw new He(
+        `${r}: $.store.${e.event}: the key is ${e.key.length} characters, over the ${J} limit`
+      );
+    let n = be(),
+      s = e.event === "set" || e.event === "delete" ? await n.lock?.(r) : void 0;
+    try {
+      let a = await n.read(r);
+      switch (e.event) {
+        case "get":
+          return Object.hasOwn(a, e.key) ? a[e.key] : void 0;
+        case "keys":
+          return Object.keys(a);
+        case "set": {
+          let m = { ...a, [e.key]: e.value },
+            l = _(m).length;
+          if (l > C_e)
+            throw new He(
+              `${r}: $.store.set: the store would be ${l} characters, over the ${C_e} limit`
+            );
+          (await n.write(r, m), t(`$.store.set (${r}): ${e.key}`));
+          return;
+        }
+        case "delete": {
+          if (!Object.hasOwn(a, e.key)) return;
+          let m = { ...a };
+          (delete m[e.key], await n.write(r, m));
+          return;
+        }
+      }
+    } finally {
+      await zg(s, `$.store.${e.event} (${r})`);
+    }
+  } catch (n) {
+    if (n instanceof He) throw n;
+    throw new He(`${r}: $.store.${e.event} failed: ${d(n)}`);
+  }
+}
+var KUt = (e, r) => at(r)(() => Oe(e, r));
+export {
+  d8,
+  W_i,
+  ia,
+  G_i,
+  $Gs,
+  DHo,
+  HHo,
+  NNr,
+  z_i,
+  K_i,
+  jUt,
+  V_i,
+  q_i,
+  XYn,
+  Y_i,
+  X_i,
+  LHo,
+  J_i,
+  Q_i,
+  e7e,
+  Z_i,
+  IE,
+  JYn,
+  hY,
+  Sdn,
+  wdn,
+  vdn,
+  Edn,
+  WUt,
+  GUt,
+  myt,
+  NHo,
+  kdn,
+  PTe,
+  c8,
+  gyt,
+  FGs,
+  UGs,
+  SQ,
+  zUt,
+  $Ho,
+  FHo,
+  Tdn,
+  QYn,
+  BGs,
+  jGs,
+  WGs,
+  GGs,
+  zGs,
+  $Nr,
+  KGs,
+  FNr,
+  UNr,
+  DD,
+  $Ge,
+  KUt
+};
+
+//# sourceMappingURL=chunk-g240bny9.js.map

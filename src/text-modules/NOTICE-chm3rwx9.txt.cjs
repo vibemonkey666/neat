@@ -1,0 +1,2 @@
+// Generated embedded-text module; original text is unchanged.
+module.exports = "psl-data.json in this folder is the Public Suffix List, https://publicsuffix.org/\n(source: https://publicsuffix.org/list/public_suffix_list.dat), converted to JSON without other changes.\nIt is made available under the Mozilla Public License, v. 2.0: https://mozilla.org/MPL/2.0/\nThe rest of this plugin is not covered by that license.\n";

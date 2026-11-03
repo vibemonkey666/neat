@@ -1,0 +1,205 @@
+// Recovered JavaScript source; compiled-input directive removed
+// Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
+// By using Claude Code, you agree that all code acceptance or rejection decisions you make,
+// and the associated conversations in context, constitute Feedback under Anthropic's Commercial Terms,
+// and may be used to improve Anthropic's products, including training models.
+// You are responsible for reviewing any code suggestions before use.
+
+// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
+
+// Version: 2.1.310
+import { Vwe } from "./chunk-cde8bj1c.js";
+import "./chunk-6bbdndfe.js";
+import "./chunk-2qx8pe6s.js";
+import "./chunk-wrtp8qz8.js";
+import "./chunk-qq3ygwcj.js";
+import "./chunk-acd8w9vv.js";
+import { d } from "./chunk-fs43t96t.js";
+import "./chunk-4hww8411.js";
+import "./chunk-h5gbmqm1.js";
+import "./chunk-jgvfzp2r.js";
+import "./chunk-4kxznmzw.js";
+import "./chunk-arw2bgak.js";
+import "./chunk-jazcqqqr.js";
+import "./chunk-3b9j76mf.js";
+import { i } from "./chunk-cj37hmns.js";
+import "./chunk-xc1j8sdj.js";
+import "./chunk-w2jwj725.js";
+import "./chunk-45h8cn90.js";
+import "./chunk-a16y5hcz.js";
+import "./chunk-ewvf3tep.js";
+import "./chunk-19xvg81r.js";
+import "./chunk-4kxy1036.js";
+import "./chunk-fa522kgz.js";
+import "./chunk-5rw2zfa0.js";
+import "./chunk-cjnzngfc.js";
+import "./chunk-v4kbwz0z.js";
+import "./chunk-8w56k4pg.js";
+import "./chunk-ajtyjx88.js";
+import "./chunk-dc0nzty2.js";
+import "./chunk-4cgvah10.js";
+import "./chunk-brszmkb3.js";
+import "./chunk-ak0cmk10.js";
+import "./chunk-xe386mry.js";
+import "./chunk-8w2npe9a.js";
+import "./chunk-qmmh8tq2.js";
+import "./chunk-afxq0vrk.js";
+import "./chunk-azq9hjy0.js";
+import "./chunk-vw9e882a.js";
+import "./chunk-rhk37je5.js";
+import "./chunk-jtb5bzvb.js";
+import "./chunk-t0wrcf3t.js";
+import "./chunk-qywdxehb.js";
+import "./chunk-13nwb0xt.js";
+import "./chunk-wr0p4ndg.js";
+import "./chunk-pgnjjhxv.js";
+import "./chunk-8r2m7vfp.js";
+import "./chunk-qmkm2x59.js";
+import "./chunk-4nzy53ma.js";
+import "./chunk-qakn3b85.js";
+import "./chunk-zf79f62g.js";
+import "./chunk-c3npf81n.js";
+import "./chunk-zem4yd4w.js";
+import "./chunk-exz0w70z.js";
+import "./chunk-gg53p5cf.js";
+import "./chunk-1e5yp9hx.js";
+import "./chunk-6xjawpfq.js";
+import "./chunk-63a6mqbs.js";
+import "./chunk-dmtyt8s1.js";
+import "./chunk-adv24f35.js";
+import "./chunk-9z5ybxhe.js";
+import "./chunk-928ws1pg.js";
+import "./chunk-d54avynm.js";
+import "./chunk-va73d26h.js";
+import "./chunk-7c3thgax.js";
+import "./chunk-tcvjb2c0.js";
+import "./chunk-c57c64b0.js";
+import "./chunk-dvghjmtr.js";
+import "./chunk-yhnvfh6c.js";
+import "./chunk-95k4nfdh.js";
+import "./chunk-at88wjsn.js";
+import "./chunk-ddpw2j06.js";
+import "./chunk-nrysaqwk.js";
+import "./chunk-7zgz07kc.js";
+import "./chunk-znkwh1rm.js";
+import "./chunk-x8k0r295.js";
+import "./chunk-vbnb89qh.js";
+import "./chunk-52ssztep.js";
+import "./chunk-v19xty83.js";
+import "./chunk-rh5ymkjp.js";
+import "./chunk-bh50mq9d.js";
+import "./chunk-tv3shk24.js";
+import "./chunk-awy6yynp.js";
+import "./chunk-38g9s4wc.js";
+import "./chunk-t86k189s.js";
+import "./chunk-rj6gws00.js";
+import "./chunk-jwqtbev0.js";
+import "./chunk-drhbqmbg.js";
+import "./chunk-6dsz7zr0.js";
+import "./chunk-ws40g1dv.js";
+import "./chunk-5y69fhjv.js";
+import "./chunk-7svjr0za.js";
+import "./chunk-1g9x3zw8.js";
+import "./chunk-r1dvrqha.js";
+import "./chunk-wvbfdbhr.js";
+import "./chunk-wejdb0zs.js";
+import "./chunk-9zd34fgb.js";
+import "./chunk-vchq4g74.js";
+import "./chunk-xt4k95hv.js";
+import "./chunk-r00j5r9s.js";
+import "./chunk-h2tyaevk.js";
+import "./chunk-0hjcje8e.js";
+import { Dr } from "./chunk-kc27mwew.js";
+import { BAn, jAn } from "./chunk-rysz7cj6.js";
+import "./chunk-qk3nwdye.js";
+import "./chunk-65jwz3rm.js";
+import "./chunk-ny2y84j1.js";
+import "./chunk-9fktyje6.js";
+import "./chunk-enp5gvra.js";
+import "./chunk-kpmehc55.js";
+import "./chunk-ttxbg7sf.js";
+import "./chunk-z2vz1f06.js";
+import "./chunk-zkq2y8s1.js";
+import "./chunk-hk0dvhmb.js";
+import "./chunk-4q6qmmwb.js";
+import "./chunk-ya7n419k.js";
+import "./chunk-gvf25gp4.js";
+import "./chunk-ge5t5c4x.js";
+import "./chunk-527647eb.js";
+import "./chunk-m25ae09s.js";
+import "./chunk-hc5j8sxy.js";
+import "./chunk-ct112gdr.js";
+import "./chunk-njpzwa1b.js";
+import "./chunk-f9x3sh8a.js";
+import "./chunk-n8wdmnah.js";
+import "./chunk-6jbh8yja.js";
+import { mkdirSync as C, unlinkSync as S, writeFileSync as I } from "fs";
+import { dirname as v } from "path";
+var h = "/home/claude/.claude/remote/spare.sock";
+async function P(r, n) {
+  let e = r[0] || h,
+    c = `${e}.pid`,
+    m = n(),
+    p = Promise.resolve(),
+    g = !1;
+  for (let o of Vwe) delete process.env[o];
+  try {
+    (C(v(e), { recursive: !0, mode: 448 }), S(e));
+  } catch {}
+  let t = () => {
+      for (let o of [e, c])
+        try {
+          S(o);
+        } catch {}
+    },
+    l = () => {
+      (t(), process.exit(0));
+    },
+    u = (o) => {
+      (t(),
+        process.stderr.write(`[preload] uncaughtException: ${d(o)}
+`),
+        process.exit(1));
+    };
+  for (let o of ["SIGTERM", "SIGHUP", "SIGINT"]) process.on(o, l);
+  process.on("uncaughtException", u);
+  let s;
+  try {
+    s = await BAn(e, () => {
+      (I(c, String(process.pid), { mode: 384 }), (p = w()));
+    });
+  } catch (o) {
+    (t(),
+      process.stderr.write(`[preload] claim recv failed: ${d(o)}
+`),
+      process.exit(1));
+  }
+  let f = performance.now(),
+    E = Date.now();
+  for (let o of ["SIGTERM", "SIGHUP", "SIGINT"]) process.off(o, l);
+  (process.off("uncaughtException", u), t());
+  let a = Number.parseInt(s.env.CCR_SPAWN_TIMESTAMP_MS ?? "", 10);
+  if (Number.isFinite(a)) Dr("spare_claim_read_from_spawn_ms", E - a, a - performance.timeOrigin);
+  (await m,
+    await p,
+    Dr("spare_claim_module_wait_ms", performance.now() - f, f),
+    await jAn(s, m, () => {}));
+}
+function w() {
+  let r = [
+    import("./chunk-7rnqxvcm.js"),
+    import("./chunk-qm69bb07.js"),
+    import("./chunk-1m760ar5.js"),
+    import("./chunk-87yn4n4k.js"),
+    import("./chunk-gbz9zs8v.js")
+  ];
+  if ((r.push(import("./chunk-x07ar0v0.js")), i.CLAUDE_CODE_REMOTE))
+    r.push(import("./chunk-mzkpjp5w.js"));
+  return Promise.allSettled(r);
+}
+function U(r, n = () => import("./chunk-kfdf5pq3.js")) {
+  return P(r, n);
+}
+export { U as runPreload };
+
+//# sourceMappingURL=chunk-rqpj1byv.js.map

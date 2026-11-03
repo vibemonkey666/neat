@@ -1,0 +1,2 @@
+// Generated embedded-text module; original text is unchanged.
+module.exports = "# Files API - PHP\n\n## Files API\n\n> **Out of beta.** In current SDKs `$client->beta->files` has breaking shape changes from previous versions, matching the stable `$client->files` - migrate per the Files API row in `shared/live-sources.md`. Example below predates this.\n\n```php\n$file = $client->beta->files->upload(\n    file: fopen('upload_me.txt', 'r'),\n    betas: ['files-api-2025-04-14'],\n);\n// Reference $file->id as a file content block on ->beta->messages->create().\n```\n";

@@ -1,0 +1,2 @@
+// Generated embedded-text module; original text is unchanged.
+module.exports = "# Message Batches - PHP\n\n## Message Batches API\n\n```php\n$batch = $client->messages->batches->create(requests: [\n    ['customId' => 'req-1', 'params' => ['model' => '{{OPUS_ID}}', 'maxTokens' => 1024, 'messages' => [...]]],\n    ['customId' => 'req-2', 'params' => [...]],\n]);\n// Poll $client->messages->batches->retrieve($batch->id) until processingStatus === 'ended',\n// then iterate $client->messages->batches->results($batch->id).\n```\n\n---\n\n";

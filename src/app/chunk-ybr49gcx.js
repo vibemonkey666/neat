@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_517ec12a51703291,
-  URL as __filePath_517ec12a51703291_URL
+  fileURLToPath as __sourceFilePath_517ec12a51703291,
+  URL as __sourceFilePath_517ec12a51703291_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1486,8 +1486,8 @@ function pBt() {
   return [
     Gs,
     import.meta.require(
-      __filePath_517ec12a51703291(
-        new __filePath_517ec12a51703291_URL("./chunk-ttpzppxt.js", import.meta.url)
+      __sourceFilePath_517ec12a51703291(
+        new __sourceFilePath_517ec12a51703291_URL("./chunk-ttpzppxt.js", import.meta.url)
       )
     ).APPIFACT_REPL_TOOL_NAME
   ];

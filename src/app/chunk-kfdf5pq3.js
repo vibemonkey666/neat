@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_fdf3ae467b7426f8,
-  URL as __filePath_fdf3ae467b7426f8_URL
+  fileURLToPath as __sourceFilePath_fdf3ae467b7426f8,
+  URL as __sourceFilePath_fdf3ae467b7426f8_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1187,14 +1187,14 @@ I9o();
 f8o();
 var Te = () =>
     import.meta.require(
-      __filePath_fdf3ae467b7426f8(
-        new __filePath_fdf3ae467b7426f8_URL("./chunk-0x2m04n3.js", import.meta.url)
+      __sourceFilePath_fdf3ae467b7426f8(
+        new __sourceFilePath_fdf3ae467b7426f8_URL("./chunk-0x2m04n3.js", import.meta.url)
       )
     ),
   No = () =>
     import.meta.require(
-      __filePath_fdf3ae467b7426f8(
-        new __filePath_fdf3ae467b7426f8_URL("./chunk-r57z5ye3.js", import.meta.url)
+      __sourceFilePath_fdf3ae467b7426f8(
+        new __sourceFilePath_fdf3ae467b7426f8_URL("./chunk-r57z5ye3.js", import.meta.url)
       )
     );
 function te(n) {
@@ -1410,13 +1410,13 @@ async function rr(n, e, C) {
     });
   }
   let { registerMcpCommands: oe } = import.meta.require(
-      __filePath_fdf3ae467b7426f8(
-        new __filePath_fdf3ae467b7426f8_URL("./chunk-ta12wpxk.js", import.meta.url)
+      __sourceFilePath_fdf3ae467b7426f8(
+        new __sourceFilePath_fdf3ae467b7426f8_URL("./chunk-ta12wpxk.js", import.meta.url)
       )
     ),
     { registerPluginCommands: X } = import.meta.require(
-      __filePath_fdf3ae467b7426f8(
-        new __filePath_fdf3ae467b7426f8_URL("./chunk-1z6trapv.js", import.meta.url)
+      __sourceFilePath_fdf3ae467b7426f8(
+        new __sourceFilePath_fdf3ae467b7426f8_URL("./chunk-1z6trapv.js", import.meta.url)
       )
     );
   (oe(s, r), wn(s, r), kro(s, r));
@@ -1957,8 +1957,8 @@ async function ar(n) {
                 FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
                 BUILD_TIME: "2026-10-23T17:43:32Z",
                 GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-                HOOKS_WORKER_URL: __filePath_fdf3ae467b7426f8(
-                  new __filePath_fdf3ae467b7426f8_URL(
+                HOOKS_WORKER_URL: __sourceFilePath_fdf3ae467b7426f8(
+                  new __sourceFilePath_fdf3ae467b7426f8_URL(
                     "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                     import.meta.url
                   )
@@ -2276,8 +2276,8 @@ async function lr(n, e, C, s) {
       classifierApprovals: { approvals: new Map(), checking: new Set() },
       webBrowser: import.meta
         .require(
-          __filePath_fdf3ae467b7426f8(
-            new __filePath_fdf3ae467b7426f8_URL("./chunk-t4f6va07.js", import.meta.url)
+          __sourceFilePath_fdf3ae467b7426f8(
+            new __sourceFilePath_fdf3ae467b7426f8_URL("./chunk-t4f6va07.js", import.meta.url)
           )
         )
         .getDefaultWebBrowserState()

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_c30fca29a459a819,
-  URL as __filePath_c30fca29a459a819_URL
+  fileURLToPath as __sourceFilePath_c30fca29a459a819,
+  URL as __sourceFilePath_c30fca29a459a819_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -2086,28 +2086,28 @@ function Ft(e) {
   return Yi(e);
 }
 var Dn = import.meta.require(
-    __filePath_c30fca29a459a819(
-      new __filePath_c30fca29a459a819_URL("./chunk-g4hrqh92.js", import.meta.url)
+    __sourceFilePath_c30fca29a459a819(
+      new __sourceFilePath_c30fca29a459a819_URL("./chunk-g4hrqh92.js", import.meta.url)
     )
   ),
   tn = import.meta.require(
-    __filePath_c30fca29a459a819(
-      new __filePath_c30fca29a459a819_URL("./chunk-rhegmp75.js", import.meta.url)
+    __sourceFilePath_c30fca29a459a819(
+      new __sourceFilePath_c30fca29a459a819_URL("./chunk-rhegmp75.js", import.meta.url)
     )
   ),
   Kt = import.meta.require(
-    __filePath_c30fca29a459a819(
-      new __filePath_c30fca29a459a819_URL("./chunk-1k3srtgk.js", import.meta.url)
+    __sourceFilePath_c30fca29a459a819(
+      new __sourceFilePath_c30fca29a459a819_URL("./chunk-1k3srtgk.js", import.meta.url)
     )
   ),
   si = import.meta.require(
-    __filePath_c30fca29a459a819(
-      new __filePath_c30fca29a459a819_URL("./chunk-5cjty1kd.js", import.meta.url)
+    __sourceFilePath_c30fca29a459a819(
+      new __sourceFilePath_c30fca29a459a819_URL("./chunk-5cjty1kd.js", import.meta.url)
     )
   ),
   pn = import.meta.require(
-    __filePath_c30fca29a459a819(
-      new __filePath_c30fca29a459a819_URL("./chunk-687969by.js", import.meta.url)
+    __sourceFilePath_c30fca29a459a819(
+      new __sourceFilePath_c30fca29a459a819_URL("./chunk-687969by.js", import.meta.url)
     )
   );
 function ai(e) {
@@ -2449,20 +2449,20 @@ function gc(e) {
 }
 var yc = () =>
   import.meta.require(
-    __filePath_c30fca29a459a819(
-      new __filePath_c30fca29a459a819_URL("./chunk-6hzxx9vd.js", import.meta.url)
+    __sourceFilePath_c30fca29a459a819(
+      new __sourceFilePath_c30fca29a459a819_URL("./chunk-6hzxx9vd.js", import.meta.url)
     )
   );
 var _c = () =>
     import.meta.require(
-      __filePath_c30fca29a459a819(
-        new __filePath_c30fca29a459a819_URL("./chunk-6t4sf95f.js", import.meta.url)
+      __sourceFilePath_c30fca29a459a819(
+        new __sourceFilePath_c30fca29a459a819_URL("./chunk-6t4sf95f.js", import.meta.url)
       )
     ),
   Ds = () =>
     import.meta.require(
-      __filePath_c30fca29a459a819(
-        new __filePath_c30fca29a459a819_URL("./chunk-dyqwyx2x.js", import.meta.url)
+      __sourceFilePath_c30fca29a459a819(
+        new __sourceFilePath_c30fca29a459a819_URL("./chunk-dyqwyx2x.js", import.meta.url)
       )
     ),
   ug = "v2",
@@ -3939,8 +3939,8 @@ var jt = iBn(
                     FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
                     BUILD_TIME: "2026-10-23T17:43:32Z",
                     GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-                    HOOKS_WORKER_URL: __filePath_c30fca29a459a819(
-                      new __filePath_c30fca29a459a819_URL(
+                    HOOKS_WORKER_URL: __sourceFilePath_c30fca29a459a819(
+                      new __sourceFilePath_c30fca29a459a819_URL(
                         "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                         import.meta.url
                       )
@@ -9066,8 +9066,8 @@ async function Yg(e, n, r, s) {
                 FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
                 BUILD_TIME: "2026-10-23T17:43:32Z",
                 GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-                HOOKS_WORKER_URL: __filePath_c30fca29a459a819(
-                  new __filePath_c30fca29a459a819_URL(
+                HOOKS_WORKER_URL: __sourceFilePath_c30fca29a459a819(
+                  new __sourceFilePath_c30fca29a459a819_URL(
                     "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                     import.meta.url
                   )

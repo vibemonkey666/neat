@@ -453,8 +453,8 @@ async function ae(r) {
     return (console.error(`Deep link error: ${l}`), m("deep_link_handle", "parse_failed"), 1);
   }
   t(`Parsed deep link action: ${_(n)}`);
-  let e = __invocation_8409fced440e56c1.isSourceMode()
-      ? __invocation_8409fced440e56c1.programPath()
+  let e = __sourceInvocation_8409fced440e56c1.isSourceMode()
+      ? __sourceInvocation_8409fced440e56c1.programPath()
       : await R(process.execPath).catch(() => process.execPath),
     a;
   switch (n.action) {
@@ -498,6 +498,6 @@ async function D(r) {
 }
 export { ae as handleDeepLinkUri };
 
-import * as __invocation_8409fced440e56c1 from "./__invocation.mjs";
+import * as __sourceInvocation_8409fced440e56c1 from "./__invocation.mjs";
 
 //# sourceMappingURL=chunk-7t0r3jfb.js.map

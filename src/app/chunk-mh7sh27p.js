@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_9ea7164cf854751d,
-  URL as __filePath_9ea7164cf854751d_URL
+  fileURLToPath as __sourceFilePath_9ea7164cf854751d,
+  URL as __sourceFilePath_9ea7164cf854751d_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -765,8 +765,8 @@ function $t(e) {
 var Lo = p(() => {
   let e = import.meta
     .require(
-      __filePath_9ea7164cf854751d(
-        new __filePath_9ea7164cf854751d_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_9ea7164cf854751d(
+        new __sourceFilePath_9ea7164cf854751d_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpClientModule()
@@ -2338,7 +2338,7 @@ function iis(e) {
       return pn("Interactive session requires the runInteractiveSession capability");
     return e.runInteractiveSession(G, I);
   }).version(
-    `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_9ea7164cf854751d(new __filePath_9ea7164cf854751d_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION} (Claude Code)${l5()}`,
+    `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_9ea7164cf854751d(new __sourceFilePath_9ea7164cf854751d_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION} (Claude Code)${l5()}`,
     "-v, --version",
     "Output the version number"
   ),

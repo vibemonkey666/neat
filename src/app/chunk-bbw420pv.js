@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_fe66efd915412e59,
-  URL as __filePath_fe66efd915412e59_URL
+  fileURLToPath as __sourceFilePath_fe66efd915412e59,
+  URL as __sourceFilePath_fe66efd915412e59_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -12375,8 +12375,8 @@ async function ty(e, n, r, s = !1) {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_fe66efd915412e59(
-        new __filePath_fe66efd915412e59_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_fe66efd915412e59(
+        new __sourceFilePath_fe66efd915412e59_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )

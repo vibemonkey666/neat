@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_7ec8d6c14c1cd2e6,
-  URL as __filePath_7ec8d6c14c1cd2e6_URL
+  fileURLToPath as __sourceFilePath_7ec8d6c14c1cd2e6,
+  URL as __sourceFilePath_7ec8d6c14c1cd2e6_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1780,8 +1780,8 @@ function Oo(e, r) {
 }
 import { dirname as sn } from "path";
 var lt = import.meta.require(
-  __filePath_7ec8d6c14c1cd2e6(
-    new __filePath_7ec8d6c14c1cd2e6_URL("./chunk-687969by.js", import.meta.url)
+  __sourceFilePath_7ec8d6c14c1cd2e6(
+    new __sourceFilePath_7ec8d6c14c1cd2e6_URL("./chunk-687969by.js", import.meta.url)
   )
 );
 function lo(e) {
@@ -1912,20 +1912,20 @@ function tn(e) {
 }
 var on = () =>
   import.meta.require(
-    __filePath_7ec8d6c14c1cd2e6(
-      new __filePath_7ec8d6c14c1cd2e6_URL("./chunk-6hzxx9vd.js", import.meta.url)
+    __sourceFilePath_7ec8d6c14c1cd2e6(
+      new __sourceFilePath_7ec8d6c14c1cd2e6_URL("./chunk-6hzxx9vd.js", import.meta.url)
     )
   );
 var nn = () =>
     import.meta.require(
-      __filePath_7ec8d6c14c1cd2e6(
-        new __filePath_7ec8d6c14c1cd2e6_URL("./chunk-6t4sf95f.js", import.meta.url)
+      __sourceFilePath_7ec8d6c14c1cd2e6(
+        new __sourceFilePath_7ec8d6c14c1cd2e6_URL("./chunk-6t4sf95f.js", import.meta.url)
       )
     ),
   Fo = () =>
     import.meta.require(
-      __filePath_7ec8d6c14c1cd2e6(
-        new __filePath_7ec8d6c14c1cd2e6_URL("./chunk-dyqwyx2x.js", import.meta.url)
+      __sourceFilePath_7ec8d6c14c1cd2e6(
+        new __sourceFilePath_7ec8d6c14c1cd2e6_URL("./chunk-dyqwyx2x.js", import.meta.url)
       )
     ),
   yl = "v1",
@@ -3007,8 +3007,8 @@ var Qe = iBn(
                   FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
                   BUILD_TIME: "2026-10-23T17:43:32Z",
                   GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-                  HOOKS_WORKER_URL: __filePath_7ec8d6c14c1cd2e6(
-                    new __filePath_7ec8d6c14c1cd2e6_URL(
+                  HOOKS_WORKER_URL: __sourceFilePath_7ec8d6c14c1cd2e6(
+                    new __sourceFilePath_7ec8d6c14c1cd2e6_URL(
                       "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                       import.meta.url
                     )
@@ -6939,8 +6939,8 @@ async function ru(e, r, n, s) {
                 FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
                 BUILD_TIME: "2026-10-23T17:43:32Z",
                 GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-                HOOKS_WORKER_URL: __filePath_7ec8d6c14c1cd2e6(
-                  new __filePath_7ec8d6c14c1cd2e6_URL(
+                HOOKS_WORKER_URL: __sourceFilePath_7ec8d6c14c1cd2e6(
+                  new __sourceFilePath_7ec8d6c14c1cd2e6_URL(
                     "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                     import.meta.url
                   )

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_184bca767185a3ce,
-  URL as __filePath_184bca767185a3ce_URL
+  fileURLToPath as __sourceFilePath_184bca767185a3ce,
+  URL as __sourceFilePath_184bca767185a3ce_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -7892,8 +7892,8 @@ function _P(h) {
   if (He[3] !== Ce)
     ((et = () => {
       let { isBriefEnabled: yt } = import.meta.require(
-        __filePath_184bca767185a3ce(
-          new __filePath_184bca767185a3ce_URL("./chunk-r91z6px2.js", import.meta.url)
+        __sourceFilePath_184bca767185a3ce(
+          new __sourceFilePath_184bca767185a3ce_URL("./chunk-r91z6px2.js", import.meta.url)
         )
       );
       let Ct = yt;
@@ -7923,8 +7923,8 @@ function _P(h) {
   )
     ((yt = () => {
       let { isBriefEnabled: xt } = import.meta.require(
-        __filePath_184bca767185a3ce(
-          new __filePath_184bca767185a3ce_URL("./chunk-r91z6px2.js", import.meta.url)
+        __sourceFilePath_184bca767185a3ce(
+          new __sourceFilePath_184bca767185a3ce_URL("./chunk-r91z6px2.js", import.meta.url)
         )
       );
       if (!xt() && Ge && x !== "transcript") {
@@ -7953,8 +7953,8 @@ function _P(h) {
   if (He[14] !== Ge || He[15] !== Ce)
     ((Ot = () => {
       let { isBriefEnabled: Ht } = import.meta.require(
-        __filePath_184bca767185a3ce(
-          new __filePath_184bca767185a3ce_URL("./chunk-r91z6px2.js", import.meta.url)
+        __sourceFilePath_184bca767185a3ce(
+          new __sourceFilePath_184bca767185a3ce_URL("./chunk-r91z6px2.js", import.meta.url)
         )
       );
       if (!Ht() && !Ge) {
@@ -10655,8 +10655,8 @@ class sse {
 async function V0e(h, x, D) {
   let H = import.meta
     .require(
-      __filePath_184bca767185a3ce(
-        new __filePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_184bca767185a3ce(
+        new __sourceFilePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpClientModule();
@@ -12164,8 +12164,8 @@ function VG(h, x) {
       Se.current = Ge;
       let { callIdeRpc: et } = import.meta
         .require(
-          __filePath_184bca767185a3ce(
-            new __filePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
+          __sourceFilePath_184bca767185a3ce(
+            new __sourceFilePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
           )
         )
         .mcpClientModule();
@@ -19660,8 +19660,8 @@ class PQ {
         xt = EPr(St.messages),
         Dt = void 0,
         Ot = import.meta.require(
-          __filePath_184bca767185a3ce(
-            new __filePath_184bca767185a3ce_URL("./chunk-atxvbyzx.js", import.meta.url)
+          __sourceFilePath_184bca767185a3ce(
+            new __sourceFilePath_184bca767185a3ce_URL("./chunk-atxvbyzx.js", import.meta.url)
           )
         ),
         Ht = Ot.matchSessionMode(x.mode);
@@ -19915,8 +19915,8 @@ class PQ {
         if (He.isolationLatch.current) Kke(He.isolationLatch.current, je);
       }
       let { isCoordinatorMode: Sn } = import.meta.require(
-        __filePath_184bca767185a3ce(
-          new __filePath_184bca767185a3ce_URL("./chunk-atxvbyzx.js", import.meta.url)
+        __sourceFilePath_184bca767185a3ce(
+          new __sourceFilePath_184bca767185a3ce_URL("./chunk-atxvbyzx.js", import.meta.url)
         )
       );
       if ((OK(Sn() ? "coordinator" : "normal"), wit(), zle(x), D !== "fork"))
@@ -20667,8 +20667,8 @@ class PQ {
         commentsGateOpen: () =>
           import.meta
             .require(
-              __filePath_184bca767185a3ce(
-                new __filePath_184bca767185a3ce_URL("./chunk-43wqswae.js", import.meta.url)
+              __sourceFilePath_184bca767185a3ce(
+                new __sourceFilePath_184bca767185a3ce_URL("./chunk-43wqswae.js", import.meta.url)
               )
             )
             .artifactCommentsPromptGateOpen(),
@@ -30686,8 +30686,8 @@ async function sce(h, x, D, H) {
   if (!He) return [];
   let { completeResourceTemplate: je, ensureConnectedClient: Ve } = import.meta
       .require(
-        __filePath_184bca767185a3ce(
-          new __filePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
+        __sourceFilePath_184bca767185a3ce(
+          new __sourceFilePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
         )
       )
       .mcpClientModule(),
@@ -30937,8 +30937,8 @@ function fce({
       if (!Wn.mcp.clients.some((Os) => Os.type === "connected")) return;
       let { refreshResourceTemplates: Ss } = import.meta
         .require(
-          __filePath_184bca767185a3ce(
-            new __filePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
+          __sourceFilePath_184bca767185a3ce(
+            new __sourceFilePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
           )
         )
         .mcpClientModule();
@@ -36898,8 +36898,8 @@ function ij(h) {
   );
 }
 var uGe = import.meta.require(
-    __filePath_184bca767185a3ce(
-      new __filePath_184bca767185a3ce_URL("./chunk-sxvqxkxa.js", import.meta.url)
+    __sourceFilePath_184bca767185a3ce(
+      new __sourceFilePath_184bca767185a3ce_URL("./chunk-sxvqxkxa.js", import.meta.url)
     )
   ).WorkflowDetailDialog,
   {
@@ -36908,21 +36908,21 @@ var uGe = import.meta.require(
     skipWorkflowAgent: pGe,
     retryWorkflowAgent: fGe
   } = import.meta.require(
-    __filePath_184bca767185a3ce(
-      new __filePath_184bca767185a3ce_URL("./chunk-609jkp3z.js", import.meta.url)
+    __sourceFilePath_184bca767185a3ce(
+      new __sourceFilePath_184bca767185a3ce_URL("./chunk-609jkp3z.js", import.meta.url)
     )
   ),
   M2t = null,
   ew = M2t?.killMonitorMcp ?? null,
   HY = null,
   Ry = import.meta.require(
-    __filePath_184bca767185a3ce(
-      new __filePath_184bca767185a3ce_URL("./chunk-qbx6p7zc.js", import.meta.url)
+    __sourceFilePath_184bca767185a3ce(
+      new __sourceFilePath_184bca767185a3ce_URL("./chunk-qbx6p7zc.js", import.meta.url)
     )
   ).MCP_TASK.kill,
   aj = import.meta.require(
-    __filePath_184bca767185a3ce(
-      new __filePath_184bca767185a3ce_URL("./chunk-tnd87v2e.js", import.meta.url)
+    __sourceFilePath_184bca767185a3ce(
+      new __sourceFilePath_184bca767185a3ce_URL("./chunk-tnd87v2e.js", import.meta.url)
     )
   ).McpTaskDetailDialog,
   gu = null,
@@ -42339,8 +42339,8 @@ function m7t(Nr) {
   return Nr.settings?.prUrlTemplate;
 }
 var UYe = import.meta.require(
-    __filePath_184bca767185a3ce(
-      new __filePath_184bca767185a3ce_URL("./chunk-atxvbyzx.js", import.meta.url)
+    __sourceFilePath_184bca767185a3ce(
+      new __sourceFilePath_184bca767185a3ce_URL("./chunk-atxvbyzx.js", import.meta.url)
     )
   ),
   L9t = 3;
@@ -53499,8 +53499,8 @@ async function vwe(h, x, D, H) {
             FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
             BUILD_TIME: "2026-10-23T17:43:32Z",
             GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-            HOOKS_WORKER_URL: __filePath_184bca767185a3ce(
-              new __filePath_184bca767185a3ce_URL(
+            HOOKS_WORKER_URL: __sourceFilePath_184bca767185a3ce(
+              new __sourceFilePath_184bca767185a3ce_URL(
                 "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                 import.meta.url
               )
@@ -56663,8 +56663,8 @@ function ytt(h, x, D, H, J) {
                 FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
                 BUILD_TIME: "2026-10-23T17:43:32Z",
                 GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-                HOOKS_WORKER_URL: __filePath_184bca767185a3ce(
-                  new __filePath_184bca767185a3ce_URL(
+                HOOKS_WORKER_URL: __sourceFilePath_184bca767185a3ce(
+                  new __sourceFilePath_184bca767185a3ce_URL(
                     "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                     import.meta.url
                   )
@@ -64436,8 +64436,8 @@ function xit({ serverName: h, pluginSource: x, params: D, onResponse: H }) {
     { credentials: Se } = Me(),
     { parseRelatedTaskMetadata: Ce } = import.meta
       .require(
-        __filePath_184bca767185a3ce(
-          new __filePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
+        __sourceFilePath_184bca767185a3ce(
+          new __sourceFilePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
         )
       )
       .mcpElicitationHandlerModule(),
@@ -75007,8 +75007,8 @@ function KRe(h) {
 }
 var Mft = null,
   GOo = import.meta.require(
-    __filePath_184bca767185a3ce(
-      new __filePath_184bca767185a3ce_URL("./chunk-2fakqg90.js", import.meta.url)
+    __sourceFilePath_184bca767185a3ce(
+      new __sourceFilePath_184bca767185a3ce_URL("./chunk-2fakqg90.js", import.meta.url)
     )
   ).workflowPermissionDialog;
 var QOo = {};
@@ -76133,13 +76133,13 @@ function nPe(h) {
 var sgt = null,
   igt = null,
   wNo = import.meta.require(
-    __filePath_184bca767185a3ce(
-      new __filePath_184bca767185a3ce_URL("./chunk-dsnm4zrz.js", import.meta.url)
+    __sourceFilePath_184bca767185a3ce(
+      new __sourceFilePath_184bca767185a3ce_URL("./chunk-dsnm4zrz.js", import.meta.url)
     )
   ).WorkflowPermissionDialog,
   kNo = import.meta.require(
-    __filePath_184bca767185a3ce(
-      new __filePath_184bca767185a3ce_URL("./chunk-2fakqg90.js", import.meta.url)
+    __sourceFilePath_184bca767185a3ce(
+      new __sourceFilePath_184bca767185a3ce_URL("./chunk-2fakqg90.js", import.meta.url)
     )
   ).workflowPermissionDialog,
   agt = null,
@@ -80776,8 +80776,8 @@ function SUo(h) {
   return Q7(h) || (h.type === "attachment" && h.attachment.type === "queued_command");
 }
 var bUo = import.meta.require(
-  __filePath_184bca767185a3ce(
-    new __filePath_184bca767185a3ce_URL("./chunk-atxvbyzx.js", import.meta.url)
+  __sourceFilePath_184bca767185a3ce(
+    new __sourceFilePath_184bca767185a3ce_URL("./chunk-atxvbyzx.js", import.meta.url)
   )
 ).getCoordinatorUserContext;
 class VZ {
@@ -83332,14 +83332,14 @@ function ibt(h) {
     .catch(() => {});
 }
 var Tys = import.meta.require(
-  __filePath_184bca767185a3ce(
-    new __filePath_184bca767185a3ce_URL("./chunk-atxvbyzx.js", import.meta.url)
+  __sourceFilePath_184bca767185a3ce(
+    new __sourceFilePath_184bca767185a3ce_URL("./chunk-atxvbyzx.js", import.meta.url)
   )
 );
 function EUo() {
   return import.meta.require(
-    __filePath_184bca767185a3ce(
-      new __filePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
+    __sourceFilePath_184bca767185a3ce(
+      new __sourceFilePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
     )
   );
 }
@@ -84348,8 +84348,8 @@ function mbt(h, x, D, H, J, Z, Se, Ce, Fe, He, je, Ve, Ge) {
                 onInboundMessage: (Zs) => {
                   {
                     let { noteOwnerInboxNoticeDelivery: Bi } = import.meta.require(
-                      __filePath_184bca767185a3ce(
-                        new __filePath_184bca767185a3ce_URL(
+                      __sourceFilePath_184bca767185a3ce(
+                        new __sourceFilePath_184bca767185a3ce_URL(
                           "./chunk-e1t8g114.js",
                           import.meta.url
                         )
@@ -89239,8 +89239,8 @@ var Hwt = 5000,
 var KF = 5000;
 function Q1() {
   return import.meta.require(
-    __filePath_184bca767185a3ce(
-      new __filePath_184bca767185a3ce_URL("./chunk-n2tmxb90.js", import.meta.url)
+    __sourceFilePath_184bca767185a3ce(
+      new __sourceFilePath_184bca767185a3ce_URL("./chunk-n2tmxb90.js", import.meta.url)
     )
   );
 }
@@ -90211,8 +90211,8 @@ function _Ie(h, x, D, H) {
               Lo(`mcp-reconnect-failed-${wo.name}`));
             let { registerElicitationHandler: rr } = import.meta
               .require(
-                __filePath_184bca767185a3ce(
-                  new __filePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
+                __sourceFilePath_184bca767185a3ce(
+                  new __sourceFilePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
                 )
               )
               .mcpElicitationHandlerModule();
@@ -90764,8 +90764,8 @@ function _Ie(h, x, D, H) {
           if (!Ul()) return;
           let { registerElicitationHandler: ln } = import.meta
             .require(
-              __filePath_184bca767185a3ce(
-                new __filePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
+              __sourceFilePath_184bca767185a3ce(
+                new __sourceFilePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
               )
             )
             .mcpElicitationHandlerModule();
@@ -91357,8 +91357,8 @@ function hkt(h) {
 function qd() {
   return import.meta
     .require(
-      __filePath_184bca767185a3ce(
-        new __filePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_184bca767185a3ce(
+        new __sourceFilePath_184bca767185a3ce_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpClientModule();
@@ -91965,8 +91965,8 @@ var $kt = null,
   zkt = null,
   Ykt = null,
   Jkt = import.meta.require(
-    __filePath_184bca767185a3ce(
-      new __filePath_184bca767185a3ce_URL("./chunk-58hj8ak9.js", import.meta.url)
+    __sourceFilePath_184bca767185a3ce(
+      new __sourceFilePath_184bca767185a3ce_URL("./chunk-58hj8ak9.js", import.meta.url)
     )
   ).attributionProjectNoticeSpec,
   Xkt = [
@@ -96892,8 +96892,8 @@ function wzo(doe, Ok) {
   );
 }
 var gTt = import.meta.require(
-  __filePath_184bca767185a3ce(
-    new __filePath_184bca767185a3ce_URL("./chunk-bmfszynm.js", import.meta.url)
+  __sourceFilePath_184bca767185a3ce(
+    new __sourceFilePath_184bca767185a3ce_URL("./chunk-bmfszynm.js", import.meta.url)
   )
 ).useScheduledTasks;
 var hTt = () => null;

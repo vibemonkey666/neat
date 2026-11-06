@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_b06a225f931d6cc5,
-  URL as __filePath_b06a225f931d6cc5_URL
+  fileURLToPath as __sourceFilePath_b06a225f931d6cc5,
+  URL as __sourceFilePath_b06a225f931d6cc5_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -272,8 +272,8 @@ var Fo = "machine",
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_b06a225f931d6cc5(
-        new __filePath_b06a225f931d6cc5_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_b06a225f931d6cc5(
+        new __sourceFilePath_b06a225f931d6cc5_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -288,8 +288,8 @@ var Fo = "machine",
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_b06a225f931d6cc5(
-            new __filePath_b06a225f931d6cc5_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_b06a225f931d6cc5(
+            new __sourceFilePath_b06a225f931d6cc5_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )

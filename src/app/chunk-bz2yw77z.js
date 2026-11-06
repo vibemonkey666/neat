@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_5e40b77d6fa907bf,
-  URL as __filePath_5e40b77d6fa907bf_URL
+  fileURLToPath as __sourceFilePath_5e40b77d6fa907bf,
+  URL as __sourceFilePath_5e40b77d6fa907bf_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -15,46 +15,46 @@ import {
 import { dt } from "./chunk-6gaf2snv.js";
 import { Fe } from "./chunk-a2y39866.js";
 var e = Fe(
-  __filePath_5e40b77d6fa907bf(
-    new __filePath_5e40b77d6fa907bf_URL("../text-modules/cli-40vh1c3p.md.cjs", import.meta.url)
+  __sourceFilePath_5e40b77d6fa907bf(
+    new __sourceFilePath_5e40b77d6fa907bf_URL("../text-modules/cli-40vh1c3p.md.cjs", import.meta.url)
   )
 );
-var t = __filePath_5e40b77d6fa907bf(
-  new __filePath_5e40b77d6fa907bf_URL("../assets/electron-8035775b.md.zst", import.meta.url)
+var t = __sourceFilePath_5e40b77d6fa907bf(
+  new __sourceFilePath_5e40b77d6fa907bf_URL("../assets/electron-8035775b.md.zst", import.meta.url)
 );
 var a = dt(t, import.meta.dirname);
 var s = Fe(
-  __filePath_5e40b77d6fa907bf(
-    new __filePath_5e40b77d6fa907bf_URL(
+  __sourceFilePath_5e40b77d6fa907bf(
+    new __sourceFilePath_5e40b77d6fa907bf_URL(
       "../text-modules/library-yywvyb11.md.cjs",
       import.meta.url
     )
   )
 );
 var n = Fe(
-  __filePath_5e40b77d6fa907bf(
-    new __filePath_5e40b77d6fa907bf_URL(
+  __sourceFilePath_5e40b77d6fa907bf(
+    new __sourceFilePath_5e40b77d6fa907bf_URL(
       "../text-modules/playwright-g4wwbqeh.md.cjs",
       import.meta.url
     )
   )
 );
 var r = Fe(
-  __filePath_5e40b77d6fa907bf(
-    new __filePath_5e40b77d6fa907bf_URL(
+  __sourceFilePath_5e40b77d6fa907bf(
+    new __sourceFilePath_5e40b77d6fa907bf_URL(
       "../text-modules/server-z4ytjptt.md.cjs",
       import.meta.url
     )
   )
 );
 var i = Fe(
-  __filePath_5e40b77d6fa907bf(
-    new __filePath_5e40b77d6fa907bf_URL("../text-modules/tui-93b0fcsh.md.cjs", import.meta.url)
+  __sourceFilePath_5e40b77d6fa907bf(
+    new __sourceFilePath_5e40b77d6fa907bf_URL("../text-modules/tui-93b0fcsh.md.cjs", import.meta.url)
   )
 );
 var o = Fe(
-  __filePath_5e40b77d6fa907bf(
-    new __filePath_5e40b77d6fa907bf_URL("../text-modules/SKILL-9ddmsnpa.md.cjs", import.meta.url)
+  __sourceFilePath_5e40b77d6fa907bf(
+    new __sourceFilePath_5e40b77d6fa907bf_URL("../text-modules/SKILL-9ddmsnpa.md.cjs", import.meta.url)
   )
 );
 var q = o,

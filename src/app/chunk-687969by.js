@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_09afe9423c5ffd84,
-  URL as __filePath_09afe9423c5ffd84_URL
+  fileURLToPath as __sourceFilePath_09afe9423c5ffd84,
+  URL as __sourceFilePath_09afe9423c5ffd84_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -416,8 +416,8 @@ import "./chunk-6jbh8yja.js";
 function h() {
   return import.meta
     .require(
-      __filePath_09afe9423c5ffd84(
-        new __filePath_09afe9423c5ffd84_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_09afe9423c5ffd84(
+        new __sourceFilePath_09afe9423c5ffd84_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpTaskWatcherModule();
@@ -603,8 +603,8 @@ async function Re({
           ? "aborted"
           : import.meta
                 .require(
-                  __filePath_09afe9423c5ffd84(
-                    new __filePath_09afe9423c5ffd84_URL("./chunk-cx565psm.js", import.meta.url)
+                  __sourceFilePath_09afe9423c5ffd84(
+                    new __sourceFilePath_09afe9423c5ffd84_URL("./chunk-cx565psm.js", import.meta.url)
                   )
                 )
                 .isExpectedMcpCallError(o)

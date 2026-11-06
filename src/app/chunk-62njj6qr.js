@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_10a57e3d8d5f88dc,
-  URL as __filePath_10a57e3d8d5f88dc_URL
+  fileURLToPath as __sourceFilePath_10a57e3d8d5f88dc,
+  URL as __sourceFilePath_10a57e3d8d5f88dc_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -267,8 +267,8 @@ ${e.join(`
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_10a57e3d8d5f88dc(
-          new __filePath_10a57e3d8d5f88dc_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_10a57e3d8d5f88dc(
+          new __sourceFilePath_10a57e3d8d5f88dc_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -289,7 +289,7 @@ ${e.join(`
         d.map((m) => `- ${m}`).join(`
 `)
     );
-    n.push(`**Recent releases (you are running v${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_10a57e3d8d5f88dc(new __filePath_10a57e3d8d5f88dc_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}):**
+    n.push(`**Recent releases (you are running v${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_10a57e3d8d5f88dc(new __sourceFilePath_10a57e3d8d5f88dc_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}):**
 ${e.join(`
 
 `)}`);

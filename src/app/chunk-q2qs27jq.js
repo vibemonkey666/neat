@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_518cd668c03b1fff,
-  URL as __filePath_518cd668c03b1fff_URL
+  fileURLToPath as __sourceFilePath_518cd668c03b1fff,
+  URL as __sourceFilePath_518cd668c03b1fff_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -13,8 +13,8 @@ import {
 
 // Version: 2.1.310
 import { dt } from "./chunk-6gaf2snv.js";
-var r = __filePath_518cd668c03b1fff(
-  new __filePath_518cd668c03b1fff_URL(
+var r = __sourceFilePath_518cd668c03b1fff(
+  new __sourceFilePath_518cd668c03b1fff_URL(
     "../assets/sync-hashes.mjs-a0844915.txt.zst",
     import.meta.url
   )

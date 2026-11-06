@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_e01fef0a21eba669,
-  URL as __filePath_e01fef0a21eba669_URL
+  fileURLToPath as __sourceFilePath_e01fef0a21eba669,
+  URL as __sourceFilePath_e01fef0a21eba669_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -389,8 +389,8 @@ var jfr =
   "Can't authenticate MCP servers while no terminal is attached to this background session. Attach to it and try again.";
 function Bc() {
   return import.meta.require(
-    __filePath_e01fef0a21eba669(
-      new __filePath_e01fef0a21eba669_URL("./chunk-43z4gqzg.js", import.meta.url)
+    __sourceFilePath_e01fef0a21eba669(
+      new __sourceFilePath_e01fef0a21eba669_URL("./chunk-43z4gqzg.js", import.meta.url)
     )
   );
 }

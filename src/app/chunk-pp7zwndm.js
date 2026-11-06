@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_cad88bd3b3f643de,
-  URL as __filePath_cad88bd3b3f643de_URL
+  fileURLToPath as __sourceFilePath_cad88bd3b3f643de,
+  URL as __sourceFilePath_cad88bd3b3f643de_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -893,16 +893,16 @@ function Vn() {
     sEs,
     JXt,
     import.meta.require(
-      __filePath_cad88bd3b3f643de(
-        new __filePath_cad88bd3b3f643de_URL("./chunk-7qpdk161.js", import.meta.url)
+      __sourceFilePath_cad88bd3b3f643de(
+        new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-7qpdk161.js", import.meta.url)
       )
     ).LocalWorkflowTask
   ];
   return (
     e.push(
       import.meta.require(
-        __filePath_cad88bd3b3f643de(
-          new __filePath_cad88bd3b3f643de_URL("./chunk-qbx6p7zc.js", import.meta.url)
+        __sourceFilePath_cad88bd3b3f643de(
+          new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-qbx6p7zc.js", import.meta.url)
         )
       ).MCP_TASK
     ),
@@ -3501,8 +3501,8 @@ var ai = p(() =>
                 FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
                 BUILD_TIME: "2026-10-23T17:43:32Z",
                 GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-                HOOKS_WORKER_URL: __filePath_cad88bd3b3f643de(
-                  new __filePath_cad88bd3b3f643de_URL(
+                HOOKS_WORKER_URL: __sourceFilePath_cad88bd3b3f643de(
+                  new __sourceFilePath_cad88bd3b3f643de_URL(
                     "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                     import.meta.url
                   )
@@ -6107,160 +6107,160 @@ function Yr() {
 }
 var Yi = [
     import.meta.require(
-      __filePath_cad88bd3b3f643de(
-        new __filePath_cad88bd3b3f643de_URL("./chunk-fmtkn1kz.js", import.meta.url)
+      __sourceFilePath_cad88bd3b3f643de(
+        new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-fmtkn1kz.js", import.meta.url)
       )
     ).CronCreateTool,
     import.meta.require(
-      __filePath_cad88bd3b3f643de(
-        new __filePath_cad88bd3b3f643de_URL("./chunk-vs84tyzt.js", import.meta.url)
+      __sourceFilePath_cad88bd3b3f643de(
+        new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-vs84tyzt.js", import.meta.url)
       )
     ).CronDeleteTool,
     import.meta.require(
-      __filePath_cad88bd3b3f643de(
-        new __filePath_cad88bd3b3f643de_URL("./chunk-vbwnkrad.js", import.meta.url)
+      __sourceFilePath_cad88bd3b3f643de(
+        new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-vbwnkrad.js", import.meta.url)
       )
     ).CronListTool
   ],
   Xi = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-g5hxk6wx.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-g5hxk6wx.js", import.meta.url)
     )
   ).SELF_HOSTED_RUNNER_TOOLS,
   Xr = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-mq1a69zj.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-mq1a69zj.js", import.meta.url)
     )
   ).RemoteTriggerTool,
   Qr = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-ved4xavg.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-ved4xavg.js", import.meta.url)
     )
   ).SearchMcpRegistryTool,
   Zr = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-w4c29bwg.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-w4c29bwg.js", import.meta.url)
     )
   ).SuggestConnectorsTool,
   Jr = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-4nn5ck1g.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-4nn5ck1g.js", import.meta.url)
     )
   ).ListConnectorsTool,
   Qi = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-84dhhtyx.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-84dhhtyx.js", import.meta.url)
     )
   ).PLUGIN_SKILL_TOOLS,
   en = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-ntrt1a7a.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-ntrt1a7a.js", import.meta.url)
     )
   ).MonitorTool,
   Zi = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-fhn0d2g2.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-fhn0d2g2.js", import.meta.url)
     )
   ).SendUserFileTool,
   Ji = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-gybjz6vc.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-gybjz6vc.js", import.meta.url)
     )
   ).ProposeSkillsTool,
   ea = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-p53f4vzn.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-p53f4vzn.js", import.meta.url)
     )
   ).ProposeGoalTool,
   ta = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-8qqy3s1k.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-8qqy3s1k.js", import.meta.url)
     )
   ).PublishPluginTool,
   rn = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-5q1fx7z3.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-5q1fx7z3.js", import.meta.url)
     )
   ).PushNotificationTool,
   oa = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-vs02frgz.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-vs02frgz.js", import.meta.url)
     )
   ).DesignSyncTool,
   ra = () => {
     if (_t()) return null;
     return import.meta.require(
-      __filePath_cad88bd3b3f643de(
-        new __filePath_cad88bd3b3f643de_URL("./chunk-zv285rrn.js", import.meta.url)
+      __sourceFilePath_cad88bd3b3f643de(
+        new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-zv285rrn.js", import.meta.url)
       )
     ).DesignTool;
   },
   sa = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-7v6e212y.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-7v6e212y.js", import.meta.url)
     )
   ).ProjectsTool,
   ze = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-whdvwma2.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-whdvwma2.js", import.meta.url)
     )
   ).FetchInboxMessageTool,
   nn = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-1wh8z2w4.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-1wh8z2w4.js", import.meta.url)
     )
   ).EndConversationTool,
   Nt = () =>
     import.meta.require(
-      __filePath_cad88bd3b3f643de(
-        new __filePath_cad88bd3b3f643de_URL("./chunk-wmsskgr6.js", import.meta.url)
+      __sourceFilePath_cad88bd3b3f643de(
+        new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-wmsskgr6.js", import.meta.url)
       )
     ).SendMessageTool,
   ia = () =>
     import.meta.require(
-      __filePath_cad88bd3b3f643de(
-        new __filePath_cad88bd3b3f643de_URL("./chunk-kgtfxq5e.js", import.meta.url)
+      __sourceFilePath_cad88bd3b3f643de(
+        new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-kgtfxq5e.js", import.meta.url)
       )
     ).SendFileTool,
   aa = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-std20qbf.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-std20qbf.js", import.meta.url)
     )
   ).ENABLE_STUB_TOOLS,
   he = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-nzks5xy5.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-nzks5xy5.js", import.meta.url)
     )
   ).PollTool,
   sn = Kr(
     import.meta.require(
-      __filePath_cad88bd3b3f643de(
-        new __filePath_cad88bd3b3f643de_URL("./chunk-nzxsmhw1.js", import.meta.url)
+      __sourceFilePath_cad88bd3b3f643de(
+        new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-nzxsmhw1.js", import.meta.url)
       )
     ).ARTIFACT_TOOL_HEAD,
     () =>
       import.meta.require(
-        __filePath_cad88bd3b3f643de(
-          new __filePath_cad88bd3b3f643de_URL("./chunk-k3k0encx.js", import.meta.url)
+        __sourceFilePath_cad88bd3b3f643de(
+          new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-k3k0encx.js", import.meta.url)
         )
       ).ArtifactTool
   );
 function ua() {
   import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-k3k0encx.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-k3k0encx.js", import.meta.url)
     )
   );
 }
 var ca = () =>
     import.meta.require(
-      __filePath_cad88bd3b3f643de(
-        new __filePath_cad88bd3b3f643de_URL("./chunk-03htth44.js", import.meta.url)
+      __sourceFilePath_cad88bd3b3f643de(
+        new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-03htth44.js", import.meta.url)
       )
     ).ARTIFACT_ADDON_TOOLS,
   an = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-72xgh5c7.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-72xgh5c7.js", import.meta.url)
     )
   ).AppifactReplTool,
   ln = null,
@@ -6268,37 +6268,37 @@ var ca = () =>
   un = null,
   cn = null,
   rt = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-atxvbyzx.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-atxvbyzx.js", import.meta.url)
     )
   ),
   dn = null,
   ma = null,
   mn = null,
   pn = import.meta.require(
-    __filePath_cad88bd3b3f643de(
-      new __filePath_cad88bd3b3f643de_URL("./chunk-awsbef4p.js", import.meta.url)
+    __sourceFilePath_cad88bd3b3f643de(
+      new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-awsbef4p.js", import.meta.url)
     )
   ).ListAgentsTool,
   Ft = (() => (
     import.meta
       .require(
-        __filePath_cad88bd3b3f643de(
-          new __filePath_cad88bd3b3f643de_URL("./chunk-cythmdgr.js", import.meta.url)
+        __sourceFilePath_cad88bd3b3f643de(
+          new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-cythmdgr.js", import.meta.url)
         )
       )
       .initBundledWorkflows(),
     import.meta.require(
-      __filePath_cad88bd3b3f643de(
-        new __filePath_cad88bd3b3f643de_URL("./chunk-y8f7x7xv.js", import.meta.url)
+      __sourceFilePath_cad88bd3b3f643de(
+        new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-y8f7x7xv.js", import.meta.url)
       )
     ).WorkflowTool
   ))(),
   $t = () => {
     if (!Jv()) return null;
     return import.meta.require(
-      __filePath_cad88bd3b3f643de(
-        new __filePath_cad88bd3b3f643de_URL("./chunk-3ykk7zcv.js", import.meta.url)
+      __sourceFilePath_cad88bd3b3f643de(
+        new __sourceFilePath_cad88bd3b3f643de_URL("./chunk-3ykk7zcv.js", import.meta.url)
       )
     ).PowerShellTool;
   };

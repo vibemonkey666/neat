@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_bf3f0f5d129bce0a,
-  URL as __filePath_bf3f0f5d129bce0a_URL
+  fileURLToPath as __sourceFilePath_bf3f0f5d129bce0a,
+  URL as __sourceFilePath_bf3f0f5d129bce0a_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -317,8 +317,8 @@ var wt = 384,
   ne = p(() => {
     let e = import.meta
       .require(
-        __filePath_bf3f0f5d129bce0a(
-          new __filePath_bf3f0f5d129bce0a_URL("./chunk-43z4gqzg.js", import.meta.url)
+        __sourceFilePath_bf3f0f5d129bce0a(
+          new __sourceFilePath_bf3f0f5d129bce0a_URL("./chunk-43z4gqzg.js", import.meta.url)
         )
       )
       .mcpClientModule()
@@ -509,8 +509,8 @@ function ye(e, r, n, s) {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_bf3f0f5d129bce0a(
-        new __filePath_bf3f0f5d129bce0a_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_bf3f0f5d129bce0a(
+        new __sourceFilePath_bf3f0f5d129bce0a_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )

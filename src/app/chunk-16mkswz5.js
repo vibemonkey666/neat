@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_7a65fe3c09b30192,
-  URL as __filePath_7a65fe3c09b30192_URL
+  fileURLToPath as __sourceFilePath_7a65fe3c09b30192,
+  URL as __sourceFilePath_7a65fe3c09b30192_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -33,8 +33,8 @@ class a extends Error {
 var s3e = 8080;
 function l() {
   let { getAPIProvider: t } = import.meta.require(
-    __filePath_7a65fe3c09b30192(
-      new __filePath_7a65fe3c09b30192_URL("./chunk-apn1fpkn.js", import.meta.url)
+    __sourceFilePath_7a65fe3c09b30192(
+      new __sourceFilePath_7a65fe3c09b30192_URL("./chunk-apn1fpkn.js", import.meta.url)
     )
   );
   if (t() !== "firstParty")
@@ -56,8 +56,8 @@ function m_s() {
 async function g(t) {
   l();
   let e = import.meta.require(
-    __filePath_7a65fe3c09b30192(
-      new __filePath_7a65fe3c09b30192_URL("./chunk-4rmjyh0d.js", import.meta.url)
+    __sourceFilePath_7a65fe3c09b30192(
+      new __sourceFilePath_7a65fe3c09b30192_URL("./chunk-4rmjyh0d.js", import.meta.url)
     )
   );
   if (e.isConsoleProfileSessionsCredential()) {

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_c4229e9937967bb5,
-  URL as __filePath_c4229e9937967bb5_URL
+  fileURLToPath as __sourceFilePath_c4229e9937967bb5,
+  URL as __sourceFilePath_c4229e9937967bb5_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -132,8 +132,8 @@ $r(E, {
   default: () => E,
   pluginDeclarationsOf: () => l
 });
-var H = __filePath_c4229e9937967bb5(
-  new __filePath_c4229e9937967bb5_URL(
+var H = __sourceFilePath_c4229e9937967bb5(
+  new __sourceFilePath_c4229e9937967bb5_URL(
     "../assets/claude-code.d.ts-bf9d954c.txt.zst",
     import.meta.url
   )

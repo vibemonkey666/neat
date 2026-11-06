@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_385ac3a128be4f29,
-  URL as __filePath_385ac3a128be4f29_URL
+  fileURLToPath as __sourceFilePath_385ac3a128be4f29,
+  URL as __sourceFilePath_385ac3a128be4f29_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1769,14 +1769,14 @@ function Dte(e) {
 function pAr(e) {
   {
     let { artifactReplToolPresent: r } = import.meta.require(
-      __filePath_385ac3a128be4f29(
-        new __filePath_385ac3a128be4f29_URL("./chunk-vrrqsh7x.js", import.meta.url)
+      __sourceFilePath_385ac3a128be4f29(
+        new __sourceFilePath_385ac3a128be4f29_URL("./chunk-vrrqsh7x.js", import.meta.url)
       )
     );
     if (!r()) return "";
     let { REPL_ROUTE_SECTION_BY_TYPE_KEY: s } = import.meta.require(
-        __filePath_385ac3a128be4f29(
-          new __filePath_385ac3a128be4f29_URL("./chunk-89s56qpg.js", import.meta.url)
+        __sourceFilePath_385ac3a128be4f29(
+          new __sourceFilePath_385ac3a128be4f29_URL("./chunk-89s56qpg.js", import.meta.url)
         )
       ),
       n = Dte(e),
@@ -1792,14 +1792,14 @@ ${a}`;
 function Qbo(e) {
   {
     let { artifactReplToolPresent: r } = import.meta.require(
-      __filePath_385ac3a128be4f29(
-        new __filePath_385ac3a128be4f29_URL("./chunk-vrrqsh7x.js", import.meta.url)
+      __sourceFilePath_385ac3a128be4f29(
+        new __sourceFilePath_385ac3a128be4f29_URL("./chunk-vrrqsh7x.js", import.meta.url)
       )
     );
     if (!r()) return null;
     let { REPL_ROUTE_TWO_STEPS_BY_TYPE_KEY: s } = import.meta.require(
-        __filePath_385ac3a128be4f29(
-          new __filePath_385ac3a128be4f29_URL("./chunk-89s56qpg.js", import.meta.url)
+        __sourceFilePath_385ac3a128be4f29(
+          new __sourceFilePath_385ac3a128be4f29_URL("./chunk-89s56qpg.js", import.meta.url)
         )
       ),
       n = Dte(e);

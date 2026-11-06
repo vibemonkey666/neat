@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_c96b3730e75ec76b,
-  URL as __filePath_c96b3730e75ec76b_URL
+  fileURLToPath as __sourceFilePath_c96b3730e75ec76b,
+  URL as __sourceFilePath_c96b3730e75ec76b_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -455,8 +455,8 @@ async function se(r, k, e, t = {}) {
       h = null;
     if (S)
       h = import.meta.require(
-        __filePath_c96b3730e75ec76b(
-          new __filePath_c96b3730e75ec76b_URL("./chunk-3ykk7zcv.js", import.meta.url)
+        __sourceFilePath_c96b3730e75ec76b(
+          new __sourceFilePath_c96b3730e75ec76b_URL("./chunk-3ykk7zcv.js", import.meta.url)
         )
       ).PowerShellTool;
     let T = h ?? na,

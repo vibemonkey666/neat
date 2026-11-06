@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_0589dc45be13a28a,
-  URL as __filePath_0589dc45be13a28a_URL
+  fileURLToPath as __sourceFilePath_0589dc45be13a28a,
+  URL as __sourceFilePath_0589dc45be13a28a_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -37,8 +37,8 @@ import { kOn } from "./chunk-pzx42hex.js";
 import { kct } from "./chunk-whnycq3s.js";
 function rae(t = {}) {
   let e = import.meta.require(
-      __filePath_0589dc45be13a28a(
-        new __filePath_0589dc45be13a28a_URL("./chunk-a2qqhkty.js", import.meta.url)
+      __sourceFilePath_0589dc45be13a28a(
+        new __sourceFilePath_0589dc45be13a28a_URL("./chunk-a2qqhkty.js", import.meta.url)
       )
     ),
     s = e.isTeammate() && e.isPlanModeRequired() ? "plan" : "default";
@@ -147,8 +147,8 @@ function rae(t = {}) {
     teammateColors: { assignments: new Map(), index: 0 },
     webBrowser: import.meta
       .require(
-        __filePath_0589dc45be13a28a(
-          new __filePath_0589dc45be13a28a_URL("./chunk-t4f6va07.js", import.meta.url)
+        __sourceFilePath_0589dc45be13a28a(
+          new __sourceFilePath_0589dc45be13a28a_URL("./chunk-t4f6va07.js", import.meta.url)
         )
       )
       .getDefaultWebBrowserState()

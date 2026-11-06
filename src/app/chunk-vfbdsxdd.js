@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_5f945e97feca7fa7,
-  URL as __filePath_5f945e97feca7fa7_URL
+  fileURLToPath as __sourceFilePath_5f945e97feca7fa7,
+  URL as __sourceFilePath_5f945e97feca7fa7_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -15,8 +15,8 @@ import {
 import { x, Fe } from "./chunk-a2y39866.js";
 var LKo = x(function (L, H) {
   H.exports = Fe(
-    __filePath_5f945e97feca7fa7(
-      new __filePath_5f945e97feca7fa7_URL("../assets/clipboard-napi.node", import.meta.url)
+    __sourceFilePath_5f945e97feca7fa7(
+      new __sourceFilePath_5f945e97feca7fa7_URL("../assets/clipboard-napi.node", import.meta.url)
     )
   );
 });

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_3d6ee85d173640b0,
-  URL as __filePath_3d6ee85d173640b0_URL
+  fileURLToPath as __sourceFilePath_3d6ee85d173640b0,
+  URL as __sourceFilePath_3d6ee85d173640b0_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -27,8 +27,8 @@ $r(t, {
   default: () => t
 });
 var e = Fe(
-  __filePath_3d6ee85d173640b0(
-    new __filePath_3d6ee85d173640b0_URL(
+  __sourceFilePath_3d6ee85d173640b0(
+    new __sourceFilePath_3d6ee85d173640b0_URL(
       "../text-modules/band.tsx-1v7nt0yx.txt.cjs",
       import.meta.url
     )
@@ -36,8 +36,8 @@ var e = Fe(
 );
 var p = e;
 var o = Fe(
-  __filePath_3d6ee85d173640b0(
-    new __filePath_3d6ee85d173640b0_URL(
+  __sourceFilePath_3d6ee85d173640b0(
+    new __sourceFilePath_3d6ee85d173640b0_URL(
       "../text-modules/band-state.d.ts-jt01vrsc.txt.cjs",
       import.meta.url
     )
@@ -45,8 +45,8 @@ var o = Fe(
 );
 var h = o;
 var n = Fe(
-  __filePath_3d6ee85d173640b0(
-    new __filePath_3d6ee85d173640b0_URL(
+  __sourceFilePath_3d6ee85d173640b0(
+    new __sourceFilePath_3d6ee85d173640b0_URL(
       "../text-modules/pane.tsx-mhv389ra.txt.cjs",
       import.meta.url
     )
@@ -54,8 +54,8 @@ var n = Fe(
 );
 var f = n;
 var s = Fe(
-  __filePath_3d6ee85d173640b0(
-    new __filePath_3d6ee85d173640b0_URL(
+  __sourceFilePath_3d6ee85d173640b0(
+    new __sourceFilePath_3d6ee85d173640b0_URL(
       "../text-modules/pane-state.d.ts-11bz0njc.txt.cjs",
       import.meta.url
     )
@@ -63,8 +63,8 @@ var s = Fe(
 );
 var g = s;
 var a = Fe(
-  __filePath_3d6ee85d173640b0(
-    new __filePath_3d6ee85d173640b0_URL(
+  __sourceFilePath_3d6ee85d173640b0(
+    new __sourceFilePath_3d6ee85d173640b0_URL(
       "../text-modules/pane.test.tsx-ee55mcxg.txt.cjs",
       import.meta.url
     )
@@ -72,21 +72,21 @@ var a = Fe(
 );
 var S = a;
 var r = Fe(
-  __filePath_3d6ee85d173640b0(
-    new __filePath_3d6ee85d173640b0_URL(
+  __sourceFilePath_3d6ee85d173640b0(
+    new __sourceFilePath_3d6ee85d173640b0_URL(
       "../text-modules/tool-call.ts-tv29hdsd.txt.cjs",
       import.meta.url
     )
   )
 );
 var P = r;
-var l = __filePath_3d6ee85d173640b0(
-  new __filePath_3d6ee85d173640b0_URL("../assets/reference-b976cc65.md.zst", import.meta.url)
+var l = __sourceFilePath_3d6ee85d173640b0(
+  new __sourceFilePath_3d6ee85d173640b0_URL("../assets/reference-b976cc65.md.zst", import.meta.url)
 );
 var i = dt(l, import.meta.dirname);
 var H = i;
-var c = __filePath_3d6ee85d173640b0(
-  new __filePath_3d6ee85d173640b0_URL("../assets/SKILL-aa0d9c2d.md.zst", import.meta.url)
+var c = __sourceFilePath_3d6ee85d173640b0(
+  new __sourceFilePath_3d6ee85d173640b0_URL("../assets/SKILL-aa0d9c2d.md.zst", import.meta.url)
 );
 var d = dt(c, import.meta.dirname);
 var Q = d;

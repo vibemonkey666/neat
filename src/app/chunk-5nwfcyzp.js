@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_56634784fad8442e,
-  URL as __filePath_56634784fad8442e_URL
+  fileURLToPath as __sourceFilePath_56634784fad8442e,
+  URL as __sourceFilePath_56634784fad8442e_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -463,8 +463,8 @@ function xt({
                             FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
                             BUILD_TIME: "2026-10-23T17:43:32Z",
                             GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-                            HOOKS_WORKER_URL: __filePath_56634784fad8442e(
-                              new __filePath_56634784fad8442e_URL(
+                            HOOKS_WORKER_URL: __sourceFilePath_56634784fad8442e(
+                              new __sourceFilePath_56634784fad8442e_URL(
                                 "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                                 import.meta.url
                               )
@@ -633,7 +633,7 @@ function Mt(d, o, a) {
 **Environment Info**
 - Platform: ${i.platform}
 - Terminal: ${i.terminal}
-- Version: ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_56634784fad8442e(new __filePath_56634784fad8442e_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION || "unknown"}
+- Version: ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_56634784fad8442e(new __sourceFilePath_56634784fad8442e_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION || "unknown"}
 - Feedback ID: ${d}
 `),
     _ = encodeURIComponent(h),

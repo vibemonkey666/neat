@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_0f4dde90f7046912,
-  URL as __filePath_0f4dde90f7046912_URL
+  fileURLToPath as __sourceFilePath_0f4dde90f7046912,
+  URL as __sourceFilePath_0f4dde90f7046912_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1830,8 +1830,8 @@ import { readFile as tp } from "fs/promises";
 import { relative as rp } from "path";
 import * as sr from "vm";
 var Xo = "index.js";
-var Ut = __filePath_0f4dde90f7046912(
-  new __filePath_0f4dde90f7046912_URL(
+var Ut = __sourceFilePath_0f4dde90f7046912(
+  new __sourceFilePath_0f4dde90f7046912_URL(
     "../assets/kit-modules.js-02f8fcd0.txt.zst",
     import.meta.url
   )

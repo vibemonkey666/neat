@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_c1a302bd95af9d66,
-  URL as __filePath_c1a302bd95af9d66_URL
+  fileURLToPath as __sourceFilePath_c1a302bd95af9d66,
+  URL as __sourceFilePath_c1a302bd95af9d66_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -66,8 +66,8 @@ var j = p(() =>
   );
 function F(e) {
   let { hasMcpInboundDoor: r } = import.meta.require(
-    __filePath_c1a302bd95af9d66(
-      new __filePath_c1a302bd95af9d66_URL("./chunk-a4xwypmf.js", import.meta.url)
+    __sourceFilePath_c1a302bd95af9d66(
+      new __sourceFilePath_c1a302bd95af9d66_URL("./chunk-a4xwypmf.js", import.meta.url)
     )
   );
   if (!Array.isArray(e) || !r()) return e;
@@ -128,8 +128,8 @@ var EN = tn({
             if (!wi(c) || !c.capabilities?.resources) return [];
             let y = import.meta
                 .require(
-                  __filePath_c1a302bd95af9d66(
-                    new __filePath_c1a302bd95af9d66_URL("./chunk-43z4gqzg.js", import.meta.url)
+                  __sourceFilePath_c1a302bd95af9d66(
+                    new __sourceFilePath_c1a302bd95af9d66_URL("./chunk-43z4gqzg.js", import.meta.url)
                   )
                 )
                 .mcpClientModule(),
@@ -237,8 +237,8 @@ var K = wb(() => {
 });
 function k() {
   return import.meta.require(
-    __filePath_c1a302bd95af9d66(
-      new __filePath_c1a302bd95af9d66_URL("./chunk-43z4gqzg.js", import.meta.url)
+    __sourceFilePath_c1a302bd95af9d66(
+      new __sourceFilePath_c1a302bd95af9d66_URL("./chunk-43z4gqzg.js", import.meta.url)
     )
   );
 }
@@ -431,8 +431,8 @@ function Q(e, r) {
 }
 function D() {
   return import.meta.require(
-    __filePath_c1a302bd95af9d66(
-      new __filePath_c1a302bd95af9d66_URL("./chunk-43z4gqzg.js", import.meta.url)
+    __sourceFilePath_c1a302bd95af9d66(
+      new __sourceFilePath_c1a302bd95af9d66_URL("./chunk-43z4gqzg.js", import.meta.url)
     )
   );
 }

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_b82dc9a7eae31e32,
-  URL as __filePath_b82dc9a7eae31e32_URL
+  fileURLToPath as __sourceFilePath_b82dc9a7eae31e32,
+  URL as __sourceFilePath_b82dc9a7eae31e32_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -225,8 +225,8 @@ var CDt =
 function Ihi() {
   return import.meta
     .require(
-      __filePath_b82dc9a7eae31e32(
-        new __filePath_b82dc9a7eae31e32_URL("./chunk-dk6mjb62.js", import.meta.url)
+      __sourceFilePath_b82dc9a7eae31e32(
+        new __sourceFilePath_b82dc9a7eae31e32_URL("./chunk-dk6mjb62.js", import.meta.url)
       )
     )
     .isAppifactReplToolEnabled();
@@ -234,8 +234,8 @@ function Ihi() {
 function xen(e) {
   {
     let { APPIFACT_REPL_TOOL_NAME: t } = import.meta.require(
-      __filePath_b82dc9a7eae31e32(
-        new __filePath_b82dc9a7eae31e32_URL("./chunk-ttpzppxt.js", import.meta.url)
+      __sourceFilePath_b82dc9a7eae31e32(
+        new __sourceFilePath_b82dc9a7eae31e32_URL("./chunk-ttpzppxt.js", import.meta.url)
       )
     );
     return Ihi() && e.some((o) => Rt(o, t));

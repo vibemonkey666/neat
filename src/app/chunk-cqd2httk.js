@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_cfaa1dfa95170a69,
-  URL as __filePath_cfaa1dfa95170a69_URL
+  fileURLToPath as __sourceFilePath_cfaa1dfa95170a69,
+  URL as __sourceFilePath_cfaa1dfa95170a69_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1963,23 +1963,23 @@ var zo = null,
   Xo = null,
   Jo = null,
   Ko = import.meta.require(
-    __filePath_cfaa1dfa95170a69(
-      new __filePath_cfaa1dfa95170a69_URL("./chunk-y8f7x7xv.js", import.meta.url)
+    __sourceFilePath_cfaa1dfa95170a69(
+      new __sourceFilePath_cfaa1dfa95170a69_URL("./chunk-y8f7x7xv.js", import.meta.url)
     )
   ).WorkflowTool,
   Bt = import.meta.require(
-    __filePath_cfaa1dfa95170a69(
-      new __filePath_cfaa1dfa95170a69_URL("./chunk-2fakqg90.js", import.meta.url)
+    __sourceFilePath_cfaa1dfa95170a69(
+      new __sourceFilePath_cfaa1dfa95170a69_URL("./chunk-2fakqg90.js", import.meta.url)
     )
   ).workflowPermissionDialog,
   Zo = import.meta.require(
-    __filePath_cfaa1dfa95170a69(
-      new __filePath_cfaa1dfa95170a69_URL("./chunk-e23wtp0r.js", import.meta.url)
+    __sourceFilePath_cfaa1dfa95170a69(
+      new __sourceFilePath_cfaa1dfa95170a69_URL("./chunk-e23wtp0r.js", import.meta.url)
     )
   ),
   Lt = import.meta.require(
-    __filePath_cfaa1dfa95170a69(
-      new __filePath_cfaa1dfa95170a69_URL("./chunk-ntrt1a7a.js", import.meta.url)
+    __sourceFilePath_cfaa1dfa95170a69(
+      new __sourceFilePath_cfaa1dfa95170a69_URL("./chunk-ntrt1a7a.js", import.meta.url)
     )
   ).MonitorTool,
   Yo =

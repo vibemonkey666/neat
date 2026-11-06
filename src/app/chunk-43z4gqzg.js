@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_1a86d702f36446a2,
-  URL as __filePath_1a86d702f36446a2_URL
+  fileURLToPath as __sourceFilePath_1a86d702f36446a2,
+  URL as __sourceFilePath_1a86d702f36446a2_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -136,8 +136,8 @@ function n(t, e) {
 function m() {
   if (NO() === "v2") {
     let i = import.meta.require(
-        __filePath_1a86d702f36446a2(
-          new __filePath_1a86d702f36446a2_URL("./chunk-r4g83g7p.js", import.meta.url)
+        __sourceFilePath_1a86d702f36446a2(
+          new __sourceFilePath_1a86d702f36446a2_URL("./chunk-r4g83g7p.js", import.meta.url)
         )
       ),
       o = i.MCP_TREE_ID;
@@ -151,8 +151,8 @@ function m() {
     return i;
   }
   let t = import.meta.require(
-      __filePath_1a86d702f36446a2(
-        new __filePath_1a86d702f36446a2_URL("./chunk-34bfdsb0.js", import.meta.url)
+      __sourceFilePath_1a86d702f36446a2(
+        new __sourceFilePath_1a86d702f36446a2_URL("./chunk-34bfdsb0.js", import.meta.url)
       )
     ),
     e = t.MCP_TREE_ID;
@@ -168,8 +168,8 @@ function m() {
 function d() {
   if (NO() === "v2")
     return import.meta.require(
-      __filePath_1a86d702f36446a2(
-        new __filePath_1a86d702f36446a2_URL("./chunk-r4g83g7p.js", import.meta.url)
+      __sourceFilePath_1a86d702f36446a2(
+        new __sourceFilePath_1a86d702f36446a2_URL("./chunk-r4g83g7p.js", import.meta.url)
       )
     ).createSep2663TaskBinding;
   return;
@@ -177,98 +177,98 @@ function d() {
 function l() {
   if (NO() === "v2")
     return import.meta.require(
-      __filePath_1a86d702f36446a2(
-        new __filePath_1a86d702f36446a2_URL("./chunk-sv7we1qf.js", import.meta.url)
+      __sourceFilePath_1a86d702f36446a2(
+        new __sourceFilePath_1a86d702f36446a2_URL("./chunk-sv7we1qf.js", import.meta.url)
       )
     );
   return import.meta.require(
-    __filePath_1a86d702f36446a2(
-      new __filePath_1a86d702f36446a2_URL("./chunk-rtcb5ftx.js", import.meta.url)
+    __sourceFilePath_1a86d702f36446a2(
+      new __sourceFilePath_1a86d702f36446a2_URL("./chunk-rtcb5ftx.js", import.meta.url)
     )
   );
 }
 function y() {
   if (NO() === "v2")
     return import.meta.require(
-      __filePath_1a86d702f36446a2(
-        new __filePath_1a86d702f36446a2_URL("./chunk-yey2xw14.js", import.meta.url)
+      __sourceFilePath_1a86d702f36446a2(
+        new __sourceFilePath_1a86d702f36446a2_URL("./chunk-yey2xw14.js", import.meta.url)
       )
     );
   return import.meta.require(
-    __filePath_1a86d702f36446a2(
-      new __filePath_1a86d702f36446a2_URL("./chunk-axdscm7y.js", import.meta.url)
+    __sourceFilePath_1a86d702f36446a2(
+      new __sourceFilePath_1a86d702f36446a2_URL("./chunk-axdscm7y.js", import.meta.url)
     )
   );
 }
 function _() {
   if (NO() === "v2")
     return import.meta.require(
-      __filePath_1a86d702f36446a2(
-        new __filePath_1a86d702f36446a2_URL("./chunk-g4hrqh92.js", import.meta.url)
+      __sourceFilePath_1a86d702f36446a2(
+        new __sourceFilePath_1a86d702f36446a2_URL("./chunk-g4hrqh92.js", import.meta.url)
       )
     );
   return import.meta.require(
-    __filePath_1a86d702f36446a2(
-      new __filePath_1a86d702f36446a2_URL("./chunk-4dq0v2z7.js", import.meta.url)
+    __sourceFilePath_1a86d702f36446a2(
+      new __sourceFilePath_1a86d702f36446a2_URL("./chunk-4dq0v2z7.js", import.meta.url)
     )
   );
 }
 function v() {
   if (NO() === "v2")
     return import.meta.require(
-      __filePath_1a86d702f36446a2(
-        new __filePath_1a86d702f36446a2_URL("./chunk-7aw9bk05.js", import.meta.url)
+      __sourceFilePath_1a86d702f36446a2(
+        new __sourceFilePath_1a86d702f36446a2_URL("./chunk-7aw9bk05.js", import.meta.url)
       )
     );
   return import.meta.require(
-    __filePath_1a86d702f36446a2(
-      new __filePath_1a86d702f36446a2_URL("./chunk-evc20fm1.js", import.meta.url)
+    __sourceFilePath_1a86d702f36446a2(
+      new __sourceFilePath_1a86d702f36446a2_URL("./chunk-evc20fm1.js", import.meta.url)
     )
   );
 }
 function j() {
   if (NO() === "v2")
     return import.meta.require(
-      __filePath_1a86d702f36446a2(
-        new __filePath_1a86d702f36446a2_URL("./chunk-dx6ja2cy.js", import.meta.url)
+      __sourceFilePath_1a86d702f36446a2(
+        new __sourceFilePath_1a86d702f36446a2_URL("./chunk-dx6ja2cy.js", import.meta.url)
       )
     );
   return import.meta.require(
-    __filePath_1a86d702f36446a2(
-      new __filePath_1a86d702f36446a2_URL("./chunk-zj2z3dee.js", import.meta.url)
+    __sourceFilePath_1a86d702f36446a2(
+      new __sourceFilePath_1a86d702f36446a2_URL("./chunk-zj2z3dee.js", import.meta.url)
     )
   );
 }
 function M() {
   if (NO() === "v2")
     return import.meta.require(
-      __filePath_1a86d702f36446a2(
-        new __filePath_1a86d702f36446a2_URL("./chunk-8kdat012.js", import.meta.url)
+      __sourceFilePath_1a86d702f36446a2(
+        new __sourceFilePath_1a86d702f36446a2_URL("./chunk-8kdat012.js", import.meta.url)
       )
     );
   return import.meta.require(
-    __filePath_1a86d702f36446a2(
-      new __filePath_1a86d702f36446a2_URL("./chunk-f5fmsabz.js", import.meta.url)
+    __sourceFilePath_1a86d702f36446a2(
+      new __sourceFilePath_1a86d702f36446a2_URL("./chunk-f5fmsabz.js", import.meta.url)
     )
   );
 }
 function E() {
   if (NO() === "v2")
     return import.meta.require(
-      __filePath_1a86d702f36446a2(
-        new __filePath_1a86d702f36446a2_URL("./chunk-cydng5ke.js", import.meta.url)
+      __sourceFilePath_1a86d702f36446a2(
+        new __sourceFilePath_1a86d702f36446a2_URL("./chunk-cydng5ke.js", import.meta.url)
       )
     );
   return import.meta.require(
-    __filePath_1a86d702f36446a2(
-      new __filePath_1a86d702f36446a2_URL("./chunk-pvh2gz0a.js", import.meta.url)
+    __sourceFilePath_1a86d702f36446a2(
+      new __sourceFilePath_1a86d702f36446a2_URL("./chunk-pvh2gz0a.js", import.meta.url)
     )
   );
 }
 function h() {
   return import.meta.require(
-    __filePath_1a86d702f36446a2(
-      new __filePath_1a86d702f36446a2_URL("./chunk-qy2abh3b.js", import.meta.url)
+    __sourceFilePath_1a86d702f36446a2(
+      new __sourceFilePath_1a86d702f36446a2_URL("./chunk-qy2abh3b.js", import.meta.url)
     )
   );
 }

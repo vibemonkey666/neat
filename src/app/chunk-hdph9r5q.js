@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_411107dc044902c3,
-  URL as __filePath_411107dc044902c3_URL
+  fileURLToPath as __sourceFilePath_411107dc044902c3,
+  URL as __sourceFilePath_411107dc044902c3_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -638,7 +638,7 @@ async function de(e, n) {
       headers: {
         "content-type": "application/json",
         "anthropic-version": "2023-06-01",
-        "x-environment-runner-version": `shr-${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_411107dc044902c3(new __filePath_411107dc044902c3_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}`,
+        "x-environment-runner-version": `shr-${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_411107dc044902c3(new __sourceFilePath_411107dc044902c3_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}`,
         authorization: `Bearer ${s}`
       },
       body: g,

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_ebe9eea91dec29fe,
-  URL as __filePath_ebe9eea91dec29fe_URL
+  fileURLToPath as __sourceFilePath_ebe9eea91dec29fe,
+  URL as __sourceFilePath_ebe9eea91dec29fe_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -17573,8 +17573,8 @@ function Ajs(e, n, r) {
 }
 function C_() {
   return import.meta.require(
-    __filePath_ebe9eea91dec29fe(
-      new __filePath_ebe9eea91dec29fe_URL("./chunk-tbxexn32.js", import.meta.url)
+    __sourceFilePath_ebe9eea91dec29fe(
+      new __sourceFilePath_ebe9eea91dec29fe_URL("./chunk-tbxexn32.js", import.meta.url)
     )
   );
 }
@@ -20131,8 +20131,8 @@ function fWs(e) {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_ebe9eea91dec29fe(
-        new __filePath_ebe9eea91dec29fe_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_ebe9eea91dec29fe(
+        new __sourceFilePath_ebe9eea91dec29fe_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -22800,8 +22800,8 @@ function JDo({
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_ebe9eea91dec29fe(
-          new __filePath_ebe9eea91dec29fe_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_ebe9eea91dec29fe(
+          new __sourceFilePath_ebe9eea91dec29fe_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )

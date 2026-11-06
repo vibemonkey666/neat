@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_61c8efae48f2ea35,
-  URL as __filePath_61c8efae48f2ea35_URL
+  fileURLToPath as __sourceFilePath_61c8efae48f2ea35,
+  URL as __sourceFilePath_61c8efae48f2ea35_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -52,8 +52,8 @@ function w() {
 }
 function _() {
   let { isScratchpadEnabled: t } = import.meta.require(
-    __filePath_61c8efae48f2ea35(
-      new __filePath_61c8efae48f2ea35_URL("./chunk-bfvm9vxm.js", import.meta.url)
+    __sourceFilePath_61c8efae48f2ea35(
+      new __sourceFilePath_61c8efae48f2ea35_URL("./chunk-bfvm9vxm.js", import.meta.url)
     )
   );
   return t();
@@ -66,8 +66,8 @@ var E = new Set([Mn, qa]);
 function C(t) {
   {
     let { isPluginSkillToolAdvertised: r } = import.meta.require(
-      __filePath_61c8efae48f2ea35(
-        new __filePath_61c8efae48f2ea35_URL("./chunk-6rwh64mv.js", import.meta.url)
+      __sourceFilePath_61c8efae48f2ea35(
+        new __sourceFilePath_61c8efae48f2ea35_URL("./chunk-6rwh64mv.js", import.meta.url)
       )
     );
     return r(t);

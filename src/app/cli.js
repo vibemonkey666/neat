@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_d0b841cb77dc0293,
-  URL as __filePath_d0b841cb77dc0293_URL
+  fileURLToPath as __sourceFilePath_d0b841cb77dc0293,
+  URL as __sourceFilePath_d0b841cb77dc0293_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -105,8 +105,8 @@ async function Ye() {
     process.argv.includes("--session-tunnel")
   ) {
     let { guardRelayTokenDescriptor: t } = import.meta.require(
-      __filePath_d0b841cb77dc0293(
-        new __filePath_d0b841cb77dc0293_URL("./chunk-dset9ats.js", import.meta.url)
+      __sourceFilePath_d0b841cb77dc0293(
+        new __sourceFilePath_d0b841cb77dc0293_URL("./chunk-dset9ats.js", import.meta.url)
       )
     );
     t();
@@ -118,22 +118,22 @@ async function Ye() {
   if (D) (console.error(D), process.exit(1));
   if (process.env.CLAUDE_CODE_REMOTE_SESSION_ORIGIN === "review") {
     let { guardRunnerReviewTokens: t } = import.meta.require(
-      __filePath_d0b841cb77dc0293(
-        new __filePath_d0b841cb77dc0293_URL("./chunk-d7xnw6q1.js", import.meta.url)
+      __sourceFilePath_d0b841cb77dc0293(
+        new __sourceFilePath_d0b841cb77dc0293_URL("./chunk-d7xnw6q1.js", import.meta.url)
       )
     );
     t();
   }
   let { installCliArgvReader: V } = import.meta.require(
-    __filePath_d0b841cb77dc0293(
-      new __filePath_d0b841cb77dc0293_URL("./chunk-3m102zvb.js", import.meta.url)
+    __sourceFilePath_d0b841cb77dc0293(
+      new __sourceFilePath_d0b841cb77dc0293_URL("./chunk-3m102zvb.js", import.meta.url)
     )
   );
   V((t) =>
     import.meta
       .require(
-        __filePath_d0b841cb77dc0293(
-          new __filePath_d0b841cb77dc0293_URL("./chunk-526awc2s.js", import.meta.url)
+        __sourceFilePath_d0b841cb77dc0293(
+          new __sourceFilePath_d0b841cb77dc0293_URL("./chunk-526awc2s.js", import.meta.url)
         )
       )
       .cliFlagWords(t)
@@ -145,7 +145,7 @@ async function Ye() {
   ) {
     if (
       (console.log(
-        `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_d0b841cb77dc0293(new __filePath_d0b841cb77dc0293_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION} (Claude Code)${l5()}`
+        `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_d0b841cb77dc0293(new __sourceFilePath_d0b841cb77dc0293_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION} (Claude Code)${l5()}`
       ),
       e.length === 2 &&
         {
@@ -156,8 +156,8 @@ async function Ye() {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_d0b841cb77dc0293(
-            new __filePath_d0b841cb77dc0293_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_d0b841cb77dc0293(
+            new __sourceFilePath_d0b841cb77dc0293_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -166,7 +166,7 @@ async function Ye() {
         }.GIT_SHA)
     )
       console.log(
-        `Commit: ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_d0b841cb77dc0293(new __filePath_d0b841cb77dc0293_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.GIT_SHA}`
+        `Commit: ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_d0b841cb77dc0293(new __sourceFilePath_d0b841cb77dc0293_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.GIT_SHA}`
       );
     return;
   }
@@ -397,8 +397,8 @@ async function Ye() {
     )
       ? import.meta
           .require(
-            __filePath_d0b841cb77dc0293(
-              new __filePath_d0b841cb77dc0293_URL("./chunk-526awc2s.js", import.meta.url)
+            __sourceFilePath_d0b841cb77dc0293(
+              new __sourceFilePath_d0b841cb77dc0293_URL("./chunk-526awc2s.js", import.meta.url)
             )
           )
           .backgroundSessionVerbIndex(e, { behindRootOptions: !M })
@@ -408,8 +408,8 @@ async function Ye() {
       e.includes("--bg") || e.includes("--background")
         ? import.meta
             .require(
-              __filePath_d0b841cb77dc0293(
-                new __filePath_d0b841cb77dc0293_URL("./chunk-526awc2s.js", import.meta.url)
+              __sourceFilePath_d0b841cb77dc0293(
+                new __sourceFilePath_d0b841cb77dc0293_URL("./chunk-526awc2s.js", import.meta.url)
               )
             )
             .hasBackgroundFlag(e)
@@ -797,8 +797,8 @@ async function Ye() {
         try {
           ce = import.meta
             .require(
-              __filePath_d0b841cb77dc0293(
-                new __filePath_d0b841cb77dc0293_URL("./chunk-gg1ytf58.js", import.meta.url)
+              __sourceFilePath_d0b841cb77dc0293(
+                new __sourceFilePath_d0b841cb77dc0293_URL("./chunk-gg1ytf58.js", import.meta.url)
               )
             )
             .orgConfigGateFlagOnHand(l(), process.env.CLAUDE_INTERNAL_FC_OVERRIDES);

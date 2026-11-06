@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_29a6c6bec189e6b2,
-  URL as __filePath_29a6c6bec189e6b2_URL
+  fileURLToPath as __sourceFilePath_29a6c6bec189e6b2,
+  URL as __sourceFilePath_29a6c6bec189e6b2_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -143,8 +143,8 @@ function D(e) {
     cre,
     KO,
     import.meta.require(
-      __filePath_29a6c6bec189e6b2(
-        new __filePath_29a6c6bec189e6b2_URL("./chunk-ttpzppxt.js", import.meta.url)
+      __sourceFilePath_29a6c6bec189e6b2(
+        new __sourceFilePath_29a6c6bec189e6b2_URL("./chunk-ttpzppxt.js", import.meta.url)
       )
     ).APPIFACT_REPL_TOOL_NAME
   ]);
@@ -228,18 +228,18 @@ function f0o(e, o, r) {
   try {
     let n = e.isReadOnly(o, r),
       { parseForSecurityFromAst: s } = import.meta.require(
-        __filePath_29a6c6bec189e6b2(
-          new __filePath_29a6c6bec189e6b2_URL("./chunk-aab299es.js", import.meta.url)
+        __sourceFilePath_29a6c6bec189e6b2(
+          new __sourceFilePath_29a6c6bec189e6b2_URL("./chunk-aab299es.js", import.meta.url)
         )
       ),
       { getParserModule: l } = import.meta.require(
-        __filePath_29a6c6bec189e6b2(
-          new __filePath_29a6c6bec189e6b2_URL("./chunk-p68h6ahj.js", import.meta.url)
+        __sourceFilePath_29a6c6bec189e6b2(
+          new __sourceFilePath_29a6c6bec189e6b2_URL("./chunk-p68h6ahj.js", import.meta.url)
         )
       ),
       { SPLIT_MAX_LEN: g } = import.meta.require(
-        __filePath_29a6c6bec189e6b2(
-          new __filePath_29a6c6bec189e6b2_URL("./chunk-tv08rxat.js", import.meta.url)
+        __sourceFilePath_29a6c6bec189e6b2(
+          new __sourceFilePath_29a6c6bec189e6b2_URL("./chunk-tv08rxat.js", import.meta.url)
         )
       ),
       O = o.command.length > g ? void 0 : l()?.parse(o.command),
@@ -281,18 +281,18 @@ function NKs(e) {
 }
 function X(e) {
   let { containsAnyPlaceholder: o } = import.meta.require(
-      __filePath_29a6c6bec189e6b2(
-        new __filePath_29a6c6bec189e6b2_URL("./chunk-aab299es.js", import.meta.url)
+      __sourceFilePath_29a6c6bec189e6b2(
+        new __sourceFilePath_29a6c6bec189e6b2_URL("./chunk-aab299es.js", import.meta.url)
       )
     ),
     { getPathsForPermissionCheck: r } = import.meta.require(
-      __filePath_29a6c6bec189e6b2(
-        new __filePath_29a6c6bec189e6b2_URL("./chunk-wjmqkrtx.js", import.meta.url)
+      __sourceFilePath_29a6c6bec189e6b2(
+        new __sourceFilePath_29a6c6bec189e6b2_URL("./chunk-wjmqkrtx.js", import.meta.url)
       )
     ),
     { expandPath: n } = import.meta.require(
-      __filePath_29a6c6bec189e6b2(
-        new __filePath_29a6c6bec189e6b2_URL("./chunk-rt0ef35j.js", import.meta.url)
+      __sourceFilePath_29a6c6bec189e6b2(
+        new __sourceFilePath_29a6c6bec189e6b2_URL("./chunk-rt0ef35j.js", import.meta.url)
       )
     ),
     {
@@ -300,23 +300,23 @@ function X(e) {
       pathInWorkingPath: l,
       relativePath: g
     } = import.meta.require(
-      __filePath_29a6c6bec189e6b2(
-        new __filePath_29a6c6bec189e6b2_URL("./chunk-bfvm9vxm.js", import.meta.url)
+      __sourceFilePath_29a6c6bec189e6b2(
+        new __sourceFilePath_29a6c6bec189e6b2_URL("./chunk-bfvm9vxm.js", import.meta.url)
       )
     ),
     { getGlobBaseDirectory: O, hasInteriorDotDot: T } = import.meta.require(
-      __filePath_29a6c6bec189e6b2(
-        new __filePath_29a6c6bec189e6b2_URL("./chunk-b8wfcm55.js", import.meta.url)
+      __sourceFilePath_29a6c6bec189e6b2(
+        new __sourceFilePath_29a6c6bec189e6b2_URL("./chunk-b8wfcm55.js", import.meta.url)
       )
     ),
     { getSessionSubagentsDir: c } = import.meta.require(
-      __filePath_29a6c6bec189e6b2(
-        new __filePath_29a6c6bec189e6b2_URL("./chunk-3nabe3w4.js", import.meta.url)
+      __sourceFilePath_29a6c6bec189e6b2(
+        new __sourceFilePath_29a6c6bec189e6b2_URL("./chunk-3nabe3w4.js", import.meta.url)
       )
     ),
     { peekTaskOutputDir: f } = import.meta.require(
-      __filePath_29a6c6bec189e6b2(
-        new __filePath_29a6c6bec189e6b2_URL("./chunk-f3fmrjg2.js", import.meta.url)
+      __sourceFilePath_29a6c6bec189e6b2(
+        new __sourceFilePath_29a6c6bec189e6b2_URL("./chunk-f3fmrjg2.js", import.meta.url)
       )
     ),
     d = [c(), f()],

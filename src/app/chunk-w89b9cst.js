@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_a3291c1012c3440b,
-  URL as __filePath_a3291c1012c3440b_URL
+  fileURLToPath as __sourceFilePath_a3291c1012c3440b,
+  URL as __sourceFilePath_a3291c1012c3440b_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -69,15 +69,15 @@ function h_e() {
 }
 function N() {
   return import.meta.require(
-    __filePath_a3291c1012c3440b(
-      new __filePath_a3291c1012c3440b_URL("./chunk-g6pqvqm7.js", import.meta.url)
+    __sourceFilePath_a3291c1012c3440b(
+      new __sourceFilePath_a3291c1012c3440b_URL("./chunk-g6pqvqm7.js", import.meta.url)
     )
   );
 }
 function E() {
   return import.meta.require(
-    __filePath_a3291c1012c3440b(
-      new __filePath_a3291c1012c3440b_URL("./chunk-b0q88bjg.js", import.meta.url)
+    __sourceFilePath_a3291c1012c3440b(
+      new __sourceFilePath_a3291c1012c3440b_URL("./chunk-b0q88bjg.js", import.meta.url)
     )
   );
 }
@@ -246,8 +246,8 @@ async function qRi(e) {
 }
 function tKo() {
   let { isClaudeAISubscriber: e } = import.meta.require(
-    __filePath_a3291c1012c3440b(
-      new __filePath_a3291c1012c3440b_URL("./chunk-8amfvyqf.js", import.meta.url)
+    __sourceFilePath_a3291c1012c3440b(
+      new __sourceFilePath_a3291c1012c3440b_URL("./chunk-8amfvyqf.js", import.meta.url)
     )
   );
   if (!Fn() || !e()) {
@@ -314,8 +314,8 @@ function x(e) {
 }
 function w() {
   let { isClaudeAISubscriber: e } = import.meta.require(
-    __filePath_a3291c1012c3440b(
-      new __filePath_a3291c1012c3440b_URL("./chunk-8amfvyqf.js", import.meta.url)
+    __sourceFilePath_a3291c1012c3440b(
+      new __sourceFilePath_a3291c1012c3440b_URL("./chunk-8amfvyqf.js", import.meta.url)
     )
   );
   return !(
@@ -334,13 +334,13 @@ async function Mhn({ trigger: e = "proactive", lazy: n = !1, credentials: r }) {
       getClaudeAIOAuthTokens: H,
       checkAndRefreshOAuthTokenIfNeeded: M
     } = import.meta.require(
-      __filePath_a3291c1012c3440b(
-        new __filePath_a3291c1012c3440b_URL("./chunk-8amfvyqf.js", import.meta.url)
+      __sourceFilePath_a3291c1012c3440b(
+        new __sourceFilePath_a3291c1012c3440b_URL("./chunk-8amfvyqf.js", import.meta.url)
       )
     ),
     { loginToHandOn: V } = import.meta.require(
-      __filePath_a3291c1012c3440b(
-        new __filePath_a3291c1012c3440b_URL("./chunk-ays22ch0.js", import.meta.url)
+      __sourceFilePath_a3291c1012c3440b(
+        new __sourceFilePath_a3291c1012c3440b_URL("./chunk-ays22ch0.js", import.meta.url)
       )
     );
   if (!Fn() || !o()) return;

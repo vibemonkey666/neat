@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_96053ab0c87c6435,
-  URL as __filePath_96053ab0c87c6435_URL
+  fileURLToPath as __sourceFilePath_96053ab0c87c6435,
+  URL as __sourceFilePath_96053ab0c87c6435_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -15,8 +15,8 @@ import {
 import { x, Fe } from "./chunk-a2y39866.js";
 var HKo = x(function (L, H) {
   H.exports = Fe(
-    __filePath_96053ab0c87c6435(
-      new __filePath_96053ab0c87c6435_URL("../assets/audio-capture.node", import.meta.url)
+    __sourceFilePath_96053ab0c87c6435(
+      new __sourceFilePath_96053ab0c87c6435_URL("../assets/audio-capture.node", import.meta.url)
     )
   );
 });

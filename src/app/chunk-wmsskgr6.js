@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_8e4375bbb80016af,
-  URL as __filePath_8e4375bbb80016af_URL
+  fileURLToPath as __sourceFilePath_8e4375bbb80016af,
+  URL as __sourceFilePath_8e4375bbb80016af_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -839,13 +839,13 @@ async function us({
   let de = iOr(s, r, y),
     Se = { ...y, ...de.marks },
     { spawnInProcessTeammate: ge } = import.meta.require(
-      __filePath_8e4375bbb80016af(
-        new __filePath_8e4375bbb80016af_URL("./chunk-qe6hxw20.js", import.meta.url)
+      __sourceFilePath_8e4375bbb80016af(
+        new __sourceFilePath_8e4375bbb80016af_URL("./chunk-qe6hxw20.js", import.meta.url)
       )
     ),
     { startInProcessTeammate: pe } = import.meta.require(
-      __filePath_8e4375bbb80016af(
-        new __filePath_8e4375bbb80016af_URL("./chunk-cknzhng0.js", import.meta.url)
+      __sourceFilePath_8e4375bbb80016af(
+        new __sourceFilePath_8e4375bbb80016af_URL("./chunk-cknzhng0.js", import.meta.url)
       )
     ),
     ne = await ge(
@@ -2172,8 +2172,8 @@ ${I[0].text}`
                 isRemoteControlPeerUnreachableFromHere: P,
                 formatUnreachableElevatedRefusal: w
               } = import.meta.require(
-                __filePath_8e4375bbb80016af(
-                  new __filePath_8e4375bbb80016af_URL("./chunk-yad5vxrm.js", import.meta.url)
+                __sourceFilePath_8e4375bbb80016af(
+                  new __sourceFilePath_8e4375bbb80016af_URL("./chunk-yad5vxrm.js", import.meta.url)
                 )
               );
               if (I.via === "remote-control" && P()) {
@@ -2539,8 +2539,8 @@ ${I[0].text}`
                 isLikelyStaleBridgeError: D,
                 classifyBridgeSendError: q
               } = import.meta.require(
-                __filePath_8e4375bbb80016af(
-                  new __filePath_8e4375bbb80016af_URL("./chunk-41hs5s43.js", import.meta.url)
+                __sourceFilePath_8e4375bbb80016af(
+                  new __sourceFilePath_8e4375bbb80016af_URL("./chunk-41hs5s43.js", import.meta.url)
                 )
               ),
               N = Iyt(a.session, v.target, e.to, () => Be(a.tools, a.mcpClients, a.toolAliases));
@@ -2622,13 +2622,13 @@ ${I[0].text}`
                 { data: { success: !1, message: ete(e.to, lD(a)), display: _ct(e.to) } }
               );
             let { sendToUdsSocket: B, ownMessagingSocket: G } = import.meta.require(
-                __filePath_8e4375bbb80016af(
-                  new __filePath_8e4375bbb80016af_URL("./chunk-w0prrq68.js", import.meta.url)
+                __sourceFilePath_8e4375bbb80016af(
+                  new __sourceFilePath_8e4375bbb80016af_URL("./chunk-w0prrq68.js", import.meta.url)
                 )
               ),
               { subscribeToPeerIdle: D, idleSubscriptionLines: q } = import.meta.require(
-                __filePath_8e4375bbb80016af(
-                  new __filePath_8e4375bbb80016af_URL("./chunk-zxejjanm.js", import.meta.url)
+                __sourceFilePath_8e4375bbb80016af(
+                  new __sourceFilePath_8e4375bbb80016af_URL("./chunk-zxejjanm.js", import.meta.url)
                 )
               ),
               { notify: N, refusedForPrincipal: T } = je(e, a),
@@ -2731,8 +2731,8 @@ ${I[0].text}`
           n.kind !== "not-found"
         ) {
           let { idleSelfTargetMessage: v } = import.meta.require(
-            __filePath_8e4375bbb80016af(
-              new __filePath_8e4375bbb80016af_URL("./chunk-zxejjanm.js", import.meta.url)
+            __sourceFilePath_8e4375bbb80016af(
+              new __sourceFilePath_8e4375bbb80016af_URL("./chunk-zxejjanm.js", import.meta.url)
             )
           );
           return (
@@ -3401,14 +3401,14 @@ ${B}`,
           }
           case "local-session": {
             let { sendToUdsSocket: v, ownMessagingSocket: U } = import.meta.require(
-                __filePath_8e4375bbb80016af(
-                  new __filePath_8e4375bbb80016af_URL("./chunk-w0prrq68.js", import.meta.url)
+                __sourceFilePath_8e4375bbb80016af(
+                  new __sourceFilePath_8e4375bbb80016af_URL("./chunk-w0prrq68.js", import.meta.url)
                 )
               ),
               C = KDr(),
               { subscribeToPeerIdle: B, idleSubscriptionLines: G } = import.meta.require(
-                __filePath_8e4375bbb80016af(
-                  new __filePath_8e4375bbb80016af_URL("./chunk-zxejjanm.js", import.meta.url)
+                __sourceFilePath_8e4375bbb80016af(
+                  new __sourceFilePath_8e4375bbb80016af_URL("./chunk-zxejjanm.js", import.meta.url)
                 )
               ),
               { notify: D, refusedForPrincipal: q } = je(e, a),
@@ -3538,14 +3538,14 @@ ${z.display}`
                 isLikelyStaleBridgeError: D,
                 classifyBridgeSendError: q
               } = import.meta.require(
-                __filePath_8e4375bbb80016af(
-                  new __filePath_8e4375bbb80016af_URL("./chunk-41hs5s43.js", import.meta.url)
+                __sourceFilePath_8e4375bbb80016af(
+                  new __sourceFilePath_8e4375bbb80016af_URL("./chunk-41hs5s43.js", import.meta.url)
                 )
               ),
               { isRemoteControlPeerUnreachableFromHere: N, formatUnreachableElevatedRefusal: T } =
                 import.meta.require(
-                  __filePath_8e4375bbb80016af(
-                    new __filePath_8e4375bbb80016af_URL("./chunk-yad5vxrm.js", import.meta.url)
+                  __sourceFilePath_8e4375bbb80016af(
+                    new __sourceFilePath_8e4375bbb80016af_URL("./chunk-yad5vxrm.js", import.meta.url)
                   )
                 );
             if (n.via === "remote-control" && N())

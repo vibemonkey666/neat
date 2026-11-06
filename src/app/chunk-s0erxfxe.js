@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_888d87653d1e10a7,
-  URL as __filePath_888d87653d1e10a7_URL
+  fileURLToPath as __sourceFilePath_888d87653d1e10a7,
+  URL as __sourceFilePath_888d87653d1e10a7_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -484,8 +484,8 @@ function se(e, s, n, i) {
 function sSs(e) {
   {
     let { artifactReplToolPresent: s } = import.meta.require(
-        __filePath_888d87653d1e10a7(
-          new __filePath_888d87653d1e10a7_URL("./chunk-vrrqsh7x.js", import.meta.url)
+        __sourceFilePath_888d87653d1e10a7(
+          new __sourceFilePath_888d87653d1e10a7_URL("./chunk-vrrqsh7x.js", import.meta.url)
         )
       ),
       n = e.repl && s(),
@@ -496,8 +496,8 @@ function sSs(e) {
         REPL_ROUTE_HOW_TO_TOKENS_WORDS: r,
         REPL_ROUTE_HOW_TO_URL_WORDS: a
       } = import.meta.require(
-        __filePath_888d87653d1e10a7(
-          new __filePath_888d87653d1e10a7_URL("./chunk-89s56qpg.js", import.meta.url)
+        __sourceFilePath_888d87653d1e10a7(
+          new __sourceFilePath_888d87653d1e10a7_URL("./chunk-89s56qpg.js", import.meta.url)
         )
       ),
       { turnOne: o, files: l } = e,

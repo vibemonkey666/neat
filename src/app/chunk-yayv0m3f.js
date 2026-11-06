@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_273960d3b7d178b4,
-  URL as __filePath_273960d3b7d178b4_URL
+  fileURLToPath as __sourceFilePath_273960d3b7d178b4,
+  URL as __sourceFilePath_273960d3b7d178b4_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -13,19 +13,19 @@ import {
 
 // Version: 2.1.310
 import { dt } from "./chunk-6gaf2snv.js";
-var d = __filePath_273960d3b7d178b4(
-  new __filePath_273960d3b7d178b4_URL("../assets/SKILL-e92179a2.md.zst", import.meta.url)
+var d = __sourceFilePath_273960d3b7d178b4(
+  new __sourceFilePath_273960d3b7d178b4_URL("../assets/SKILL-e92179a2.md.zst", import.meta.url)
 );
 var e = dt(d, import.meta.dirname);
-var r = __filePath_273960d3b7d178b4(
-  new __filePath_273960d3b7d178b4_URL(
+var r = __sourceFilePath_273960d3b7d178b4(
+  new __sourceFilePath_273960d3b7d178b4_URL(
     "../assets/artifact-workshop.html-a79fa64e.txt.zst",
     import.meta.url
   )
 );
 var B = dt(r, import.meta.dirname);
-var t = __filePath_273960d3b7d178b4(
-  new __filePath_273960d3b7d178b4_URL(
+var t = __sourceFilePath_273960d3b7d178b4(
+  new __sourceFilePath_273960d3b7d178b4_URL(
     "../assets/workshop-page.html-22624ec4.txt.zst",
     import.meta.url
   )

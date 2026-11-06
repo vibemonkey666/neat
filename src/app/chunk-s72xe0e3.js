@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_a8fa7fb832066f9e,
-  URL as __filePath_a8fa7fb832066f9e_URL
+  fileURLToPath as __sourceFilePath_a8fa7fb832066f9e,
+  URL as __sourceFilePath_a8fa7fb832066f9e_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -32,8 +32,8 @@ var sHe = "ShareOnboardingGuide",
 
 When called with the default mode='check': if a local ONBOARDING.md is present, uploads it to the most-recently-updated org guide (or creates one if none exist) and returns a fresh link. If no local file is present, returns the existing link without uploading (status: has_existing).`;
 var u = import.meta.require(
-    __filePath_a8fa7fb832066f9e(
-      new __filePath_a8fa7fb832066f9e_URL("./chunk-ejwr8q50.js", import.meta.url)
+    __sourceFilePath_a8fa7fb832066f9e(
+      new __sourceFilePath_a8fa7fb832066f9e_URL("./chunk-ejwr8q50.js", import.meta.url)
     )
   ).BRIEF_TOOL_NAME,
   d = new Set([jP, pu, sHe]),
@@ -75,8 +75,8 @@ function l(e, n = Ex()) {
   if (e.name === qa) return !0;
   if (e.name === ht) {
     let r = import.meta.require(
-      __filePath_a8fa7fb832066f9e(
-        new __filePath_a8fa7fb832066f9e_URL("./chunk-n32bsa3r.js", import.meta.url)
+      __sourceFilePath_a8fa7fb832066f9e(
+        new __sourceFilePath_a8fa7fb832066f9e_URL("./chunk-n32bsa3r.js", import.meta.url)
       )
     );
     if (r.isForkSubagentEnabled()) return !0;

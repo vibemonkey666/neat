@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_80f4c46fae1456e2,
-  URL as __filePath_80f4c46fae1456e2_URL
+  fileURLToPath as __sourceFilePath_80f4c46fae1456e2,
+  URL as __sourceFilePath_80f4c46fae1456e2_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -4185,8 +4185,8 @@ function ip(e, o, n) {
   try {
     let { prefetchAllMcpResources: r } = import.meta
       .require(
-        __filePath_80f4c46fae1456e2(
-          new __filePath_80f4c46fae1456e2_URL("./chunk-43z4gqzg.js", import.meta.url)
+        __sourceFilePath_80f4c46fae1456e2(
+          new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-43z4gqzg.js", import.meta.url)
         )
       )
       .mcpClientModule();
@@ -4197,41 +4197,41 @@ function ip(e, o, n) {
 }
 var WOn = () =>
     import.meta.require(
-      __filePath_80f4c46fae1456e2(
-        new __filePath_80f4c46fae1456e2_URL("./chunk-a2qqhkty.js", import.meta.url)
+      __sourceFilePath_80f4c46fae1456e2(
+        new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-a2qqhkty.js", import.meta.url)
       )
     ),
   dp = () =>
     import.meta.require(
-      __filePath_80f4c46fae1456e2(
-        new __filePath_80f4c46fae1456e2_URL("./chunk-03drjr2y.js", import.meta.url)
+      __sourceFilePath_80f4c46fae1456e2(
+        new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-03drjr2y.js", import.meta.url)
       )
     ),
   cp = () =>
     import.meta.require(
-      __filePath_80f4c46fae1456e2(
-        new __filePath_80f4c46fae1456e2_URL("./chunk-b5bvxnk8.js", import.meta.url)
+      __sourceFilePath_80f4c46fae1456e2(
+        new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-b5bvxnk8.js", import.meta.url)
       )
     ),
   GOn = import.meta.require(
-    __filePath_80f4c46fae1456e2(
-      new __filePath_80f4c46fae1456e2_URL("./chunk-atxvbyzx.js", import.meta.url)
+    __sourceFilePath_80f4c46fae1456e2(
+      new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-atxvbyzx.js", import.meta.url)
     )
   ),
   ol = null,
   up = import.meta.require(
-    __filePath_80f4c46fae1456e2(
-      new __filePath_80f4c46fae1456e2_URL("./chunk-ncp58mjd.js", import.meta.url)
+    __sourceFilePath_80f4c46fae1456e2(
+      new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-ncp58mjd.js", import.meta.url)
     )
   ),
   pp = import.meta.require(
-    __filePath_80f4c46fae1456e2(
-      new __filePath_80f4c46fae1456e2_URL("./chunk-ve5ng0bf.js", import.meta.url)
+    __sourceFilePath_80f4c46fae1456e2(
+      new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-ve5ng0bf.js", import.meta.url)
     )
   );
 var Jr = import.meta.require(
-  __filePath_80f4c46fae1456e2(
-    new __filePath_80f4c46fae1456e2_URL("./chunk-dyqwyx2x.js", import.meta.url)
+  __sourceFilePath_80f4c46fae1456e2(
+    new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-dyqwyx2x.js", import.meta.url)
   )
 );
 function fp() {
@@ -4415,8 +4415,8 @@ function C9t(e) {
     n = i.CLAUDE_CODE_BRIEF;
   if (!o && !n) return;
   let { isBriefEntitled: r } = import.meta.require(
-      __filePath_80f4c46fae1456e2(
-        new __filePath_80f4c46fae1456e2_URL("./chunk-r91z6px2.js", import.meta.url)
+      __sourceFilePath_80f4c46fae1456e2(
+        new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-r91z6px2.js", import.meta.url)
       )
     ),
     u = r();
@@ -4600,8 +4600,8 @@ function gdt(e, { key: o, outputFormat: n, debugLine: r = e }) {
 async function Yoo(e, o, n, r, u, p, h, S, y) {
   if ((go("action_handler_start"), nxo(), zjs(S), !ye())) {
     let s = import.meta.require(
-      __filePath_80f4c46fae1456e2(
-        new __filePath_80f4c46fae1456e2_URL("./chunk-nrhb7kdn.js", import.meta.url)
+      __sourceFilePath_80f4c46fae1456e2(
+        new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-nrhb7kdn.js", import.meta.url)
       )
     );
     s.startPreviewBrowserDiscovery();
@@ -5372,8 +5372,8 @@ ${G}`)
   }
   if (ee.length > 0) {
     let { shouldToolsListOptInToBrief: s } = import.meta.require(
-      __filePath_80f4c46fae1456e2(
-        new __filePath_80f4c46fae1456e2_URL("./chunk-r91z6px2.js", import.meta.url)
+      __sourceFilePath_80f4c46fae1456e2(
+        new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-r91z6px2.js", import.meta.url)
       )
     );
     if (s(Su(ee))) mFe(!0);
@@ -5974,8 +5974,8 @@ ${Me}`
     });
   if ((C9t(o), !ye() && !C2() && pt().defaultView === "chat")) {
     let { isBriefEntitled: s } = import.meta.require(
-      __filePath_80f4c46fae1456e2(
-        new __filePath_80f4c46fae1456e2_URL("./chunk-r91z6px2.js", import.meta.url)
+      __sourceFilePath_80f4c46fae1456e2(
+        new __sourceFilePath_80f4c46fae1456e2_URL("./chunk-r91z6px2.js", import.meta.url)
       )
     );
     if (s()) mFe(!0);
@@ -6226,8 +6226,8 @@ ${Me}`
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_80f4c46fae1456e2(
-          new __filePath_80f4c46fae1456e2_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_80f4c46fae1456e2(
+          new __sourceFilePath_80f4c46fae1456e2_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )

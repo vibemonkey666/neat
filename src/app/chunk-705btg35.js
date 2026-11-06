@@ -135,8 +135,8 @@ async function x(e) {
   }
 }
 async function P() {
-  if (__invocation_ce16cfc325413828.isSourceMode())
-    return __invocation_ce16cfc325413828.programPath();
+  if (__sourceInvocation_ce16cfc325413828.isSourceMode())
+    return __sourceInvocation_ce16cfc325413828.programPath();
   let e = Z7e();
   try {
     return (await n.realpath(e), e);
@@ -202,6 +202,6 @@ async function hls(e) {
 }
 export { hls };
 
-import * as __invocation_ce16cfc325413828 from "./__invocation.mjs";
+import * as __sourceInvocation_ce16cfc325413828 from "./__invocation.mjs";
 
 //# sourceMappingURL=chunk-705btg35.js.map

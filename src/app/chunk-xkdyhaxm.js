@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_6730ee2edbd6a62f,
-  URL as __filePath_6730ee2edbd6a62f_URL
+  fileURLToPath as __sourceFilePath_6730ee2edbd6a62f,
+  URL as __sourceFilePath_6730ee2edbd6a62f_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1180,8 +1180,8 @@ async function ajn() {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_6730ee2edbd6a62f(
-          new __filePath_6730ee2edbd6a62f_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_6730ee2edbd6a62f(
+          new __sourceFilePath_6730ee2edbd6a62f_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -1191,7 +1191,7 @@ async function ajn() {
       n.min_version
     )
   )
-    return `Your version of Claude Code (${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_6730ee2edbd6a62f(new __filePath_6730ee2edbd6a62f_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}) is too old for Remote Control.
+    return `Your version of Claude Code (${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_6730ee2edbd6a62f(new __sourceFilePath_6730ee2edbd6a62f_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}) is too old for Remote Control.
 Version ${n.min_version} or higher is required. Run \`claude update\` to update.`;
   return null;
 }
@@ -2884,8 +2884,8 @@ async function Zxs(n) {
               FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
               BUILD_TIME: "2026-10-23T17:43:32Z",
               GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-              HOOKS_WORKER_URL: __filePath_6730ee2edbd6a62f(
-                new __filePath_6730ee2edbd6a62f_URL(
+              HOOKS_WORKER_URL: __sourceFilePath_6730ee2edbd6a62f(
+                new __sourceFilePath_6730ee2edbd6a62f_URL(
                   "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                   import.meta.url
                 )
@@ -4227,8 +4227,8 @@ async function Zxs(n) {
           if (j) return r(j);
         }
         let { fetchSessionInboxMessage: S } = import.meta.require(
-          __filePath_6730ee2edbd6a62f(
-            new __filePath_6730ee2edbd6a62f_URL("./chunk-4k2qqhnv.js", import.meta.url)
+          __sourceFilePath_6730ee2edbd6a62f(
+            new __sourceFilePath_6730ee2edbd6a62f_URL("./chunk-4k2qqhnv.js", import.meta.url)
           )
         );
         return S({

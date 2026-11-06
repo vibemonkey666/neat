@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_52e2abef00a97c57,
-  URL as __filePath_52e2abef00a97c57_URL
+  fileURLToPath as __sourceFilePath_52e2abef00a97c57,
+  URL as __sourceFilePath_52e2abef00a97c57_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -432,8 +432,8 @@ function xWt(e, r) {
     ne(e) ||
     e ===
       import.meta.require(
-        __filePath_52e2abef00a97c57(
-          new __filePath_52e2abef00a97c57_URL("./chunk-ttpzppxt.js", import.meta.url)
+        __sourceFilePath_52e2abef00a97c57(
+          new __sourceFilePath_52e2abef00a97c57_URL("./chunk-ttpzppxt.js", import.meta.url)
         )
       ).APPIFACT_REPL_TOOL_NAME;
   return (K.remember(o, s), s);
@@ -467,8 +467,8 @@ var ej = [
   U2e = ["toolsNarrowing", "command"],
   se = new Set([
     import.meta.require(
-      __filePath_52e2abef00a97c57(
-        new __filePath_52e2abef00a97c57_URL("./chunk-tammv83f.js", import.meta.url)
+      __sourceFilePath_52e2abef00a97c57(
+        new __sourceFilePath_52e2abef00a97c57_URL("./chunk-tammv83f.js", import.meta.url)
       )
     ).END_CONVERSATION_TOOL_NAME
   ]);

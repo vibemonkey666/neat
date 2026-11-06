@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_7f16e88950b1f266,
-  URL as __filePath_7f16e88950b1f266_URL
+  fileURLToPath as __sourceFilePath_7f16e88950b1f266,
+  URL as __sourceFilePath_7f16e88950b1f266_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -233,8 +233,8 @@ async function Mut(
     FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
     BUILD_TIME: "2026-10-23T17:43:32Z",
     GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-    HOOKS_WORKER_URL: __filePath_7f16e88950b1f266(
-      new __filePath_7f16e88950b1f266_URL(
+    HOOKS_WORKER_URL: __sourceFilePath_7f16e88950b1f266(
+      new __sourceFilePath_7f16e88950b1f266_URL(
         "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         import.meta.url
       )
@@ -440,7 +440,7 @@ async function I(e, r, n, f, c) {
       U = x ? "not switching to it" : "keeping it, so the first request shows the update message";
     if (
       (t(
-        `${y} ${e} ${n}: needs a newer Claude Code than ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_7f16e88950b1f266(new __filePath_7f16e88950b1f266_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}; ${U} (not saved; any earlier answer cleared)`
+        `${y} ${e} ${n}: needs a newer Claude Code than ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_7f16e88950b1f266(new __sourceFilePath_7f16e88950b1f266_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}; ${U} (not saved; any earlier answer cleared)`
       ),
       r !== void 0)
     )

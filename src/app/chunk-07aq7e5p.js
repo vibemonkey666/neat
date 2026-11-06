@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_fe8dfd50257d25cd,
-  URL as __filePath_fe8dfd50257d25cd_URL
+  fileURLToPath as __sourceFilePath_fe8dfd50257d25cd,
+  URL as __sourceFilePath_fe8dfd50257d25cd_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -149,8 +149,8 @@ function d(e) {
 }
 function _bi() {
   let { sameOwnerAccount: e } = import.meta.require(
-      __filePath_fe8dfd50257d25cd(
-        new __filePath_fe8dfd50257d25cd_URL("./chunk-8amfvyqf.js", import.meta.url)
+      __sourceFilePath_fe8dfd50257d25cd(
+        new __sourceFilePath_fe8dfd50257d25cd_URL("./chunk-8amfvyqf.js", import.meta.url)
       )
     ),
     r = m(),
@@ -163,23 +163,23 @@ function _bi() {
 function m() {
   let { sessionsApiBearerFingerprint: e, isConsoleProfileSessionsCredential: r } =
       import.meta.require(
-        __filePath_fe8dfd50257d25cd(
-          new __filePath_fe8dfd50257d25cd_URL("./chunk-4rmjyh0d.js", import.meta.url)
+        __sourceFilePath_fe8dfd50257d25cd(
+          new __sourceFilePath_fe8dfd50257d25cd_URL("./chunk-4rmjyh0d.js", import.meta.url)
         )
       ),
     { getStoredOauthAccountInfo: n } = import.meta.require(
-      __filePath_fe8dfd50257d25cd(
-        new __filePath_fe8dfd50257d25cd_URL("./chunk-8amfvyqf.js", import.meta.url)
+      __sourceFilePath_fe8dfd50257d25cd(
+        new __sourceFilePath_fe8dfd50257d25cd_URL("./chunk-8amfvyqf.js", import.meta.url)
       )
     ),
     { getWIFAccountInfo: o } = import.meta.require(
-      __filePath_fe8dfd50257d25cd(
-        new __filePath_fe8dfd50257d25cd_URL("./chunk-8wqw1qbk.js", import.meta.url)
+      __sourceFilePath_fe8dfd50257d25cd(
+        new __sourceFilePath_fe8dfd50257d25cd_URL("./chunk-8wqw1qbk.js", import.meta.url)
       )
     ),
     { env: s } = import.meta.require(
-      __filePath_fe8dfd50257d25cd(
-        new __filePath_fe8dfd50257d25cd_URL("./chunk-pr8j0peh.js", import.meta.url)
+      __sourceFilePath_fe8dfd50257d25cd(
+        new __sourceFilePath_fe8dfd50257d25cd_URL("./chunk-pr8j0peh.js", import.meta.url)
       )
     ),
     i = e();
@@ -192,22 +192,22 @@ function m() {
 }
 async function xUo({ refresh: e, credentials: r }) {
   let { isCrossSessionMessagingEnabled: n } = import.meta.require(
-    __filePath_fe8dfd50257d25cd(
-      new __filePath_fe8dfd50257d25cd_URL("./chunk-wazs60qt.js", import.meta.url)
+    __sourceFilePath_fe8dfd50257d25cd(
+      new __sourceFilePath_fe8dfd50257d25cd_URL("./chunk-wazs60qt.js", import.meta.url)
     )
   );
   if (!n()) return;
   if (!(zd() !== null || Yv() !== null || mo().supervisedBridgeSession !== null)) {
     let { hasCloudPeerAccess: g } = import.meta.require(
-      __filePath_fe8dfd50257d25cd(
-        new __filePath_fe8dfd50257d25cd_URL("./chunk-t9f04kg3.js", import.meta.url)
+      __sourceFilePath_fe8dfd50257d25cd(
+        new __sourceFilePath_fe8dfd50257d25cd_URL("./chunk-t9f04kg3.js", import.meta.url)
       )
     );
     if (!g()) return;
   }
   let { primeSessionsApiBearer: s } = import.meta.require(
-      __filePath_fe8dfd50257d25cd(
-        new __filePath_fe8dfd50257d25cd_URL("./chunk-4rmjyh0d.js", import.meta.url)
+      __sourceFilePath_fe8dfd50257d25cd(
+        new __sourceFilePath_fe8dfd50257d25cd_URL("./chunk-4rmjyh0d.js", import.meta.url)
       )
     ),
     i = s({ refresh: e, credentials: r }).catch(() => {});
@@ -216,8 +216,8 @@ async function xUo({ refresh: e, credentials: r }) {
     return;
   }
   let { withDeadline: c } = import.meta.require(
-    __filePath_fe8dfd50257d25cd(
-      new __filePath_fe8dfd50257d25cd_URL("./chunk-v9a7hq3d.js", import.meta.url)
+    __sourceFilePath_fe8dfd50257d25cd(
+      new __sourceFilePath_fe8dfd50257d25cd_URL("./chunk-v9a7hq3d.js", import.meta.url)
     )
   );
   await c(i, S);

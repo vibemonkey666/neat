@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_48e9d19dda49c32e,
-  URL as __filePath_48e9d19dda49c32e_URL
+  fileURLToPath as __sourceFilePath_48e9d19dda49c32e,
+  URL as __sourceFilePath_48e9d19dda49c32e_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -23,22 +23,22 @@ function Ype() {
     ((r.builtinPluginsInitialized = !0),
     R_e("cc-plugin-sec-default", () =>
       import.meta.require(
-        __filePath_48e9d19dda49c32e(
-          new __filePath_48e9d19dda49c32e_URL("./chunk-e7y9p5bm.js", import.meta.url)
+        __sourceFilePath_48e9d19dda49c32e(
+          new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-e7y9p5bm.js", import.meta.url)
         )
       )
     ),
     R_e("cc-plugin-agents-md", () =>
       import.meta.require(
-        __filePath_48e9d19dda49c32e(
-          new __filePath_48e9d19dda49c32e_URL("./chunk-h7vz7077.js", import.meta.url)
+        __sourceFilePath_48e9d19dda49c32e(
+          new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-h7vz7077.js", import.meta.url)
         )
       )
     ),
     R_e("cc-plugin-telemetry", () =>
       import.meta.require(
-        __filePath_48e9d19dda49c32e(
-          new __filePath_48e9d19dda49c32e_URL("./chunk-m143cp0d.js", import.meta.url)
+        __sourceFilePath_48e9d19dda49c32e(
+          new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-m143cp0d.js", import.meta.url)
         )
       )
     ),
@@ -47,15 +47,15 @@ function Ype() {
     if (
       (R_e("cc-plugin-plugin-authoring", () =>
         import.meta.require(
-          __filePath_48e9d19dda49c32e(
-            new __filePath_48e9d19dda49c32e_URL("./chunk-shyejxf8.js", import.meta.url)
+          __sourceFilePath_48e9d19dda49c32e(
+            new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-shyejxf8.js", import.meta.url)
           )
         )
       ),
       R_e("cc-plugin-mods-guide", () =>
         import.meta.require(
-          __filePath_48e9d19dda49c32e(
-            new __filePath_48e9d19dda49c32e_URL("./chunk-ags2cm0a.js", import.meta.url)
+          __sourceFilePath_48e9d19dda49c32e(
+            new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-ags2cm0a.js", import.meta.url)
           )
         )
       ),
@@ -63,15 +63,15 @@ function Ype() {
     )
       (R_e("cc-plugin-tips", () =>
         import.meta.require(
-          __filePath_48e9d19dda49c32e(
-            new __filePath_48e9d19dda49c32e_URL("./chunk-akrpc6v9.js", import.meta.url)
+          __sourceFilePath_48e9d19dda49c32e(
+            new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-akrpc6v9.js", import.meta.url)
           )
         )
       ),
         R_e("cc-plugin-mermaid", () =>
           import.meta.require(
-            __filePath_48e9d19dda49c32e(
-              new __filePath_48e9d19dda49c32e_URL("./chunk-s9h9mhy8.js", import.meta.url)
+            __sourceFilePath_48e9d19dda49c32e(
+              new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-s9h9mhy8.js", import.meta.url)
             )
           )
         ));
@@ -80,40 +80,40 @@ function Ype() {
   if (e || iy() === "remote")
     R_e("cc-plugin-responsive-mode", () =>
       import.meta.require(
-        __filePath_48e9d19dda49c32e(
-          new __filePath_48e9d19dda49c32e_URL("./chunk-zb93n78m.js", import.meta.url)
+        __sourceFilePath_48e9d19dda49c32e(
+          new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-zb93n78m.js", import.meta.url)
         )
       )
     );
   if (e)
     R_e("cc-plugin-diff", () =>
       import.meta.require(
-        __filePath_48e9d19dda49c32e(
-          new __filePath_48e9d19dda49c32e_URL("./chunk-f2sw2f56.js", import.meta.url)
+        __sourceFilePath_48e9d19dda49c32e(
+          new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-f2sw2f56.js", import.meta.url)
         )
       )
     );
   if (i.CLAUDE_CODE_ENTRYPOINT !== "local-agent")
     R_e("cc-plugin-you-should-know", () =>
       import.meta.require(
-        __filePath_48e9d19dda49c32e(
-          new __filePath_48e9d19dda49c32e_URL("./chunk-k9eem9n9.js", import.meta.url)
+        __sourceFilePath_48e9d19dda49c32e(
+          new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-k9eem9n9.js", import.meta.url)
         )
       )
     );
   if (e)
     R_e("cc-plugin-easel", () =>
       import.meta.require(
-        __filePath_48e9d19dda49c32e(
-          new __filePath_48e9d19dda49c32e_URL("./chunk-7kf2m8dc.js", import.meta.url)
+        __sourceFilePath_48e9d19dda49c32e(
+          new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-7kf2m8dc.js", import.meta.url)
         )
       )
     );
   if (e)
     R_e("cc-plugin-claude-test", () =>
       import.meta.require(
-        __filePath_48e9d19dda49c32e(
-          new __filePath_48e9d19dda49c32e_URL("./chunk-pmkym69z.js", import.meta.url)
+        __sourceFilePath_48e9d19dda49c32e(
+          new __sourceFilePath_48e9d19dda49c32e_URL("./chunk-pmkym69z.js", import.meta.url)
         )
       )
     );

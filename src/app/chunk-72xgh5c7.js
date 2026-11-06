@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_12875ae8a63d2719,
-  URL as __filePath_12875ae8a63d2719_URL
+  fileURLToPath as __sourceFilePath_12875ae8a63d2719,
+  URL as __sourceFilePath_12875ae8a63d2719_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1385,8 +1385,8 @@ function ft({
 function mt() {
   return lPr(() =>
     import.meta.require(
-      __filePath_12875ae8a63d2719(
-        new __filePath_12875ae8a63d2719_URL("./chunk-6qvf795m.js", import.meta.url)
+      __sourceFilePath_12875ae8a63d2719(
+        new __sourceFilePath_12875ae8a63d2719_URL("./chunk-6qvf795m.js", import.meta.url)
       )
     )
   );

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_38409fce05dd6628,
-  URL as __filePath_38409fce05dd6628_URL
+  fileURLToPath as __sourceFilePath_38409fce05dd6628,
+  URL as __sourceFilePath_38409fce05dd6628_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -155,8 +155,8 @@ function Mcr(u, O, p, D, P, I = "raw", b = { kind: "absent" }, k) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_38409fce05dd6628(
-            new __filePath_38409fce05dd6628_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_38409fce05dd6628(
+            new __sourceFilePath_38409fce05dd6628_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -170,16 +170,16 @@ function Mcr(u, O, p, D, P, I = "raw", b = { kind: "absent" }, k) {
     H = () => JYe(i);
   if (i) {
     let { toolOutputServerCapabilities: e } = import.meta.require(
-        __filePath_38409fce05dd6628(
-          new __filePath_38409fce05dd6628_URL("./chunk-92qkqq9m.js", import.meta.url)
+        __sourceFilePath_38409fce05dd6628(
+          new __sourceFilePath_38409fce05dd6628_URL("./chunk-92qkqq9m.js", import.meta.url)
         )
       ),
       a = e(H, S);
     if (a !== void 0) {
       if ((w.registerCapabilities(a), !__e())) {
         let { backgroundCommands: c, keepsBackgroundCommandsCapability: x } = import.meta.require(
-          __filePath_38409fce05dd6628(
-            new __filePath_38409fce05dd6628_URL("./chunk-qgfxx95d.js", import.meta.url)
+          __sourceFilePath_38409fce05dd6628(
+            new __sourceFilePath_38409fce05dd6628_URL("./chunk-qgfxx95d.js", import.meta.url)
           )
         );
         w.registerCapabilities(x(c.of(p.host).life));
@@ -187,21 +187,21 @@ function Mcr(u, O, p, D, P, I = "raw", b = { kind: "absent" }, k) {
     }
     if (S !== void 0) {
       let { holdsSafetyAsksCapability: c } = import.meta.require(
-        __filePath_38409fce05dd6628(
-          new __filePath_38409fce05dd6628_URL("./chunk-b3cvqe28.js", import.meta.url)
+        __sourceFilePath_38409fce05dd6628(
+          new __sourceFilePath_38409fce05dd6628_URL("./chunk-b3cvqe28.js", import.meta.url)
         )
       );
       w.registerCapabilities(c());
       let { rendersUnderSessionRulesCapability: x } = import.meta.require(
-        __filePath_38409fce05dd6628(
-          new __filePath_38409fce05dd6628_URL("./chunk-j2ydj9t5.js", import.meta.url)
+        __sourceFilePath_38409fce05dd6628(
+          new __sourceFilePath_38409fce05dd6628_URL("./chunk-j2ydj9t5.js", import.meta.url)
         )
       );
       w.registerCapabilities(x());
     }
     let { interfaceVersionCapability: s } = import.meta.require(
-      __filePath_38409fce05dd6628(
-        new __filePath_38409fce05dd6628_URL("./chunk-r4cbj61x.js", import.meta.url)
+      __sourceFilePath_38409fce05dd6628(
+        new __sourceFilePath_38409fce05dd6628_URL("./chunk-r4cbj61x.js", import.meta.url)
       )
     );
     w.registerCapabilities(s());
@@ -331,8 +331,8 @@ function Mcr(u, O, p, D, P, I = "raw", b = { kind: "absent" }, k) {
         using Pe = i
           ? import.meta
               .require(
-                __filePath_38409fce05dd6628(
-                  new __filePath_38409fce05dd6628_URL("./chunk-rqvfd5b6.js", import.meta.url)
+                __sourceFilePath_38409fce05dd6628(
+                  new __sourceFilePath_38409fce05dd6628_URL("./chunk-rqvfd5b6.js", import.meta.url)
                 )
               )
               .servingCall(p.host)
@@ -341,8 +341,8 @@ function Mcr(u, O, p, D, P, I = "raw", b = { kind: "absent" }, k) {
             i
               ? import.meta
                   .require(
-                    __filePath_38409fce05dd6628(
-                      new __filePath_38409fce05dd6628_URL("./chunk-rqvfd5b6.js", import.meta.url)
+                    __sourceFilePath_38409fce05dd6628(
+                      new __sourceFilePath_38409fce05dd6628_URL("./chunk-rqvfd5b6.js", import.meta.url)
                     )
                   )
                   .withCpuReport(r, p.host, s)
@@ -355,13 +355,13 @@ function Mcr(u, O, p, D, P, I = "raw", b = { kind: "absent" }, k) {
         else c.addEventListener("abort", ce, { once: !0 });
         if ((await ie, i)) {
           let { refuseCallerInterface: r } = import.meta.require(
-              __filePath_38409fce05dd6628(
-                new __filePath_38409fce05dd6628_URL("./chunk-r4cbj61x.js", import.meta.url)
+              __sourceFilePath_38409fce05dd6628(
+                new __sourceFilePath_38409fce05dd6628_URL("./chunk-r4cbj61x.js", import.meta.url)
               )
             ),
             { bringsToolHostPermissionRequest: y } = import.meta.require(
-              __filePath_38409fce05dd6628(
-                new __filePath_38409fce05dd6628_URL("./chunk-92qkqq9m.js", import.meta.url)
+              __sourceFilePath_38409fce05dd6628(
+                new __sourceFilePath_38409fce05dd6628_URL("./chunk-92qkqq9m.js", import.meta.url)
               )
             ),
             n = y(s) ? void 0 : r(e, s);
@@ -376,16 +376,16 @@ function Mcr(u, O, p, D, P, I = "raw", b = { kind: "absent" }, k) {
         }
         if (i && h !== void 0) {
           let { takeSessionEndHooks: r } = import.meta.require(
-            __filePath_38409fce05dd6628(
-              new __filePath_38409fce05dd6628_URL("./chunk-kdykeqt8.js", import.meta.url)
+            __sourceFilePath_38409fce05dd6628(
+              new __sourceFilePath_38409fce05dd6628_URL("./chunk-kdykeqt8.js", import.meta.url)
             )
           );
           r(s?.[Srr], { session: p, storageV5: P, credentials: ne });
         }
         if (i && e !== (await import("./chunk-dzcp51zn.js")).RUN_MONITOR_COMMAND_CALL) {
           let { bringsToolHostPermissionRequest: r, refusedResult: y } = import.meta.require(
-            __filePath_38409fce05dd6628(
-              new __filePath_38409fce05dd6628_URL("./chunk-92qkqq9m.js", import.meta.url)
+            __sourceFilePath_38409fce05dd6628(
+              new __sourceFilePath_38409fce05dd6628_URL("./chunk-92qkqq9m.js", import.meta.url)
             )
           );
           if (r(s)) {

@@ -1,4 +1,4 @@
-// Generated source-mode invocation support; see invocation-adaptations.mjs.
+// Generated source-mode invocation support.
 import { isAbsolute } from 'node:path';
 import { fileURLToPath } from 'node:url';
 

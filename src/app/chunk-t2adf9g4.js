@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_7ffa31d0902c5dcc,
-  URL as __filePath_7ffa31d0902c5dcc_URL
+  fileURLToPath as __sourceFilePath_7ffa31d0902c5dcc,
+  URL as __sourceFilePath_7ffa31d0902c5dcc_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -691,8 +691,8 @@ async function Spr(e, n = {}) {
             FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
             BUILD_TIME: "2026-10-23T17:43:32Z",
             GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-            HOOKS_WORKER_URL: __filePath_7ffa31d0902c5dcc(
-              new __filePath_7ffa31d0902c5dcc_URL(
+            HOOKS_WORKER_URL: __sourceFilePath_7ffa31d0902c5dcc(
+              new __sourceFilePath_7ffa31d0902c5dcc_URL(
                 "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                 import.meta.url
               )
@@ -1191,8 +1191,8 @@ async function Spr(e, n = {}) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_7ffa31d0902c5dcc(
-            new __filePath_7ffa31d0902c5dcc_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_7ffa31d0902c5dcc(
+            new __sourceFilePath_7ffa31d0902c5dcc_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -1582,8 +1582,8 @@ async function Kat(e, n, o, r, u, s, { nextTurn: h = !1 } = {}) {
               FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
               BUILD_TIME: "2026-10-23T17:43:32Z",
               GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-              HOOKS_WORKER_URL: __filePath_7ffa31d0902c5dcc(
-                new __filePath_7ffa31d0902c5dcc_URL(
+              HOOKS_WORKER_URL: __sourceFilePath_7ffa31d0902c5dcc(
+                new __sourceFilePath_7ffa31d0902c5dcc_URL(
                   "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                   import.meta.url
                 )

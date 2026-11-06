@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_f4785f2d54c2867a,
-  URL as __filePath_f4785f2d54c2867a_URL
+  fileURLToPath as __sourceFilePath_f4785f2d54c2867a,
+  URL as __sourceFilePath_f4785f2d54c2867a_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1229,8 +1229,8 @@ function on({
       GGn(A);
       let te = import.meta
         .require(
-          __filePath_f4785f2d54c2867a(
-            new __filePath_f4785f2d54c2867a_URL("./chunk-atxvbyzx.js", import.meta.url)
+          __sourceFilePath_f4785f2d54c2867a(
+            new __sourceFilePath_f4785f2d54c2867a_URL("./chunk-atxvbyzx.js", import.meta.url)
           )
         )
         .matchSessionMode(o.mode);
@@ -1287,8 +1287,8 @@ function on({
         return fe ? { ...p, toolPermissionContext: fe } : p;
       });
       let { isCoordinatorMode: To } = import.meta.require(
-        __filePath_f4785f2d54c2867a(
-          new __filePath_f4785f2d54c2867a_URL("./chunk-atxvbyzx.js", import.meta.url)
+        __sourceFilePath_f4785f2d54c2867a(
+          new __sourceFilePath_f4785f2d54c2867a_URL("./chunk-atxvbyzx.js", import.meta.url)
         )
       );
       (OK(To() ? "coordinator" : "normal"), yso(A));

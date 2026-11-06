@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_f41fe0bfd2afa4da,
-  URL as __filePath_f41fe0bfd2afa4da_URL
+  fileURLToPath as __sourceFilePath_f41fe0bfd2afa4da,
+  URL as __sourceFilePath_f41fe0bfd2afa4da_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -545,8 +545,8 @@ ${Ulo}`
       if (gae(s.sessionId)) return { kind: "refused", reason: "self", message: v3e(e) };
       let { isRemoteControlPeerUnreachableFromHere: h, formatUnreachableElevatedRefusal: N } =
         import.meta.require(
-          __filePath_f41fe0bfd2afa4da(
-            new __filePath_f41fe0bfd2afa4da_URL("./chunk-yad5vxrm.js", import.meta.url)
+          __sourceFilePath_f41fe0bfd2afa4da(
+            new __sourceFilePath_f41fe0bfd2afa4da_URL("./chunk-yad5vxrm.js", import.meta.url)
           )
         );
       if (s.via === "remote-control" && h())
@@ -935,8 +935,8 @@ var we = tn({
         if (m?.kind === "bridge") {
           let { isRemoteControlPeerUnreachableFromHere: n, formatUnreachableElevatedRefusal: S } =
               import.meta.require(
-                __filePath_f41fe0bfd2afa4da(
-                  new __filePath_f41fe0bfd2afa4da_URL("./chunk-yad5vxrm.js", import.meta.url)
+                __sourceFilePath_f41fe0bfd2afa4da(
+                  new __sourceFilePath_f41fe0bfd2afa4da_URL("./chunk-yad5vxrm.js", import.meta.url)
                 )
               ),
             _ =
@@ -1021,8 +1021,8 @@ var we = tn({
           if (O.aborted) throw (R(), new Ye());
           if (_.length === 0) return U(`No files could be staged for transfer to ${r.label}.`, n);
           let { sendToUdsSocket: V } = import.meta.require(
-            __filePath_f41fe0bfd2afa4da(
-              new __filePath_f41fe0bfd2afa4da_URL("./chunk-w0prrq68.js", import.meta.url)
+            __sourceFilePath_f41fe0bfd2afa4da(
+              new __sourceFilePath_f41fe0bfd2afa4da_URL("./chunk-w0prrq68.js", import.meta.url)
             )
           );
           try {
@@ -1135,8 +1135,8 @@ var we = tn({
         let x = ye.filter((n) => n !== void 0);
         if (x.length === 0) return U(`No files could be uploaded for transfer to ${r.label}.`, L);
         let { postInterClaudeMessage: Se, isLikelyStaleBridgeError: be } = import.meta.require(
-            __filePath_f41fe0bfd2afa4da(
-              new __filePath_f41fe0bfd2afa4da_URL("./chunk-41hs5s43.js", import.meta.url)
+            __sourceFilePath_f41fe0bfd2afa4da(
+              new __sourceFilePath_f41fe0bfd2afa4da_URL("./chunk-41hs5s43.js", import.meta.url)
             )
           ),
           te = W();

@@ -54,12 +54,12 @@ function ORe() {
   return {
     type: "stdio",
     command: process.execPath,
-    args: [...__invocation_ee1f812b56146df6.cliPrefix(), t],
+    args: [...__sourceInvocation_ee1f812b56146df6.cliPrefix(), t],
     scope: "dynamic"
   };
 }
 export { za, Dor, vv, Z6o, wii, Skt, IRe, vii, Hor, ORe };
 
-import * as __invocation_ee1f812b56146df6 from "./__invocation.mjs";
+import * as __sourceInvocation_ee1f812b56146df6 from "./__invocation.mjs";
 
 //# sourceMappingURL=chunk-j4601ec1.js.map

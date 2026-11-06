@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_9a6e0c03229a9467,
-  URL as __filePath_9a6e0c03229a9467_URL
+  fileURLToPath as __sourceFilePath_9a6e0c03229a9467,
+  URL as __sourceFilePath_9a6e0c03229a9467_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -22,8 +22,8 @@ var zHn = "target is this session itself \u2014 there is no one else to send to"
   u = `address the main conversation as "${sy}"`;
 function nOt(e) {
   let { ownMessagingSocket: s } = import.meta.require(
-      __filePath_9a6e0c03229a9467(
-        new __filePath_9a6e0c03229a9467_URL("./chunk-w0prrq68.js", import.meta.url)
+      __sourceFilePath_9a6e0c03229a9467(
+        new __sourceFilePath_9a6e0c03229a9467_URL("./chunk-w0prrq68.js", import.meta.url)
       )
     ),
     n = s();
@@ -31,8 +31,8 @@ function nOt(e) {
 }
 function qUe(e) {
   let { ownMessagingSocket: s } = import.meta.require(
-      __filePath_9a6e0c03229a9467(
-        new __filePath_9a6e0c03229a9467_URL("./chunk-w0prrq68.js", import.meta.url)
+      __sourceFilePath_9a6e0c03229a9467(
+        new __sourceFilePath_9a6e0c03229a9467_URL("./chunk-w0prrq68.js", import.meta.url)
       )
     ),
     n = s();
@@ -40,8 +40,8 @@ function qUe(e) {
 }
 function d(e) {
   let { ownMessagingSocket: s } = import.meta.require(
-      __filePath_9a6e0c03229a9467(
-        new __filePath_9a6e0c03229a9467_URL("./chunk-w0prrq68.js", import.meta.url)
+      __sourceFilePath_9a6e0c03229a9467(
+        new __sourceFilePath_9a6e0c03229a9467_URL("./chunk-w0prrq68.js", import.meta.url)
       )
     ),
     n = s(),
@@ -72,8 +72,8 @@ function _ct(e) {
 }
 function rOt(e, s, n = u) {
   let { getRegisteredSessionName: t } = import.meta.require(
-      __filePath_9a6e0c03229a9467(
-        new __filePath_9a6e0c03229a9467_URL("./chunk-tcbrmxh8.js", import.meta.url)
+      __sourceFilePath_9a6e0c03229a9467(
+        new __sourceFilePath_9a6e0c03229a9467_URL("./chunk-tcbrmxh8.js", import.meta.url)
       )
     ),
     o = lSn(t()?.name),
@@ -95,13 +95,13 @@ function oOt(e) {
 }
 function sOt(e) {
   let { getRegisteredSessionName: s, getHeldSessionNames: n } = import.meta.require(
-      __filePath_9a6e0c03229a9467(
-        new __filePath_9a6e0c03229a9467_URL("./chunk-tcbrmxh8.js", import.meta.url)
+      __sourceFilePath_9a6e0c03229a9467(
+        new __sourceFilePath_9a6e0c03229a9467_URL("./chunk-tcbrmxh8.js", import.meta.url)
       )
     ),
     { ownMessagingSocket: t } = import.meta.require(
-      __filePath_9a6e0c03229a9467(
-        new __filePath_9a6e0c03229a9467_URL("./chunk-w0prrq68.js", import.meta.url)
+      __sourceFilePath_9a6e0c03229a9467(
+        new __sourceFilePath_9a6e0c03229a9467_URL("./chunk-w0prrq68.js", import.meta.url)
       )
     ),
     o = s(),
@@ -118,8 +118,8 @@ function sOt(e) {
     }
   } else if (bo(e) !== bo(o.name)) return "no";
   let { getSessionNamingState: l } = import.meta.require(
-    __filePath_9a6e0c03229a9467(
-      new __filePath_9a6e0c03229a9467_URL("./chunk-2wwgcyx0.js", import.meta.url)
+    __sourceFilePath_9a6e0c03229a9467(
+      new __sourceFilePath_9a6e0c03229a9467_URL("./chunk-2wwgcyx0.js", import.meta.url)
     )
   );
   return o.source === "derived" ||
@@ -129,8 +129,8 @@ function sOt(e) {
 }
 function ete(e, s, n = u) {
   let { getRegisteredSessionName: t } = import.meta.require(
-      __filePath_9a6e0c03229a9467(
-        new __filePath_9a6e0c03229a9467_URL("./chunk-tcbrmxh8.js", import.meta.url)
+      __sourceFilePath_9a6e0c03229a9467(
+        new __sourceFilePath_9a6e0c03229a9467_URL("./chunk-tcbrmxh8.js", import.meta.url)
       )
     ),
     o = lSn(t()?.name);

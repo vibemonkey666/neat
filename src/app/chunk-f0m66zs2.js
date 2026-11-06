@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_b22d09c0171848e2,
-  URL as __filePath_b22d09c0171848e2_URL
+  fileURLToPath as __sourceFilePath_b22d09c0171848e2,
+  URL as __sourceFilePath_b22d09c0171848e2_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -264,8 +264,8 @@ async function* Lgo({
         ohe(e, void 0);
         let { clearServerCache: s } = import.meta
           .require(
-            __filePath_b22d09c0171848e2(
-              new __filePath_b22d09c0171848e2_URL("./chunk-43z4gqzg.js", import.meta.url)
+            __sourceFilePath_b22d09c0171848e2(
+              new __sourceFilePath_b22d09c0171848e2_URL("./chunk-43z4gqzg.js", import.meta.url)
             )
           )
           .mcpClientModule();
@@ -328,8 +328,8 @@ async function* Lgo({
   }
   for (let e of U) if (e.status === "running") $je(e.agentId);
   let { isCoordinatorMode: de } = import.meta.require(
-    __filePath_b22d09c0171848e2(
-      new __filePath_b22d09c0171848e2_URL("./chunk-atxvbyzx.js", import.meta.url)
+    __sourceFilePath_b22d09c0171848e2(
+      new __sourceFilePath_b22d09c0171848e2_URL("./chunk-atxvbyzx.js", import.meta.url)
     )
   );
   OK(de() ? "coordinator" : "normal");

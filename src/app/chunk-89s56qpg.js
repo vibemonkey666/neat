@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_92980e75d1e95aac,
-  URL as __filePath_92980e75d1e95aac_URL
+  fileURLToPath as __sourceFilePath_92980e75d1e95aac,
+  URL as __sourceFilePath_92980e75d1e95aac_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -14,48 +14,48 @@ import {
 // Version: 2.1.310
 import { Fe } from "./chunk-a2y39866.js";
 var e = Fe(
-  __filePath_92980e75d1e95aac(
-    new __filePath_92980e75d1e95aac_URL(
+  __sourceFilePath_92980e75d1e95aac(
+    new __sourceFilePath_92980e75d1e95aac_URL(
       "../text-modules/design-6m4nsdef.md.cjs",
       import.meta.url
     )
   )
 );
 var t = Fe(
-  __filePath_92980e75d1e95aac(
-    new __filePath_92980e75d1e95aac_URL(
+  __sourceFilePath_92980e75d1e95aac(
+    new __sourceFilePath_92980e75d1e95aac_URL(
       "../text-modules/designHowTo-p8zjfw0e.md.cjs",
       import.meta.url
     )
   )
 );
 var s = Fe(
-  __filePath_92980e75d1e95aac(
-    new __filePath_92980e75d1e95aac_URL(
+  __sourceFilePath_92980e75d1e95aac(
+    new __sourceFilePath_92980e75d1e95aac_URL(
       "../text-modules/designTwoSteps-g0bev2xr.md.cjs",
       import.meta.url
     )
   )
 );
 var a = Fe(
-  __filePath_92980e75d1e95aac(
-    new __filePath_92980e75d1e95aac_URL(
+  __sourceFilePath_92980e75d1e95aac(
+    new __sourceFilePath_92980e75d1e95aac_URL(
       "../text-modules/slides-zdpeg77q.md.cjs",
       import.meta.url
     )
   )
 );
 var i = Fe(
-  __filePath_92980e75d1e95aac(
-    new __filePath_92980e75d1e95aac_URL(
+  __sourceFilePath_92980e75d1e95aac(
+    new __sourceFilePath_92980e75d1e95aac_URL(
       "../text-modules/slidesHowTo-09m4dbj2.md.cjs",
       import.meta.url
     )
   )
 );
 var r = Fe(
-  __filePath_92980e75d1e95aac(
-    new __filePath_92980e75d1e95aac_URL(
+  __sourceFilePath_92980e75d1e95aac(
+    new __sourceFilePath_92980e75d1e95aac_URL(
       "../text-modules/slidesTwoSteps-1shjmnfb.md.cjs",
       import.meta.url
     )

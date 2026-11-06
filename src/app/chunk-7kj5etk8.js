@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_3df00363cc668cd1,
-  URL as __filePath_3df00363cc668cd1_URL
+  fileURLToPath as __sourceFilePath_3df00363cc668cd1,
+  URL as __sourceFilePath_3df00363cc668cd1_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -13,8 +13,8 @@ import {
 
 // Version: 2.1.310
 import { dt } from "./chunk-6gaf2snv.js";
-var i = __filePath_3df00363cc668cd1(
-  new __filePath_3df00363cc668cd1_URL("../assets/SKILL-b0897508.md.zst", import.meta.url)
+var i = __sourceFilePath_3df00363cc668cd1(
+  new __sourceFilePath_3df00363cc668cd1_URL("../assets/SKILL-b0897508.md.zst", import.meta.url)
 );
 var e = dt(i, import.meta.dirname);
 var r = e;

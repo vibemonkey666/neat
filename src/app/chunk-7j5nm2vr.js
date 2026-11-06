@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_841a66ed78e8f90c,
-  URL as __filePath_841a66ed78e8f90c_URL
+  fileURLToPath as __sourceFilePath_841a66ed78e8f90c,
+  URL as __sourceFilePath_841a66ed78e8f90c_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -3295,8 +3295,8 @@ async function o6t({ sessionId: e, conversation: n, ...r }) {
   (await fs(e, n, r),
     await import.meta
       .require(
-        __filePath_841a66ed78e8f90c(
-          new __filePath_841a66ed78e8f90c_URL("./chunk-43z4gqzg.js", import.meta.url)
+        __sourceFilePath_841a66ed78e8f90c(
+          new __sourceFilePath_841a66ed78e8f90c_URL("./chunk-43z4gqzg.js", import.meta.url)
         )
       )
       .mcpTaskWatcherModule()
@@ -3389,8 +3389,8 @@ function ms(e) {
 function ps(e) {
   try {
     let { buildSep2663EndingNotice: n } = import.meta.require(
-      __filePath_841a66ed78e8f90c(
-        new __filePath_841a66ed78e8f90c_URL("./chunk-rhegmp75.js", import.meta.url)
+      __sourceFilePath_841a66ed78e8f90c(
+        new __sourceFilePath_841a66ed78e8f90c_URL("./chunk-rhegmp75.js", import.meta.url)
       )
     );
     return `${n(e)}

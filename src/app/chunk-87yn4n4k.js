@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_24705762aad21a57,
-  URL as __filePath_24705762aad21a57_URL
+  fileURLToPath as __sourceFilePath_24705762aad21a57,
+  URL as __sourceFilePath_24705762aad21a57_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1436,8 +1436,8 @@ function de() {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_24705762aad21a57(
-            new __filePath_24705762aad21a57_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_24705762aad21a57(
+            new __sourceFilePath_24705762aad21a57_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -1454,8 +1454,8 @@ function de() {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_24705762aad21a57(
-          new __filePath_24705762aad21a57_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_24705762aad21a57(
+          new __sourceFilePath_24705762aad21a57_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -1515,8 +1515,8 @@ function at() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_24705762aad21a57(
-        new __filePath_24705762aad21a57_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_24705762aad21a57(
+        new __sourceFilePath_24705762aad21a57_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )

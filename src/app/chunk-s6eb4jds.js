@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_a165f919b14f0e81,
-  URL as __filePath_a165f919b14f0e81_URL
+  fileURLToPath as __sourceFilePath_a165f919b14f0e81,
+  URL as __sourceFilePath_a165f919b14f0e81_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1075,8 +1075,8 @@ var Ou = x(function (sve, zO) {
 });
 var Jg = x(function (ave, KO) {
   var _l = import.meta.require(
-      __filePath_a165f919b14f0e81(
-        new __filePath_a165f919b14f0e81_URL("./chunk-dnf0kx8v.js", import.meta.url)
+      __sourceFilePath_a165f919b14f0e81(
+        new __sourceFilePath_a165f919b14f0e81_URL("./chunk-dnf0kx8v.js", import.meta.url)
       )
     ),
     V1 = Ou(),
@@ -1288,8 +1288,8 @@ var qO = x(function (lve, VO) {
 });
 var ey = x(function (cve, JO) {
   var sf = import.meta.require(
-      __filePath_a165f919b14f0e81(
-        new __filePath_a165f919b14f0e81_URL("./chunk-dnf0kx8v.js", import.meta.url)
+      __sourceFilePath_a165f919b14f0e81(
+        new __sourceFilePath_a165f919b14f0e81_URL("./chunk-dnf0kx8v.js", import.meta.url)
       )
     ),
     { RPError: Qg } = Fi(),
@@ -1908,8 +1908,8 @@ var _y = x(function (dve, yy) {
     kl = Fe("url"),
     { URL: gS, URLSearchParams: yS } = Fe("url"),
     nn = import.meta.require(
-      __filePath_a165f919b14f0e81(
-        new __filePath_a165f919b14f0e81_URL("./chunk-dnf0kx8v.js", import.meta.url)
+      __sourceFilePath_a165f919b14f0e81(
+        new __sourceFilePath_a165f919b14f0e81_URL("./chunk-dnf0kx8v.js", import.meta.url)
       )
     ),
     wl = eO(),
@@ -50090,8 +50090,8 @@ async function xk(e, t, n, o, r, s) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_a165f919b14f0e81(
-          new __filePath_a165f919b14f0e81_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_a165f919b14f0e81(
+          new __sourceFilePath_a165f919b14f0e81_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -50107,8 +50107,8 @@ async function xk(e, t, n, o, r, s) {
             FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
             BUILD_TIME: "2026-10-23T17:43:32Z",
             GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-            HOOKS_WORKER_URL: __filePath_a165f919b14f0e81(
-              new __filePath_a165f919b14f0e81_URL(
+            HOOKS_WORKER_URL: __sourceFilePath_a165f919b14f0e81(
+              new __sourceFilePath_a165f919b14f0e81_URL(
                 "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                 import.meta.url
               )
@@ -54908,8 +54908,8 @@ async function NPe(e) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_a165f919b14f0e81(
-            new __filePath_a165f919b14f0e81_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_a165f919b14f0e81(
+            new __sourceFilePath_a165f919b14f0e81_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -54925,8 +54925,8 @@ async function NPe(e) {
               FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
               BUILD_TIME: "2026-10-23T17:43:32Z",
               GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-              HOOKS_WORKER_URL: __filePath_a165f919b14f0e81(
-                new __filePath_a165f919b14f0e81_URL(
+              HOOKS_WORKER_URL: __sourceFilePath_a165f919b14f0e81(
+                new __sourceFilePath_a165f919b14f0e81_URL(
                   "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                   import.meta.url
                 )
@@ -55297,8 +55297,8 @@ async function NPe(e) {
               FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
               BUILD_TIME: "2026-10-23T17:43:32Z",
               GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-              HOOKS_WORKER_URL: __filePath_a165f919b14f0e81(
-                new __filePath_a165f919b14f0e81_URL(
+              HOOKS_WORKER_URL: __sourceFilePath_a165f919b14f0e81(
+                new __sourceFilePath_a165f919b14f0e81_URL(
                   "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                   import.meta.url
                 )
@@ -55314,8 +55314,8 @@ async function NPe(e) {
                   FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
                   BUILD_TIME: "2026-10-23T17:43:32Z",
                   GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-                  HOOKS_WORKER_URL: __filePath_a165f919b14f0e81(
-                    new __filePath_a165f919b14f0e81_URL(
+                  HOOKS_WORKER_URL: __sourceFilePath_a165f919b14f0e81(
+                    new __sourceFilePath_a165f919b14f0e81_URL(
                       "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                       import.meta.url
                     )

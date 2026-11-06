@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_5a5b5af9c0a4635b,
-  URL as __filePath_5a5b5af9c0a4635b_URL
+  fileURLToPath as __sourceFilePath_5a5b5af9c0a4635b,
+  URL as __sourceFilePath_5a5b5af9c0a4635b_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -130,8 +130,8 @@ function Ve(e) {
 function sTs(e, s = !1) {
   {
     let { APPIFACT_REPL_TOOL_NAME: l } = import.meta.require(
-      __filePath_5a5b5af9c0a4635b(
-        new __filePath_5a5b5af9c0a4635b_URL("./chunk-ttpzppxt.js", import.meta.url)
+      __sourceFilePath_5a5b5af9c0a4635b(
+        new __sourceFilePath_5a5b5af9c0a4635b_URL("./chunk-ttpzppxt.js", import.meta.url)
       )
     );
     if (e.toolName === l) return G(e.ruleContent);

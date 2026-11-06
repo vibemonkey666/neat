@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_a33a66f49fe4f556,
-  URL as __filePath_a33a66f49fe4f556_URL
+  fileURLToPath as __sourceFilePath_a33a66f49fe4f556,
+  URL as __sourceFilePath_a33a66f49fe4f556_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -513,8 +513,8 @@ Usage: claude mcp add <name> <command> [args...]`);
                   : void 0,
               { readClientSecret: M, saveMcpClientSecret: x } = import.meta
                 .require(
-                  __filePath_a33a66f49fe4f556(
-                    new __filePath_a33a66f49fe4f556_URL("./chunk-43z4gqzg.js", import.meta.url)
+                  __sourceFilePath_a33a66f49fe4f556(
+                    new __sourceFilePath_a33a66f49fe4f556_URL("./chunk-43z4gqzg.js", import.meta.url)
                   )
                 )
                 .mcpAuthModule(),
@@ -575,8 +575,8 @@ Warning: The command "${m}" looks like a URL, but is being interpreted as a stdi
 function l() {
   return import.meta
     .require(
-      __filePath_a33a66f49fe4f556(
-        new __filePath_a33a66f49fe4f556_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_a33a66f49fe4f556(
+        new __sourceFilePath_a33a66f49fe4f556_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpXaaIdpLoginModule();

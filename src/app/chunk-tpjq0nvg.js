@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_43f9910c90264d08,
-  URL as __filePath_43f9910c90264d08_URL
+  fileURLToPath as __sourceFilePath_43f9910c90264d08,
+  URL as __sourceFilePath_43f9910c90264d08_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -14,11 +14,11 @@ import {
 // Version: 2.1.310
 import { Nwo } from "./chunk-6gaf2snv.js";
 import { ve } from "./chunk-vk5p9xv3.js";
-var p = __filePath_43f9910c90264d08(
-  new __filePath_43f9910c90264d08_URL("../assets/anthropicSans400.woff2.asset", import.meta.url)
+var p = __sourceFilePath_43f9910c90264d08(
+  new __sourceFilePath_43f9910c90264d08_URL("../assets/anthropicSans400.woff2.asset", import.meta.url)
 );
-var h = __filePath_43f9910c90264d08(
-  new __filePath_43f9910c90264d08_URL("../assets/anthropicSerif400.woff2.asset", import.meta.url)
+var h = __sourceFilePath_43f9910c90264d08(
+  new __sourceFilePath_43f9910c90264d08_URL("../assets/anthropicSerif400.woff2.asset", import.meta.url)
 );
 var u = ve({}, (e) => {
   delete e.faces;

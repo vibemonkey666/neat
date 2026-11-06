@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_fcb4fa4d4ba9ce74,
-  URL as __filePath_fcb4fa4d4ba9ce74_URL
+  fileURLToPath as __sourceFilePath_fcb4fa4d4ba9ce74,
+  URL as __sourceFilePath_fcb4fa4d4ba9ce74_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -27,8 +27,8 @@ function c() {
   if (i.CLAUDE_CODE_REMOTE || i.CLAUDE_CODE_REMOTE_SESSION_ID) return null;
   if (Tun() === void 0 && !cl()) return null;
   return import.meta.require(
-    __filePath_fcb4fa4d4ba9ce74(
-      new __filePath_fcb4fa4d4ba9ce74_URL("./chunk-dyqwyx2x.js", import.meta.url)
+    __sourceFilePath_fcb4fa4d4ba9ce74(
+      new __sourceFilePath_fcb4fa4d4ba9ce74_URL("./chunk-dyqwyx2x.js", import.meta.url)
     )
   ).isArtifactsMcpLaptopEntry;
 }
@@ -45,8 +45,8 @@ function y() {
   return (
     import.meta
       .require(
-        __filePath_fcb4fa4d4ba9ce74(
-          new __filePath_fcb4fa4d4ba9ce74_URL("./chunk-ncp58mjd.js", import.meta.url)
+        __sourceFilePath_fcb4fa4d4ba9ce74(
+          new __sourceFilePath_fcb4fa4d4ba9ce74_URL("./chunk-ncp58mjd.js", import.meta.url)
         )
       )
       .artifactToolWithholdingGate() !== null
@@ -54,8 +54,8 @@ function y() {
 }
 function p() {
   return import.meta.require(
-    __filePath_fcb4fa4d4ba9ce74(
-      new __filePath_fcb4fa4d4ba9ce74_URL("./chunk-eatfga6h.js", import.meta.url)
+    __sourceFilePath_fcb4fa4d4ba9ce74(
+      new __sourceFilePath_fcb4fa4d4ba9ce74_URL("./chunk-eatfga6h.js", import.meta.url)
     )
   ).MCP_ROW_TOOL_NAMES;
 }
@@ -125,8 +125,8 @@ function dys() {
 function d() {
   import.meta
     .require(
-      __filePath_fcb4fa4d4ba9ce74(
-        new __filePath_fcb4fa4d4ba9ce74_URL("./chunk-w4af92p2.js", import.meta.url)
+      __sourceFilePath_fcb4fa4d4ba9ce74(
+        new __sourceFilePath_fcb4fa4d4ba9ce74_URL("./chunk-w4af92p2.js", import.meta.url)
       )
     )
     .clearCommandMemoizationCaches();
@@ -137,8 +137,8 @@ function cys(e) {
 function aao(e) {
   if (xhe(e)) return !0;
   let t = import.meta.require(
-    __filePath_fcb4fa4d4ba9ce74(
-      new __filePath_fcb4fa4d4ba9ce74_URL("./chunk-ttpzppxt.js", import.meta.url)
+    __sourceFilePath_fcb4fa4d4ba9ce74(
+      new __sourceFilePath_fcb4fa4d4ba9ce74_URL("./chunk-ttpzppxt.js", import.meta.url)
     )
   ).APPIFACT_REPL_TOOL_NAME;
   return t !== void 0 && e.mcpInfo === void 0 && e.name === t;

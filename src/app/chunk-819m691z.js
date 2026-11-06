@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_781bb79b97cba429,
-  URL as __filePath_781bb79b97cba429_URL
+  fileURLToPath as __sourceFilePath_781bb79b97cba429,
+  URL as __sourceFilePath_781bb79b97cba429_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -15,67 +15,67 @@ import {
 import { dt } from "./chunk-6gaf2snv.js";
 import { Fe } from "./chunk-a2y39866.js";
 var t = Fe(
-  __filePath_781bb79b97cba429(
-    new __filePath_781bb79b97cba429_URL(
+  __sourceFilePath_781bb79b97cba429(
+    new __sourceFilePath_781bb79b97cba429_URL(
       "../text-modules/anti-patterns-c1rmzbdk.md.cjs",
       import.meta.url
     )
   )
 );
 var a = Fe(
-  __filePath_781bb79b97cba429(
-    new __filePath_781bb79b97cba429_URL(
+  __sourceFilePath_781bb79b97cba429(
+    new __sourceFilePath_781bb79b97cba429_URL(
       "../text-modules/choosing-a-form-0b6fjqkn.md.cjs",
       import.meta.url
     )
   )
 );
-var r = __filePath_781bb79b97cba429(
-  new __filePath_781bb79b97cba429_URL("../assets/color-formula-22636152.md.zst", import.meta.url)
+var r = __sourceFilePath_781bb79b97cba429(
+  new __sourceFilePath_781bb79b97cba429_URL("../assets/color-formula-22636152.md.zst", import.meta.url)
 );
 var s = dt(r, import.meta.dirname);
 var o = Fe(
-  __filePath_781bb79b97cba429(
-    new __filePath_781bb79b97cba429_URL(
+  __sourceFilePath_781bb79b97cba429(
+    new __sourceFilePath_781bb79b97cba429_URL(
       "../text-modules/components-vtwwx2hf.md.cjs",
       import.meta.url
     )
   )
 );
 var i = Fe(
-  __filePath_781bb79b97cba429(
-    new __filePath_781bb79b97cba429_URL(
+  __sourceFilePath_781bb79b97cba429(
+    new __sourceFilePath_781bb79b97cba429_URL(
       "../text-modules/interaction-d4xwjtb3.md.cjs",
       import.meta.url
     )
   )
 );
 var n = Fe(
-  __filePath_781bb79b97cba429(
-    new __filePath_781bb79b97cba429_URL(
+  __sourceFilePath_781bb79b97cba429(
+    new __sourceFilePath_781bb79b97cba429_URL(
       "../text-modules/marks-and-anatomy-xxwmekt5.md.cjs",
       import.meta.url
     )
   )
 );
-var l = __filePath_781bb79b97cba429(
-  new __filePath_781bb79b97cba429_URL("../assets/palette-f0ae74f9.md.zst", import.meta.url)
+var l = __sourceFilePath_781bb79b97cba429(
+  new __sourceFilePath_781bb79b97cba429_URL("../assets/palette-f0ae74f9.md.zst", import.meta.url)
 );
 var h = dt(l, import.meta.dirname);
 var d = Fe(
-  __filePath_781bb79b97cba429(
-    new __filePath_781bb79b97cba429_URL("../text-modules/SKILL-8zd8x5rj.md.cjs", import.meta.url)
+  __sourceFilePath_781bb79b97cba429(
+    new __sourceFilePath_781bb79b97cba429_URL("../text-modules/SKILL-8zd8x5rj.md.cjs", import.meta.url)
   )
 );
 var c = (e) => (typeof e === "string" ? e : e.default),
   w = import.meta.require(
-    __filePath_781bb79b97cba429(
-      new __filePath_781bb79b97cba429_URL("./chunk-18qhshaa.js", import.meta.url)
+    __sourceFilePath_781bb79b97cba429(
+      new __sourceFilePath_781bb79b97cba429_URL("./chunk-18qhshaa.js", import.meta.url)
     )
   ),
   k = import.meta.require(
-    __filePath_781bb79b97cba429(
-      new __filePath_781bb79b97cba429_URL("./chunk-e9gz66xn.js", import.meta.url)
+    __sourceFilePath_781bb79b97cba429(
+      new __sourceFilePath_781bb79b97cba429_URL("./chunk-e9gz66xn.js", import.meta.url)
     )
   ),
   P = d,

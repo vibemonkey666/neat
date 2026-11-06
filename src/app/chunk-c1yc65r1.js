@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_9c2974765ad0f143,
-  URL as __filePath_9c2974765ad0f143_URL
+  fileURLToPath as __sourceFilePath_9c2974765ad0f143,
+  URL as __sourceFilePath_9c2974765ad0f143_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -150,7 +150,7 @@ async function S3t(r) {
       serviceId: we,
       servicePath: ""
     };
-  let h = [...nm(), ...__invocation_9c2974765ad0f143.servicePrefix(Leo())],
+  let h = [...nm(), ...__sourceInvocation_9c2974765ad0f143.servicePrefix(Leo())],
     w = i.PATH || "/usr/local/bin:/usr/bin:/bin";
   {
     let p = Ye(),
@@ -953,8 +953,8 @@ async function Ht(r) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-          new __filePath_9c2974765ad0f143_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+          new __sourceFilePath_9c2974765ad0f143_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -1736,8 +1736,8 @@ async function Nn(r, e, n, s) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-          new __filePath_9c2974765ad0f143_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+          new __sourceFilePath_9c2974765ad0f143_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -1762,8 +1762,8 @@ async function Nn(r, e, n, s) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-          new __filePath_9c2974765ad0f143_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+          new __sourceFilePath_9c2974765ad0f143_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -1815,8 +1815,8 @@ async function Nn(r, e, n, s) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-            new __filePath_9c2974765ad0f143_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+            new __sourceFilePath_9c2974765ad0f143_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -1915,8 +1915,8 @@ async function Nn(r, e, n, s) {
             FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
             BUILD_TIME: "2026-10-23T17:43:32Z",
             GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-            HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-              new __filePath_9c2974765ad0f143_URL(
+            HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+              new __sourceFilePath_9c2974765ad0f143_URL(
                 "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                 import.meta.url
               )
@@ -2144,8 +2144,8 @@ async function Nn(r, e, n, s) {
                   FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
                   BUILD_TIME: "2026-10-23T17:43:32Z",
                   GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-                  HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-                    new __filePath_9c2974765ad0f143_URL(
+                  HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+                    new __sourceFilePath_9c2974765ad0f143_URL(
                       "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                       import.meta.url
                     )
@@ -2175,8 +2175,8 @@ async function Nn(r, e, n, s) {
                 FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
                 BUILD_TIME: "2026-10-23T17:43:32Z",
                 GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-                HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-                  new __filePath_9c2974765ad0f143_URL(
+                HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+                  new __sourceFilePath_9c2974765ad0f143_URL(
                     "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                     import.meta.url
                   )
@@ -2509,8 +2509,8 @@ async function Un(r, e) {
             FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
             BUILD_TIME: "2026-10-23T17:43:32Z",
             GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-            HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-              new __filePath_9c2974765ad0f143_URL(
+            HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+              new __sourceFilePath_9c2974765ad0f143_URL(
                 "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                 import.meta.url
               )
@@ -2909,8 +2909,8 @@ async function Hn(r, e, n, s, h) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-          new __filePath_9c2974765ad0f143_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+          new __sourceFilePath_9c2974765ad0f143_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -2949,8 +2949,8 @@ async function Hn(r, e, n, s, h) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-          new __filePath_9c2974765ad0f143_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+          new __sourceFilePath_9c2974765ad0f143_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -2973,8 +2973,8 @@ async function Hn(r, e, n, s, h) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-            new __filePath_9c2974765ad0f143_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+            new __sourceFilePath_9c2974765ad0f143_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -2995,7 +2995,7 @@ async function Hn(r, e, n, s, h) {
   return (
     t(
       L
-        ? `bg: ${Qp()} pid ${A.pid} runs ${A.version}; this binary (${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(new __filePath_9c2974765ad0f143_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}) is a newer build \u2014 retired the stale ${Qp()} so new sessions use the current binary`
+        ? `bg: ${Qp()} pid ${A.pid} runs ${A.version}; this binary (${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(new __sourceFilePath_9c2974765ad0f143_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}) is a newer build \u2014 retired the stale ${Qp()} so new sessions use the current binary`
         : `bg: ${Qp()} pid ${A.pid} predates CLAUDE_CODE_PROCESS_WRAPPER and spawns sessions unwrapped \u2014 retired it so the replacement runs through the configured launcher`,
       { level: "warn" }
     ),
@@ -3056,8 +3056,8 @@ async function nr(r) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_9c2974765ad0f143(
-            new __filePath_9c2974765ad0f143_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_9c2974765ad0f143(
+            new __sourceFilePath_9c2974765ad0f143_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -3204,6 +3204,6 @@ export {
   E3t
 };
 
-import * as __invocation_9c2974765ad0f143 from "./__invocation.mjs";
+import * as __sourceInvocation_9c2974765ad0f143 from "./__invocation.mjs";
 
 //# sourceMappingURL=chunk-c1yc65r1.js.map

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_d0161f0dc1f75544,
-  URL as __filePath_d0161f0dc1f75544_URL
+  fileURLToPath as __sourceFilePath_d0161f0dc1f75544,
+  URL as __sourceFilePath_d0161f0dc1f75544_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -16,36 +16,36 @@ import { nyo } from "./chunk-tnvvabe7.js";
 import { dt } from "./chunk-6gaf2snv.js";
 import { Fe } from "./chunk-a2y39866.js";
 var e = Fe(
-  __filePath_d0161f0dc1f75544(
-    new __filePath_d0161f0dc1f75544_URL(
+  __sourceFilePath_d0161f0dc1f75544(
+    new __sourceFilePath_d0161f0dc1f75544_URL(
       "../text-modules/claude-tag-dht2qzjm.md.cjs",
       import.meta.url
     )
   )
 );
 var t = Fe(
-  __filePath_d0161f0dc1f75544(
-    new __filePath_d0161f0dc1f75544_URL(
+  __sourceFilePath_d0161f0dc1f75544(
+    new __sourceFilePath_d0161f0dc1f75544_URL(
       "../text-modules/live-sources-pvws3ftv.md.cjs",
       import.meta.url
     )
   )
 );
-var a = __filePath_d0161f0dc1f75544(
-  new __filePath_d0161f0dc1f75544_URL("../assets/plugin-eval-8fcbd81e.md.zst", import.meta.url)
+var a = __sourceFilePath_d0161f0dc1f75544(
+  new __sourceFilePath_d0161f0dc1f75544_URL("../assets/plugin-eval-8fcbd81e.md.zst", import.meta.url)
 );
 var n = dt(a, import.meta.dirname);
 var o = Fe(
-  __filePath_d0161f0dc1f75544(
-    new __filePath_d0161f0dc1f75544_URL(
+  __sourceFilePath_d0161f0dc1f75544(
+    new __sourceFilePath_d0161f0dc1f75544_URL(
       "../text-modules/recent-changes-g7ehqj27.md.cjs",
       import.meta.url
     )
   )
 );
 var s = Fe(
-  __filePath_d0161f0dc1f75544(
-    new __filePath_d0161f0dc1f75544_URL("../text-modules/SKILL-0vb5xk0r.md.cjs", import.meta.url)
+  __sourceFilePath_d0161f0dc1f75544(
+    new __sourceFilePath_d0161f0dc1f75544_URL("../text-modules/SKILL-0vb5xk0r.md.cjs", import.meta.url)
   )
 );
 var T = s,

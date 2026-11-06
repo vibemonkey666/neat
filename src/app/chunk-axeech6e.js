@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_1ae5386852a591f3,
-  URL as __filePath_1ae5386852a591f3_URL
+  fileURLToPath as __sourceFilePath_1ae5386852a591f3,
+  URL as __sourceFilePath_1ae5386852a591f3_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -13,8 +13,8 @@ import {
 
 // Version: 2.1.310
 import { Xft } from "./chunk-6gaf2snv.js";
-var D = __filePath_1ae5386852a591f3(
-  new __filePath_1ae5386852a591f3_URL("../assets/mermaid.min.js", import.meta.url)
+var D = __sourceFilePath_1ae5386852a591f3(
+  new __sourceFilePath_1ae5386852a591f3_URL("../assets/mermaid.min.js", import.meta.url)
 );
 var H = `/*! mermaid v11.16.1 | MIT | Copyright (c) 2014 - 2022 Knut Sveidqvist */
 `;

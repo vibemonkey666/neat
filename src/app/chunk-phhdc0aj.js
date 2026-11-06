@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_c3d0b7315e7cfe17,
-  URL as __filePath_c3d0b7315e7cfe17_URL
+  fileURLToPath as __sourceFilePath_c3d0b7315e7cfe17,
+  URL as __sourceFilePath_c3d0b7315e7cfe17_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -17,186 +17,186 @@ import { $r, Fe } from "./chunk-a2y39866.js";
 var e = {};
 $r(e, { INSTALLED_FILES: () => qe, SKILL_MD: () => Ue, default: () => e });
 var t = Fe(
-  __filePath_c3d0b7315e7cfe17(
-    new __filePath_c3d0b7315e7cfe17_URL(
+  __sourceFilePath_c3d0b7315e7cfe17(
+    new __sourceFilePath_c3d0b7315e7cfe17_URL(
       "../text-modules/plugin.json-yqejmsqd.txt.cjs",
       import.meta.url
     )
   )
 );
-var s = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/onboarding-8fc5cece.md.zst", import.meta.url)
+var s = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/onboarding-8fc5cece.md.zst", import.meta.url)
 );
 var r = dt(s, import.meta.dirname);
-var n = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/ct-auth.mjs-12e61ad0.txt.zst", import.meta.url)
+var n = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/ct-auth.mjs-12e61ad0.txt.zst", import.meta.url)
 );
 var o = dt(n, import.meta.dirname);
-var i = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/ct.mjs-db1716e5.txt.zst", import.meta.url)
+var i = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/ct.mjs-db1716e5.txt.zst", import.meta.url)
 );
 var a = dt(i, import.meta.dirname);
-var l = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL(
+var l = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL(
     "../assets/ctbrowser.mjs-c343fa0d.txt.zst",
     import.meta.url
   )
 );
 var d = dt(l, import.meta.dirname);
 var p = Fe(
-  __filePath_c3d0b7315e7cfe17(
-    new __filePath_c3d0b7315e7cfe17_URL(
+  __sourceFilePath_c3d0b7315e7cfe17(
+    new __sourceFilePath_c3d0b7315e7cfe17_URL(
       "../text-modules/install-tools.mjs-mqgxnqdh.txt.cjs",
       import.meta.url
     )
   )
 );
 var h = Fe(
-  __filePath_c3d0b7315e7cfe17(
-    new __filePath_c3d0b7315e7cfe17_URL(
+  __sourceFilePath_c3d0b7315e7cfe17(
+    new __sourceFilePath_c3d0b7315e7cfe17_URL(
       "../text-modules/NOTICE-chm3rwx9.txt.cjs",
       import.meta.url
     )
   )
 );
-var c = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL(
+var c = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL(
     "../assets/allow-tool.mjs-dec5a728.txt.zst",
     import.meta.url
   )
 );
 var m = dt(c, import.meta.dirname);
-var u = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/config.mjs-c64f0576.txt.zst", import.meta.url)
+var u = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/config.mjs-c64f0576.txt.zst", import.meta.url)
 );
 var f = dt(u, import.meta.dirname);
-var g = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/discover.mjs-05fbb73b.txt.zst", import.meta.url)
+var g = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/discover.mjs-05fbb73b.txt.zst", import.meta.url)
 );
 var b = dt(g, import.meta.dirname);
-var y = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL(
+var y = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL(
     "../assets/envreport.mjs-2a6a40b0.txt.zst",
     import.meta.url
   )
 );
 var P = dt(y, import.meta.dirname);
-var w = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL(
+var w = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL(
     "../assets/fence-proxy.mjs-e706eaf6.txt.zst",
     import.meta.url
   )
 );
 var L = dt(w, import.meta.dirname);
-var x = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/guard.mjs-167f6a6a.txt.zst", import.meta.url)
+var x = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/guard.mjs-167f6a6a.txt.zst", import.meta.url)
 );
 var T = dt(x, import.meta.dirname);
 var D = Fe(
-  __filePath_c3d0b7315e7cfe17(
-    new __filePath_c3d0b7315e7cfe17_URL(
+  __sourceFilePath_c3d0b7315e7cfe17(
+    new __sourceFilePath_c3d0b7315e7cfe17_URL(
       "../text-modules/hosts.mjs-724sr8hv.txt.cjs",
       import.meta.url
     )
   )
 );
-var A = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL(
+var A = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL(
     "../assets/live-page.mjs-841e1124.txt.zst",
     import.meta.url
   )
 );
 var S = dt(A, import.meta.dirname);
 var j = Fe(
-  __filePath_c3d0b7315e7cfe17(
-    new __filePath_c3d0b7315e7cfe17_URL(
+  __sourceFilePath_c3d0b7315e7cfe17(
+    new __sourceFilePath_c3d0b7315e7cfe17_URL(
       "../text-modules/open-page.mjs-v558kpk1.txt.cjs",
       import.meta.url
     )
   )
 );
-var M = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL(
+var M = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL(
     "../assets/psl-data.json-ffeefa5c.txt.zst",
     import.meta.url
   )
 );
 var H = dt(M, import.meta.dirname);
-var E = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL(
+var E = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL(
     "../assets/run-tools.mjs-0e78c453.txt.zst",
     import.meta.url
   )
 );
 var R = dt(E, import.meta.dirname);
-var I = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/runs.mjs-766956db.txt.zst", import.meta.url)
+var I = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/runs.mjs-766956db.txt.zst", import.meta.url)
 );
 var C = dt(I, import.meta.dirname);
-var q = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/signin.mjs-e32ba544.txt.zst", import.meta.url)
+var q = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/signin.mjs-e32ba544.txt.zst", import.meta.url)
 );
 var J = dt(q, import.meta.dirname);
 var k = Fe(
-  __filePath_c3d0b7315e7cfe17(
-    new __filePath_c3d0b7315e7cfe17_URL(
+  __sourceFilePath_c3d0b7315e7cfe17(
+    new __sourceFilePath_c3d0b7315e7cfe17_URL(
       "../text-modules/tools-lock.json-2wbc4a0f.txt.cjs",
       import.meta.url
     )
   )
 );
-var B = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/tools.mjs-6ad628aa.txt.zst", import.meta.url)
+var B = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/tools.mjs-6ad628aa.txt.zst", import.meta.url)
 );
 var F = dt(B, import.meta.dirname);
-var U = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/vet.mjs-e320abbd.txt.zst", import.meta.url)
+var U = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/vet.mjs-e320abbd.txt.zst", import.meta.url)
 );
 var N = dt(U, import.meta.dirname);
-var Q = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL(
+var Q = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL(
     "../assets/playwright-mcp.mjs-4153e6ec.txt.zst",
     import.meta.url
   )
 );
 var X = dt(Q, import.meta.dirname);
-var v = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL(
+var v = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL(
     "../assets/stop-on-exit.mjs-da3fcb46.txt.zst",
     import.meta.url
   )
 );
 var O = dt(v, import.meta.dirname);
-var Y = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL(
+var Y = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL(
     "../assets/tools-snapshot.json-517c5f68.txt.zst",
     import.meta.url
   )
 );
 var K = dt(Y, import.meta.dirname);
 var V = Fe(
-  __filePath_c3d0b7315e7cfe17(
-    new __filePath_c3d0b7315e7cfe17_URL(
+  __sourceFilePath_c3d0b7315e7cfe17(
+    new __sourceFilePath_c3d0b7315e7cfe17_URL(
       "../text-modules/spec-format-dwmge0np.md.cjs",
       import.meta.url
     )
   )
 );
 var z = Fe(
-  __filePath_c3d0b7315e7cfe17(
-    new __filePath_c3d0b7315e7cfe17_URL("../text-modules/SKILL-ecyx4ya1.md.cjs", import.meta.url)
+  __sourceFilePath_c3d0b7315e7cfe17(
+    new __sourceFilePath_c3d0b7315e7cfe17_URL("../text-modules/SKILL-ecyx4ya1.md.cjs", import.meta.url)
   )
 );
 var W = Fe(
-  __filePath_c3d0b7315e7cfe17(
-    new __filePath_c3d0b7315e7cfe17_URL(
+  __sourceFilePath_c3d0b7315e7cfe17(
+    new __sourceFilePath_c3d0b7315e7cfe17_URL(
       "../text-modules/check.mjs-9esx2ea6.txt.cjs",
       import.meta.url
     )
   )
 );
-var _ = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/sign-in.mjs-e560d968.txt.zst", import.meta.url)
+var _ = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/sign-in.mjs-e560d968.txt.zst", import.meta.url)
 );
 var G = dt(_, import.meta.dirname);
 var qe = Object.freeze({
@@ -231,16 +231,16 @@ var qe = Object.freeze({
   "skills/run/templates/sign-in/scripts/check.mjs": W,
   "skills/run/templates/sign-in/scripts/sign-in.mjs": G
 });
-var Z = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/SKILL-4364cf72.md.zst", import.meta.url)
+var Z = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/SKILL-4364cf72.md.zst", import.meta.url)
 );
 var ee = dt(Z, import.meta.dirname);
-var te = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/SKILL-616338f0.md.zst", import.meta.url)
+var te = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/SKILL-616338f0.md.zst", import.meta.url)
 );
 var se = dt(te, import.meta.dirname);
-var re = __filePath_c3d0b7315e7cfe17(
-  new __filePath_c3d0b7315e7cfe17_URL("../assets/SKILL-cc984d7e.md.zst", import.meta.url)
+var re = __sourceFilePath_c3d0b7315e7cfe17(
+  new __sourceFilePath_c3d0b7315e7cfe17_URL("../assets/SKILL-cc984d7e.md.zst", import.meta.url)
 );
 var ne = dt(re, import.meta.dirname);
 var Ue = Object.freeze({ run: ne, execute: se, draft: ee });

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_18e458ad48e22626,
-  URL as __filePath_18e458ad48e22626_URL
+  fileURLToPath as __sourceFilePath_18e458ad48e22626,
+  URL as __sourceFilePath_18e458ad48e22626_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1975,8 +1975,8 @@ function er(e, o) {
 }
 var sh = ["atom", "derive", "memberOf", "read", "update"];
 var Qt = Fe(
-  __filePath_18e458ad48e22626(
-    new __filePath_18e458ad48e22626_URL(
+  __sourceFilePath_18e458ad48e22626(
+    new __sourceFilePath_18e458ad48e22626_URL(
       "../text-modules/state-library.js-wy8y4843.txt.cjs",
       import.meta.url
     )
@@ -3484,8 +3484,8 @@ function kw(e, o) {
     t = r.get(e);
   if (!t) {
     let { wireSkillFilesExtraction: i } = import.meta.require(
-      __filePath_18e458ad48e22626(
-        new __filePath_18e458ad48e22626_URL("./chunk-n1dyvg9x.js", import.meta.url)
+      __sourceFilePath_18e458ad48e22626(
+        new __sourceFilePath_18e458ad48e22626_URL("./chunk-n1dyvg9x.js", import.meta.url)
       )
     );
     ((t = i(e)), r.set(e, t));

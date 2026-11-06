@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_2e11ba294bf5ab07,
-  URL as __filePath_2e11ba294bf5ab07_URL
+  fileURLToPath as __sourceFilePath_2e11ba294bf5ab07,
+  URL as __sourceFilePath_2e11ba294bf5ab07_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -22,13 +22,13 @@ function $k() {
   let t = Lo();
   if (t.maxSubagentSpawnDepthFromGrowthBook === void 0) {
     let { getFeatureValue_CACHED_MAY_BE_STALE: a } = import.meta.require(
-        __filePath_2e11ba294bf5ab07(
-          new __filePath_2e11ba294bf5ab07_URL("./chunk-4m15ar7w.js", import.meta.url)
+        __sourceFilePath_2e11ba294bf5ab07(
+          new __sourceFilePath_2e11ba294bf5ab07_URL("./chunk-4m15ar7w.js", import.meta.url)
         )
       ),
       { getCachedClientData: A } = import.meta.require(
-        __filePath_2e11ba294bf5ab07(
-          new __filePath_2e11ba294bf5ab07_URL("./chunk-ng9bf6hw.js", import.meta.url)
+        __sourceFilePath_2e11ba294bf5ab07(
+          new __sourceFilePath_2e11ba294bf5ab07_URL("./chunk-ng9bf6hw.js", import.meta.url)
         )
       ),
       o = A()?.[_],

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_2febe15c52fd0198,
-  URL as __filePath_2febe15c52fd0198_URL
+  fileURLToPath as __sourceFilePath_2febe15c52fd0198,
+  URL as __sourceFilePath_2febe15c52fd0198_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -809,8 +809,8 @@ async function qo({
       Ee = D?.agentType ?? R;
     if ((kt(fo), D?.color)) t_t(G ? D.agentType : (R ?? D.agentType), D.color);
     let { spawnTeammate: zt } = import.meta.require(
-        __filePath_2febe15c52fd0198(
-          new __filePath_2febe15c52fd0198_URL("./chunk-6j4kahqd.js", import.meta.url)
+        __sourceFilePath_2febe15c52fd0198(
+          new __sourceFilePath_2febe15c52fd0198_URL("./chunk-6j4kahqd.js", import.meta.url)
         )
       ),
       ue = await zt(

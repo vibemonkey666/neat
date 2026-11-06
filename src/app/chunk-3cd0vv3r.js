@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_df59da7c2271d9fd,
-  URL as __filePath_df59da7c2271d9fd_URL
+  fileURLToPath as __sourceFilePath_df59da7c2271d9fd,
+  URL as __sourceFilePath_df59da7c2271d9fd_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -619,8 +619,8 @@ j();
 function It() {
   return import.meta
     .require(
-      __filePath_df59da7c2271d9fd(
-        new __filePath_df59da7c2271d9fd_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_df59da7c2271d9fd(
+        new __sourceFilePath_df59da7c2271d9fd_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpAuthModule();
@@ -1487,8 +1487,8 @@ function _n(g) {
       let De = async function De(se, Oe) {
         let { ClaudeAuthProvider: Ye } = import.meta
           .require(
-            __filePath_df59da7c2271d9fd(
-              new __filePath_df59da7c2271d9fd_URL("./chunk-43z4gqzg.js", import.meta.url)
+            __sourceFilePath_df59da7c2271d9fd(
+              new __sourceFilePath_df59da7c2271d9fd_URL("./chunk-43z4gqzg.js", import.meta.url)
             )
           )
           .mcpAuthModule();

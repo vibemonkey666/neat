@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_8f1de7d810770ce3,
-  URL as __filePath_8f1de7d810770ce3_URL
+  fileURLToPath as __sourceFilePath_8f1de7d810770ce3,
+  URL as __sourceFilePath_8f1de7d810770ce3_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -7748,25 +7748,25 @@ function Xb(e) {
 }
 var Zb = new Set([qG, o0, Z1]);
 var tT = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-atxvbyzx.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-atxvbyzx.js", import.meta.url)
     )
   ),
   ih = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-8dga6rk4.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-8dga6rk4.js", import.meta.url)
     )
   ),
   ah = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-v5c5f1qb.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-v5c5f1qb.js", import.meta.url)
     )
   );
 function oU() {
   return import.meta
     .require(
-      __filePath_8f1de7d810770ce3(
-        new __filePath_8f1de7d810770ce3_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_8f1de7d810770ce3(
+        new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpClientModule();
@@ -15979,8 +15979,8 @@ function yC(e, n) {
 }
 function vC() {
   return import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-43z4gqzg.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-43z4gqzg.js", import.meta.url)
     )
   );
 }
@@ -18038,8 +18038,8 @@ function HP({ shouldQuery: e, fromUserInput: n, fromOptions: r }) {
     }));
 }
 var RB = import.meta.require(
-  __filePath_8f1de7d810770ce3(
-    new __filePath_8f1de7d810770ce3_URL("./chunk-atxvbyzx.js", import.meta.url)
+  __sourceFilePath_8f1de7d810770ce3(
+    new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-atxvbyzx.js", import.meta.url)
   )
 ).getCoordinatorUserContext;
 function ip({ userSpecifiedModel: e, permissionMode: n, thinkingConfig: r }) {
@@ -21239,8 +21239,8 @@ import { isDeepStrictEqual as v0 } from "util";
 function Yl() {
   return import.meta
     .require(
-      __filePath_8f1de7d810770ce3(
-        new __filePath_8f1de7d810770ce3_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_8f1de7d810770ce3(
+        new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpClientModule();
@@ -24993,75 +24993,75 @@ function Vj(e, n, r, s) {
 }
 var Gj = () =>
     import.meta.require(
-      __filePath_8f1de7d810770ce3(
-        new __filePath_8f1de7d810770ce3_URL("./chunk-qygmawax.js", import.meta.url)
+      __sourceFilePath_8f1de7d810770ce3(
+        new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-qygmawax.js", import.meta.url)
       )
     ),
   zj = () =>
     import.meta.require(
-      __filePath_8f1de7d810770ce3(
-        new __filePath_8f1de7d810770ce3_URL("./chunk-35g5md4t.js", import.meta.url)
+      __sourceFilePath_8f1de7d810770ce3(
+        new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-35g5md4t.js", import.meta.url)
       )
     ),
   rD = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-7367ht8f.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-7367ht8f.js", import.meta.url)
     )
   ),
   Cd = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-atxvbyzx.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-atxvbyzx.js", import.meta.url)
     )
   ),
   ls = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-e1t8g114.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-e1t8g114.js", import.meta.url)
     )
   ),
   Lp = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-0dja0qpg.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-0dja0qpg.js", import.meta.url)
     )
   ),
   kD = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-63kz8ffy.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-63kz8ffy.js", import.meta.url)
     )
   ),
   tu = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-a7xqbbe1.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-a7xqbbe1.js", import.meta.url)
     )
   ),
   Hp = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-za6vxpwh.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-za6vxpwh.js", import.meta.url)
     )
   );
 var Pd = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-sagkb0t3.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-sagkb0t3.js", import.meta.url)
     )
   ),
   eu = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-s2jta23e.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-s2jta23e.js", import.meta.url)
     )
   ),
   Ky = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-8dga6rk4.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-8dga6rk4.js", import.meta.url)
     )
   ),
   oD = import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-6mca32gc.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-6mca32gc.js", import.meta.url)
     )
   );
 function zy() {
   return import.meta.require(
-    __filePath_8f1de7d810770ce3(
-      new __filePath_8f1de7d810770ce3_URL("./chunk-43z4gqzg.js", import.meta.url)
+    __sourceFilePath_8f1de7d810770ce3(
+      new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-43z4gqzg.js", import.meta.url)
     )
   );
 }
@@ -26856,8 +26856,8 @@ function PQ(e, n, r, s, h, y, S, P, w, C, x, Q, D, ee, V, ie, Me, Te, Ee, Ve) {
   });
   {
     let { startCrossSessionHoldReceipt: I } = import.meta.require(
-        __filePath_8f1de7d810770ce3(
-          new __filePath_8f1de7d810770ce3_URL("./chunk-27j3yxk2.js", import.meta.url)
+        __sourceFilePath_8f1de7d810770ce3(
+          new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-27j3yxk2.js", import.meta.url)
         )
       ),
       K = I({
@@ -28645,16 +28645,16 @@ function PQ(e, n, r, s, h, y, S, P, w, C, x, Q, D, ee, V, ie, Me, Te, Ee, Ve) {
   else Dc.resolve();
   {
     let I = import.meta.require(
-      __filePath_8f1de7d810770ce3(
-        new __filePath_8f1de7d810770ce3_URL("./chunk-xh9v9p5m.js", import.meta.url)
+      __sourceFilePath_8f1de7d810770ce3(
+        new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-xh9v9p5m.js", import.meta.url)
       )
     );
     Zp = I.HEARTH_BINDING_CHANGED_HINT;
     let K = I.parseBridgeSdkUrl(D.sdkUrl);
     if (K) {
       let { createHeadlessHearthMount: pe } = import.meta.require(
-        __filePath_8f1de7d810770ce3(
-          new __filePath_8f1de7d810770ce3_URL("./chunk-gcaf5pdx.js", import.meta.url)
+        __sourceFilePath_8f1de7d810770ce3(
+          new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-gcaf5pdx.js", import.meta.url)
         )
       );
       fu = pe({
@@ -28793,8 +28793,8 @@ function PQ(e, n, r, s, h, y, S, P, w, C, x, Q, D, ee, V, ie, Me, Te, Ee, Ve) {
           let K = gf;
           gf = null;
           let pe = import.meta.require(
-            __filePath_8f1de7d810770ce3(
-              new __filePath_8f1de7d810770ce3_URL("./chunk-9p9ayzty.js", import.meta.url)
+            __sourceFilePath_8f1de7d810770ce3(
+              new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-9p9ayzty.js", import.meta.url)
             )
           );
           return pe.joinProjectsMountBeforeFirstCommand(
@@ -28876,8 +28876,8 @@ function PQ(e, n, r, s, h, y, S, P, w, C, x, Q, D, ee, V, ie, Me, Te, Ee, Ve) {
       SleepCompactor: K,
       withSleepCompaction: pe
     } = import.meta.require(
-      __filePath_8f1de7d810770ce3(
-        new __filePath_8f1de7d810770ce3_URL("./chunk-c763yj8g.js", import.meta.url)
+      __sourceFilePath_8f1de7d810770ce3(
+        new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-c763yj8g.js", import.meta.url)
       )
     );
     if (I())
@@ -30123,8 +30123,8 @@ function PQ(e, n, r, s, h, y, S, P, w, C, x, Q, D, ee, V, ie, Me, Te, Ee, Ve) {
             let I = Mr.takeFirstTurnJoins();
             if (!I.replyMount && !I.grants) return null;
             let K = import.meta.require(
-                __filePath_8f1de7d810770ce3(
-                  new __filePath_8f1de7d810770ce3_URL("./chunk-9p9ayzty.js", import.meta.url)
+                __sourceFilePath_8f1de7d810770ce3(
+                  new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-9p9ayzty.js", import.meta.url)
                 )
               ),
               pe = K.PROJECTS_MOUNT_FIRST_COMMAND_WAIT_MS;
@@ -30323,8 +30323,8 @@ function PQ(e, n, r, s, h, y, S, P, w, C, x, Q, D, ee, V, ie, Me, Te, Ee, Ve) {
       es());
   {
     let { setOnEnqueue: I } = import.meta.require(
-      __filePath_8f1de7d810770ce3(
-        new __filePath_8f1de7d810770ce3_URL("./chunk-x07ar0v0.js", import.meta.url)
+      __sourceFilePath_8f1de7d810770ce3(
+        new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-x07ar0v0.js", import.meta.url)
       )
     );
     I(() => {
@@ -30342,8 +30342,8 @@ function PQ(e, n, r, s, h, y, S, P, w, C, x, Q, D, ee, V, ie, Me, Te, Ee, Ve) {
       notePeerIdleStatus: Je,
       enqueueIdleNoticesForModel: et
     } = import.meta.require(
-      __filePath_8f1de7d810770ce3(
-        new __filePath_8f1de7d810770ce3_URL("./chunk-p52yxxb9.js", import.meta.url)
+      __sourceFilePath_8f1de7d810770ce3(
+        new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-p52yxxb9.js", import.meta.url)
       )
     );
     (I((it) => {
@@ -30357,8 +30357,8 @@ function PQ(e, n, r, s, h, y, S, P, w, C, x, Q, D, ee, V, ie, Me, Te, Ee, Ve) {
       he(() => fVn(rt)));
     {
       let { registerReplyYieldHolder: it, notifyModelOfReplyYield: It } = import.meta.require(
-        __filePath_8f1de7d810770ce3(
-          new __filePath_8f1de7d810770ce3_URL("./chunk-eb6at7v2.js", import.meta.url)
+        __sourceFilePath_8f1de7d810770ce3(
+          new __sourceFilePath_8f1de7d810770ce3_URL("./chunk-eb6at7v2.js", import.meta.url)
         )
       );
       it({
@@ -35873,8 +35873,8 @@ async function Vy(e, n, r, s, h, y, S, P, w, C, x, Q, D) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_8f1de7d810770ce3(
-          new __filePath_8f1de7d810770ce3_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_8f1de7d810770ce3(
+          new __sourceFilePath_8f1de7d810770ce3_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )

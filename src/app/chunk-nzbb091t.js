@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_23489a956e190331,
-  URL as __filePath_23489a956e190331_URL
+  fileURLToPath as __sourceFilePath_23489a956e190331,
+  URL as __sourceFilePath_23489a956e190331_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -49,8 +49,8 @@ function tDe(e, o) {
 function c(e) {
   if (En(e.name) !== $h) return;
   let o = import.meta.require(
-    __filePath_23489a956e190331(
-      new __filePath_23489a956e190331_URL("./chunk-j49fgam8.js", import.meta.url)
+    __sourceFilePath_23489a956e190331(
+      new __sourceFilePath_23489a956e190331_URL("./chunk-j49fgam8.js", import.meta.url)
     )
   );
   return o.refusesRemoteBrowserCallOutsideChecks(e.name)
@@ -72,8 +72,8 @@ async function hG(e, o, t, i = !1) {
     c(e) ??
     import.meta
       .require(
-        __filePath_23489a956e190331(
-          new __filePath_23489a956e190331_URL("./chunk-43z4gqzg.js", import.meta.url)
+        __sourceFilePath_23489a956e190331(
+          new __sourceFilePath_23489a956e190331_URL("./chunk-43z4gqzg.js", import.meta.url)
         )
       )
       .mcpClientModule()
@@ -93,8 +93,8 @@ function Wgt(e, o, t) {
     r(e) ??
     import.meta
       .require(
-        __filePath_23489a956e190331(
-          new __filePath_23489a956e190331_URL("./chunk-43z4gqzg.js", import.meta.url)
+        __sourceFilePath_23489a956e190331(
+          new __sourceFilePath_23489a956e190331_URL("./chunk-43z4gqzg.js", import.meta.url)
         )
       )
       .mcpClientModule()
@@ -106,8 +106,8 @@ function Ggt(e, o) {
     r(e) ??
     import.meta
       .require(
-        __filePath_23489a956e190331(
-          new __filePath_23489a956e190331_URL("./chunk-43z4gqzg.js", import.meta.url)
+        __sourceFilePath_23489a956e190331(
+          new __sourceFilePath_23489a956e190331_URL("./chunk-43z4gqzg.js", import.meta.url)
         )
       )
       .mcpClientModule()
@@ -125,8 +125,8 @@ function rIo(e, o, t) {
 function $K(e, o, t) {
   import.meta
     .require(
-      __filePath_23489a956e190331(
-        new __filePath_23489a956e190331_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_23489a956e190331(
+        new __sourceFilePath_23489a956e190331_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpClientModule()

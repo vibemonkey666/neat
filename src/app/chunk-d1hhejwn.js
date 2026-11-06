@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_71f500ca4c0195d9,
-  URL as __filePath_71f500ca4c0195d9_URL
+  fileURLToPath as __sourceFilePath_71f500ca4c0195d9,
+  URL as __sourceFilePath_71f500ca4c0195d9_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -250,7 +250,7 @@ async function E(e) {
     if (u === "outdated")
       return (
         t(
-          `[mantle-probe] ${e}: needs a newer Claude Code than ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_71f500ca4c0195d9(new __filePath_71f500ca4c0195d9_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}; keeping it, so the first request shows the update message`
+          `[mantle-probe] ${e}: needs a newer Claude Code than ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_71f500ca4c0195d9(new __sourceFilePath_71f500ca4c0195d9_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}; keeping it, so the first request shows the update message`
         ),
         "outdated"
       );

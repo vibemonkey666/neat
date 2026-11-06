@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_2495f817daf1c951,
-  URL as __filePath_2495f817daf1c951_URL
+  fileURLToPath as __sourceFilePath_2495f817daf1c951,
+  URL as __sourceFilePath_2495f817daf1c951_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -367,8 +367,8 @@ function YPt(e, r, o, n) {
   if (
     (import.meta
       .require(
-        __filePath_2495f817daf1c951(
-          new __filePath_2495f817daf1c951_URL("./chunk-2n6f9qgg.js", import.meta.url)
+        __sourceFilePath_2495f817daf1c951(
+          new __sourceFilePath_2495f817daf1c951_URL("./chunk-2n6f9qgg.js", import.meta.url)
         )
       )
       .restoreGoalFromTranscript(e.messages, r, o),
@@ -1109,8 +1109,8 @@ async function JOn(e, r, o) {
   return (
     import.meta
       .require(
-        __filePath_2495f817daf1c951(
-          new __filePath_2495f817daf1c951_URL("./chunk-2n6f9qgg.js", import.meta.url)
+        __sourceFilePath_2495f817daf1c951(
+          new __sourceFilePath_2495f817daf1c951_URL("./chunk-2n6f9qgg.js", import.meta.url)
         )
       )
       .restoreGoalFromTranscript(

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_6421a8bb945c085b,
-  URL as __filePath_6421a8bb945c085b_URL
+  fileURLToPath as __sourceFilePath_6421a8bb945c085b,
+  URL as __sourceFilePath_6421a8bb945c085b_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -274,15 +274,15 @@ function ye(e) {
   return MEt(e, o);
 }
 var $e = import.meta.require(
-  __filePath_6421a8bb945c085b(
-    new __filePath_6421a8bb945c085b_URL("./chunk-ve5ng0bf.js", import.meta.url)
+  __sourceFilePath_6421a8bb945c085b(
+    new __sourceFilePath_6421a8bb945c085b_URL("./chunk-ve5ng0bf.js", import.meta.url)
   )
 );
 function Q() {
   return import.meta
     .require(
-      __filePath_6421a8bb945c085b(
-        new __filePath_6421a8bb945c085b_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_6421a8bb945c085b(
+        new __sourceFilePath_6421a8bb945c085b_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpClientModule();
@@ -1099,20 +1099,20 @@ async function Tls(e, o, n, s, r, u, S, h, C, O) {
   return (F(U.newState), { ...U.response, errors: { ...j, ...U.response.errors } });
 }
 var So = import.meta.require(
-    __filePath_6421a8bb945c085b(
-      new __filePath_6421a8bb945c085b_URL("./chunk-8dga6rk4.js", import.meta.url)
+    __sourceFilePath_6421a8bb945c085b(
+      new __sourceFilePath_6421a8bb945c085b_URL("./chunk-8dga6rk4.js", import.meta.url)
     )
   ),
   ho = import.meta.require(
-    __filePath_6421a8bb945c085b(
-      new __filePath_6421a8bb945c085b_URL("./chunk-v5c5f1qb.js", import.meta.url)
+    __sourceFilePath_6421a8bb945c085b(
+      new __sourceFilePath_6421a8bb945c085b_URL("./chunk-v5c5f1qb.js", import.meta.url)
     )
   );
 function Ae() {
   return import.meta
     .require(
-      __filePath_6421a8bb945c085b(
-        new __filePath_6421a8bb945c085b_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_6421a8bb945c085b(
+        new __sourceFilePath_6421a8bb945c085b_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpClientModule();
@@ -1376,8 +1376,8 @@ var XRn = 10485760,
   Ro = "ui://";
 function Tt() {
   return import.meta.require(
-    __filePath_6421a8bb945c085b(
-      new __filePath_6421a8bb945c085b_URL("./chunk-43z4gqzg.js", import.meta.url)
+    __sourceFilePath_6421a8bb945c085b(
+      new __sourceFilePath_6421a8bb945c085b_URL("./chunk-43z4gqzg.js", import.meta.url)
     )
   );
 }

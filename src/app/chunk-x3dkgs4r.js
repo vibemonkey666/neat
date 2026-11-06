@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_3452c0ad8b84a137,
-  URL as __filePath_3452c0ad8b84a137_URL
+  fileURLToPath as __sourceFilePath_3452c0ad8b84a137,
+  URL as __sourceFilePath_3452c0ad8b84a137_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -3967,14 +3967,14 @@ async function Sd(e, n, s, r, y) {
           );
         let { connectToServer: we, fetchToolsForClient: ie } = import.meta
             .require(
-              __filePath_3452c0ad8b84a137(
-                new __filePath_3452c0ad8b84a137_URL("./chunk-43z4gqzg.js", import.meta.url)
+              __sourceFilePath_3452c0ad8b84a137(
+                new __sourceFilePath_3452c0ad8b84a137_URL("./chunk-43z4gqzg.js", import.meta.url)
               )
             )
             .mcpClientModule(),
           { boundDial: P } = import.meta.require(
-            __filePath_3452c0ad8b84a137(
-              new __filePath_3452c0ad8b84a137_URL("./chunk-rstwgsb4.js", import.meta.url)
+            __sourceFilePath_3452c0ad8b84a137(
+              new __sourceFilePath_3452c0ad8b84a137_URL("./chunk-rstwgsb4.js", import.meta.url)
             )
           ),
           G = we(Z, ue, void 0, r, y),
@@ -5954,18 +5954,18 @@ function su(e) {
   return e.filter((s) => s.type === "system" || !n.has(s.uuid.slice(0, gi)));
 }
 var No = import.meta.require(
-    __filePath_3452c0ad8b84a137(
-      new __filePath_3452c0ad8b84a137_URL("./chunk-2rgbd01q.js", import.meta.url)
+    __sourceFilePath_3452c0ad8b84a137(
+      new __sourceFilePath_3452c0ad8b84a137_URL("./chunk-2rgbd01q.js", import.meta.url)
     )
   ).ARTIFACT_TOOL_NAME,
   os = import.meta.require(
-    __filePath_3452c0ad8b84a137(
-      new __filePath_3452c0ad8b84a137_URL("./chunk-9kdcegxj.js", import.meta.url)
+    __sourceFilePath_3452c0ad8b84a137(
+      new __sourceFilePath_3452c0ad8b84a137_URL("./chunk-9kdcegxj.js", import.meta.url)
     )
   ).standsInForBuiltInArtifact,
   iu = import.meta.require(
-    __filePath_3452c0ad8b84a137(
-      new __filePath_3452c0ad8b84a137_URL("./chunk-2rgbd01q.js", import.meta.url)
+    __sourceFilePath_3452c0ad8b84a137(
+      new __sourceFilePath_3452c0ad8b84a137_URL("./chunk-2rgbd01q.js", import.meta.url)
     )
   ).isPublishShapedArtifactAction;
 function au({

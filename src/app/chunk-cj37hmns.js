@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_547b64370375c6bf,
-  URL as __filePath_547b64370375c6bf_URL
+  fileURLToPath as __sourceFilePath_547b64370375c6bf,
+  URL as __sourceFilePath_547b64370375c6bf_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -3190,8 +3190,8 @@ var i = h2(qN, S),
   _l = {},
   Zn = h2(_l, null),
   El = import.meta.require(
-    __filePath_547b64370375c6bf(
-      new __filePath_547b64370375c6bf_URL("./chunk-15ff8yw7.js", import.meta.url)
+    __sourceFilePath_547b64370375c6bf(
+      new __sourceFilePath_547b64370375c6bf_URL("./chunk-15ff8yw7.js", import.meta.url)
     )
   ).udsInboxShape,
   _C = h2(El, null);

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_37802f36355caa2f,
-  URL as __filePath_37802f36355caa2f_URL
+  fileURLToPath as __sourceFilePath_37802f36355caa2f,
+  URL as __sourceFilePath_37802f36355caa2f_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -7147,8 +7147,8 @@ function Die(m) {
   }
   if (ZCr(g.text)) {
     let { UserChannelMessage: z } = import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-qavtcw0m.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-qavtcw0m.js", import.meta.url)
       )
     );
     let q;
@@ -7173,8 +7173,8 @@ function Die(m) {
   }
   if (g.text.startsWith('<wake reason="external-event"')) {
     let { parseExternalEventWake: oe, isSessionInboxWake: ie } = import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-zpzr2fmr.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-zpzr2fmr.js", import.meta.url)
       )
     );
     let q, ce;
@@ -7185,8 +7185,8 @@ function Die(m) {
   }
   if (Zye(g.text)) {
     let { UserCrossSessionMessage: ae } = import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-2n36zk3q.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-2n36zk3q.js", import.meta.url)
       )
     );
     const q = U?.kind === "peer" && U.hostInjected === !0;
@@ -7261,8 +7261,8 @@ function Die(m) {
   if (g.text.startsWith('<wake reason="external-event"')) {
     if (X !== null) {
       let { UserSessionInboxWakeMessage: pe } = import.meta.require(
-        __filePath_37802f36355caa2f(
-          new __filePath_37802f36355caa2f_URL("./chunk-wsgx4teq.js", import.meta.url)
+        __sourceFilePath_37802f36355caa2f(
+          new __sourceFilePath_37802f36355caa2f_URL("./chunk-wsgx4teq.js", import.meta.url)
         )
       );
       let q;
@@ -15120,25 +15120,25 @@ function OS(m) {
 }
 var Ef = {
     name: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-8sback0q.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-8sback0q.js", import.meta.url)
       )
     ).SEARCH_MCP_REGISTRY_TOOL_NAME,
     ui: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-40dgzkjx.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-40dgzkjx.js", import.meta.url)
       )
     )
   },
   Uf = {
     name: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-jw117816.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-jw117816.js", import.meta.url)
       )
     ).SUGGEST_CONNECTORS_TOOL_NAME,
     ui: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-0tqvk1en.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-0tqvk1en.js", import.meta.url)
       )
     )
   },
@@ -15146,13 +15146,13 @@ var Ef = {
   Af = null,
   Lf = {
     name: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-msh485vz.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-msh485vz.js", import.meta.url)
       )
     ).LIST_CONNECTORS_TOOL_NAME,
     ui: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-0qakjn0p.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-0qakjn0p.js", import.meta.url)
       )
     )
   },
@@ -15160,63 +15160,63 @@ var Ef = {
   Bf = null,
   Ff = {
     name: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-1hvdcwgk.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-1hvdcwgk.js", import.meta.url)
       )
     ).FETCH_INBOX_MESSAGE_TOOL_NAME,
     ui: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-53yvxhrb.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-53yvxhrb.js", import.meta.url)
       )
     )
   },
   nm = null,
   am = {
     name: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-9gpvet52.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-9gpvet52.js", import.meta.url)
       )
     ).WORKFLOW_TOOL_NAME,
     ui: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-pq1zrywy.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-pq1zrywy.js", import.meta.url)
       )
     )
   },
   im = null,
   Fo = import.meta.require(
-    __filePath_37802f36355caa2f(
-      new __filePath_37802f36355caa2f_URL("./chunk-k2pah0hv.js", import.meta.url)
+    __sourceFilePath_37802f36355caa2f(
+      new __sourceFilePath_37802f36355caa2f_URL("./chunk-k2pah0hv.js", import.meta.url)
     )
   ),
   lm = null,
   dm = null,
   as = {
     name: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-2rgbd01q.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-2rgbd01q.js", import.meta.url)
       )
     ).ARTIFACT_TOOL_NAME,
     names: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-2rgbd01q.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-2rgbd01q.js", import.meta.url)
       )
     ),
     ui: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-1pv5kcqt.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-1pv5kcqt.js", import.meta.url)
       )
     )
   },
   jf = {
     name: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-tammv83f.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-tammv83f.js", import.meta.url)
       )
     ).END_CONVERSATION_TOOL_NAME,
     ui: import.meta.require(
-      __filePath_37802f36355caa2f(
-        new __filePath_37802f36355caa2f_URL("./chunk-xzynav38.js", import.meta.url)
+      __sourceFilePath_37802f36355caa2f(
+        new __sourceFilePath_37802f36355caa2f_URL("./chunk-xzynav38.js", import.meta.url)
       )
     )
   },
@@ -15232,8 +15232,8 @@ var Ef = {
     },
     get [Be]() {
       let m = import.meta.require(
-        __filePath_37802f36355caa2f(
-          new __filePath_37802f36355caa2f_URL("./chunk-y4ae0e4w.js", import.meta.url)
+        __sourceFilePath_37802f36355caa2f(
+          new __sourceFilePath_37802f36355caa2f_URL("./chunk-y4ae0e4w.js", import.meta.url)
         )
       );
       return {
@@ -15255,8 +15255,8 @@ var Ef = {
     [ec]: { renderToolResultMessage: kh, renderToolUseRejectedMessage: xh },
     get [at]() {
       let m = import.meta.require(
-        __filePath_37802f36355caa2f(
-          new __filePath_37802f36355caa2f_URL("./chunk-n6d40t9p.js", import.meta.url)
+        __sourceFilePath_37802f36355caa2f(
+          new __sourceFilePath_37802f36355caa2f_URL("./chunk-n6d40t9p.js", import.meta.url)
         )
       );
       return {
@@ -15267,8 +15267,8 @@ var Ef = {
     },
     get [qt]() {
       let m = import.meta.require(
-        __filePath_37802f36355caa2f(
-          new __filePath_37802f36355caa2f_URL("./chunk-v1tnywp7.js", import.meta.url)
+        __sourceFilePath_37802f36355caa2f(
+          new __sourceFilePath_37802f36355caa2f_URL("./chunk-v1tnywp7.js", import.meta.url)
         )
       );
       return {
@@ -15280,8 +15280,8 @@ var Ef = {
     },
     get [gu]() {
       let m = import.meta.require(
-        __filePath_37802f36355caa2f(
-          new __filePath_37802f36355caa2f_URL("./chunk-nv9f3bvt.js", import.meta.url)
+        __sourceFilePath_37802f36355caa2f(
+          new __sourceFilePath_37802f36355caa2f_URL("./chunk-nv9f3bvt.js", import.meta.url)
         )
       );
       return {
@@ -15292,8 +15292,8 @@ var Ef = {
     },
     get [qe]() {
       let m = import.meta.require(
-        __filePath_37802f36355caa2f(
-          new __filePath_37802f36355caa2f_URL("./chunk-3v7btjwc.js", import.meta.url)
+        __sourceFilePath_37802f36355caa2f(
+          new __sourceFilePath_37802f36355caa2f_URL("./chunk-3v7btjwc.js", import.meta.url)
         )
       );
       return {
@@ -15304,8 +15304,8 @@ var Ef = {
     },
     get [ra]() {
       let m = import.meta.require(
-        __filePath_37802f36355caa2f(
-          new __filePath_37802f36355caa2f_URL("./chunk-fdpv147k.js", import.meta.url)
+        __sourceFilePath_37802f36355caa2f(
+          new __sourceFilePath_37802f36355caa2f_URL("./chunk-fdpv147k.js", import.meta.url)
         )
       );
       return {
@@ -15316,8 +15316,8 @@ var Ef = {
     },
     get [At]() {
       let m = import.meta.require(
-        __filePath_37802f36355caa2f(
-          new __filePath_37802f36355caa2f_URL("./chunk-9ymqjgp3.js", import.meta.url)
+        __sourceFilePath_37802f36355caa2f(
+          new __sourceFilePath_37802f36355caa2f_URL("./chunk-9ymqjgp3.js", import.meta.url)
         )
       );
       return {
@@ -15335,8 +15335,8 @@ var Ef = {
     [jP]: { renderToolResultMessage: dT },
     get [Ao]() {
       let m = import.meta.require(
-        __filePath_37802f36355caa2f(
-          new __filePath_37802f36355caa2f_URL("./chunk-dvkr4fka.js", import.meta.url)
+        __sourceFilePath_37802f36355caa2f(
+          new __sourceFilePath_37802f36355caa2f_URL("./chunk-dvkr4fka.js", import.meta.url)
         )
       );
       return {
@@ -15370,8 +15370,8 @@ var Ef = {
     },
     get [dBn]() {
       let m = import.meta.require(
-        __filePath_37802f36355caa2f(
-          new __filePath_37802f36355caa2f_URL("./chunk-as6qvaqg.js", import.meta.url)
+        __sourceFilePath_37802f36355caa2f(
+          new __sourceFilePath_37802f36355caa2f_URL("./chunk-as6qvaqg.js", import.meta.url)
         )
       ).displayOnlyMcpToolUi;
       return {
@@ -15388,8 +15388,8 @@ var Ef = {
     },
     get [jWn]() {
       let m = import.meta.require(
-        __filePath_37802f36355caa2f(
-          new __filePath_37802f36355caa2f_URL("./chunk-e1rp1k4y.js", import.meta.url)
+        __sourceFilePath_37802f36355caa2f(
+          new __sourceFilePath_37802f36355caa2f_URL("./chunk-e1rp1k4y.js", import.meta.url)
         )
       );
       return {

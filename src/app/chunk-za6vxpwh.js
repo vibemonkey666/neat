@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_a24b968765feff80,
-  URL as __filePath_a24b968765feff80_URL
+  fileURLToPath as __sourceFilePath_a24b968765feff80,
+  URL as __sourceFilePath_a24b968765feff80_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -139,16 +139,16 @@ import { readFileSync as x } from "fs";
 import { readFile as M } from "fs/promises";
 import { join as v } from "path";
 var p = Fe(
-  __filePath_a24b968765feff80(
-    new __filePath_a24b968765feff80_URL(
+  __sourceFilePath_a24b968765feff80(
+    new __sourceFilePath_a24b968765feff80_URL(
       "../text-modules/loopAutonomousPreamble-07qcyhv4.md.cjs",
       import.meta.url
     )
   )
 );
 var y = Fe(
-  __filePath_a24b968765feff80(
-    new __filePath_a24b968765feff80_URL(
+  __sourceFilePath_a24b968765feff80(
+    new __sourceFilePath_a24b968765feff80_URL(
       "../text-modules/loopAutonomousPreamblePersistent-3zqtkrvg.md.cjs",
       import.meta.url
     )

@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_bc0eabe61ffa5705,
-  URL as __filePath_bc0eabe61ffa5705_URL
+  fileURLToPath as __sourceFilePath_bc0eabe61ffa5705,
+  URL as __sourceFilePath_bc0eabe61ffa5705_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -456,8 +456,8 @@ async function Ks(
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_bc0eabe61ffa5705(
-        new __filePath_bc0eabe61ffa5705_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_bc0eabe61ffa5705(
+        new __sourceFilePath_bc0eabe61ffa5705_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -1039,8 +1039,8 @@ async function Kur({
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_bc0eabe61ffa5705(
-          new __filePath_bc0eabe61ffa5705_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_bc0eabe61ffa5705(
+          new __sourceFilePath_bc0eabe61ffa5705_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -1423,8 +1423,8 @@ function er(e) {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_bc0eabe61ffa5705(
-        new __filePath_bc0eabe61ffa5705_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_bc0eabe61ffa5705(
+        new __sourceFilePath_bc0eabe61ffa5705_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -1837,14 +1837,14 @@ function pt(e) {
 }
 var hs = () =>
     import.meta.require(
-      __filePath_bc0eabe61ffa5705(
-        new __filePath_bc0eabe61ffa5705_URL("./chunk-29va0b45.js", import.meta.url)
+      __sourceFilePath_bc0eabe61ffa5705(
+        new __sourceFilePath_bc0eabe61ffa5705_URL("./chunk-29va0b45.js", import.meta.url)
       )
     ),
   Nn = () =>
     import.meta.require(
-      __filePath_bc0eabe61ffa5705(
-        new __filePath_bc0eabe61ffa5705_URL("./chunk-7367ht8f.js", import.meta.url)
+      __sourceFilePath_bc0eabe61ffa5705(
+        new __sourceFilePath_bc0eabe61ffa5705_URL("./chunk-7367ht8f.js", import.meta.url)
       )
     );
 class Pr {
@@ -2372,8 +2372,8 @@ async function br(e, s, r) {
   if (!e.shouldQuery) return;
   try {
     let { getWorkflowAuthoringAutoloadMessages: y } = import.meta.require(
-      __filePath_bc0eabe61ffa5705(
-        new __filePath_bc0eabe61ffa5705_URL("./chunk-an97mtng.js", import.meta.url)
+      __sourceFilePath_bc0eabe61ffa5705(
+        new __sourceFilePath_bc0eabe61ffa5705_URL("./chunk-an97mtng.js", import.meta.url)
       )
     );
     e.messages.push(...(await y(e.messages, s, r)));

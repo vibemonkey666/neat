@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_61d1e26d44fa4856,
-  URL as __filePath_61d1e26d44fa4856_URL
+  fileURLToPath as __sourceFilePath_61d1e26d44fa4856,
+  URL as __sourceFilePath_61d1e26d44fa4856_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -5630,7 +5630,7 @@ function Yc(e) {
       CLAUDE_RUNNER_CLIENT_PLATFORM: Wit(de),
       DISABLE_AUTOUPDATER: "1",
       CLAUDE_ENABLE_STREAM_WATCHDOG: "1",
-      CLAUDE_RUNNER_CLAUDE_BIN: s ?? __invocation_61d1e26d44fa4856.programPath(),
+      CLAUDE_RUNNER_CLAUDE_BIN: s ?? __sourceInvocation_61d1e26d44fa4856.programPath(),
       CLAUDE_RUNNER_UPDATE_BIN: a ?? "",
       CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD: et ? void 0 : "1",
       [id]: zo(u),
@@ -9980,7 +9980,7 @@ Run 'claude self-hosted-runner --help' for usage.`
       let { configureGitForSigning: x } = await import("./chunk-tva1cmas.js");
       await x({
         baseDir: o.baseDir,
-        execPath: __invocation_61d1e26d44fa4856.programPath(),
+        execPath: __sourceInvocation_61d1e26d44fa4856.programPath(),
         onStatus: v
       });
     } catch (x) {
@@ -10010,7 +10010,7 @@ Run 'claude self-hosted-runner --help' for usage.`
   let Cn, Gt;
   if (o.configureGit) {
     let { coauthorHookStubs: x, codeSignArtifacts: Q } = await import("./chunk-tva1cmas.js");
-    ((Cn = x(o.baseDir)), (Gt = Q(o.baseDir, __invocation_61d1e26d44fa4856.programPath())));
+    ((Cn = x(o.baseDir)), (Gt = Q(o.baseDir, __sourceInvocation_61d1e26d44fa4856.programPath())));
   }
   let Qn, Nn;
   if (o.useAnthropicGitProxy)
@@ -10071,8 +10071,8 @@ Run 'claude self-hosted-runner --help' for usage.`
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_61d1e26d44fa4856(
-          new __filePath_61d1e26d44fa4856_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_61d1e26d44fa4856(
+          new __sourceFilePath_61d1e26d44fa4856_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -11405,6 +11405,6 @@ async function Au(e, n, r, s) {
 }
 export { Vk as selfHostedRunnerMain };
 
-import * as __invocation_61d1e26d44fa4856 from "./__invocation.mjs";
+import * as __sourceInvocation_61d1e26d44fa4856 from "./__invocation.mjs";
 
 //# sourceMappingURL=chunk-twczwv3g.js.map

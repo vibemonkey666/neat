@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_7b790b5ab1819b08,
-  URL as __filePath_7b790b5ab1819b08_URL
+  fileURLToPath as __sourceFilePath_7b790b5ab1819b08,
+  URL as __sourceFilePath_7b790b5ab1819b08_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -62,8 +62,8 @@ var b = new nt(() => new _());
 async function Pyt(e = { refresh: !0 }) {
   {
     let { primePeerIdentityOwner: r } = import.meta.require(
-      __filePath_7b790b5ab1819b08(
-        new __filePath_7b790b5ab1819b08_URL("./chunk-5jan5sjs.js", import.meta.url)
+      __sourceFilePath_7b790b5ab1819b08(
+        new __sourceFilePath_7b790b5ab1819b08_URL("./chunk-5jan5sjs.js", import.meta.url)
       )
     );
     await r(e);
@@ -71,8 +71,8 @@ async function Pyt(e = { refresh: !0 }) {
 }
 function p() {
   let { getPeerBridgeIdentity: e } = import.meta.require(
-      __filePath_7b790b5ab1819b08(
-        new __filePath_7b790b5ab1819b08_URL("./chunk-5jan5sjs.js", import.meta.url)
+      __sourceFilePath_7b790b5ab1819b08(
+        new __sourceFilePath_7b790b5ab1819b08_URL("./chunk-5jan5sjs.js", import.meta.url)
       )
     ),
     r = e();
@@ -86,8 +86,8 @@ async function b5n(e, r) {
       s = o.inFlight;
     if (s !== void 0 && s.identityKey === n) return s.promise;
     let { listBridgePeerSessions: a } = import.meta.require(
-        __filePath_7b790b5ab1819b08(
-          new __filePath_7b790b5ab1819b08_URL("./chunk-41hs5s43.js", import.meta.url)
+        __sourceFilePath_7b790b5ab1819b08(
+          new __sourceFilePath_7b790b5ab1819b08_URL("./chunk-41hs5s43.js", import.meta.url)
         )
       ),
       l = { record: void 0 },
@@ -217,8 +217,8 @@ class C {
 }
 function S() {
   let { walkCredentialKey: e } = import.meta.require(
-    __filePath_7b790b5ab1819b08(
-      new __filePath_7b790b5ab1819b08_URL("./chunk-5jan5sjs.js", import.meta.url)
+    __sourceFilePath_7b790b5ab1819b08(
+      new __sourceFilePath_7b790b5ab1819b08_URL("./chunk-5jan5sjs.js", import.meta.url)
     )
   );
   return e();
@@ -227,14 +227,14 @@ var B = new nt(() => new C());
 async function g7e(e, r) {
   {
     let { hasCloudPeerAccess: n } = import.meta.require(
-      __filePath_7b790b5ab1819b08(
-        new __filePath_7b790b5ab1819b08_URL("./chunk-t9f04kg3.js", import.meta.url)
+      __sourceFilePath_7b790b5ab1819b08(
+        new __sourceFilePath_7b790b5ab1819b08_URL("./chunk-t9f04kg3.js", import.meta.url)
       )
     );
     if (!n()) return { sessions: [], unavailable: "gate_off" };
     let { walkCcrSessionList: o } = import.meta.require(
-        __filePath_7b790b5ab1819b08(
-          new __filePath_7b790b5ab1819b08_URL("./chunk-cz68ft82.js", import.meta.url)
+        __sourceFilePath_7b790b5ab1819b08(
+          new __sourceFilePath_7b790b5ab1819b08_URL("./chunk-cz68ft82.js", import.meta.url)
         )
       ),
       s = B.of(e),
@@ -270,8 +270,8 @@ function R(e, r, n, o) {
     a = s ? rr(i.CLAUDE_CODE_REMOTE_SESSION_ID ?? "") : "";
   if (a === "") {
     let { getPeerBridgeIdentity: c } = import.meta.require(
-        __filePath_7b790b5ab1819b08(
-          new __filePath_7b790b5ab1819b08_URL("./chunk-5jan5sjs.js", import.meta.url)
+        __sourceFilePath_7b790b5ab1819b08(
+          new __sourceFilePath_7b790b5ab1819b08_URL("./chunk-5jan5sjs.js", import.meta.url)
         )
       ),
       f = c()?.bridgeSessionId;
@@ -300,8 +300,8 @@ function R(e, r, n, o) {
     let g = !1;
     if (s) {
       let { isRemoteControlPeerUnreachableFromHere: u } = import.meta.require(
-        __filePath_7b790b5ab1819b08(
-          new __filePath_7b790b5ab1819b08_URL("./chunk-yad5vxrm.js", import.meta.url)
+        __sourceFilePath_7b790b5ab1819b08(
+          new __sourceFilePath_7b790b5ab1819b08_URL("./chunk-yad5vxrm.js", import.meta.url)
         )
       );
       g = u();
@@ -335,8 +335,8 @@ function R(e, r, n, o) {
 function E5n(e) {
   {
     let { hasCloudPeerAccess: r } = import.meta.require(
-      __filePath_7b790b5ab1819b08(
-        new __filePath_7b790b5ab1819b08_URL("./chunk-t9f04kg3.js", import.meta.url)
+      __sourceFilePath_7b790b5ab1819b08(
+        new __sourceFilePath_7b790b5ab1819b08_URL("./chunk-t9f04kg3.js", import.meta.url)
       )
     );
     if (!r()) return;
@@ -359,8 +359,8 @@ function Iyt(e, r, n, o) {
     let s = E5n(e)?.find((c) => rr(c.id) === rr(r));
     if (!s?.unreachableFromHere) return;
     let { formatUnreachableElevatedRefusal: a } = import.meta.require(
-        __filePath_7b790b5ab1819b08(
-          new __filePath_7b790b5ab1819b08_URL("./chunk-yad5vxrm.js", import.meta.url)
+        __sourceFilePath_7b790b5ab1819b08(
+          new __sourceFilePath_7b790b5ab1819b08_URL("./chunk-yad5vxrm.js", import.meta.url)
         )
       ),
       l;

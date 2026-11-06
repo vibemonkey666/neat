@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_8096e0368a60a74a,
-  URL as __filePath_8096e0368a60a74a_URL
+  fileURLToPath as __sourceFilePath_8096e0368a60a74a,
+  URL as __sourceFilePath_8096e0368a60a74a_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1015,8 +1015,8 @@ async function Nt(e, t) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_8096e0368a60a74a(
-          new __filePath_8096e0368a60a74a_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_8096e0368a60a74a(
+          new __sourceFilePath_8096e0368a60a74a_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -1433,7 +1433,7 @@ function Xt(e, t) {
   return {
     ...s,
     authorization: `token ${Fj}`,
-    "user-agent": `claude-code-gh-standin/${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_8096e0368a60a74a(new __filePath_8096e0368a60a74a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}`
+    "user-agent": `claude-code-gh-standin/${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_8096e0368a60a74a(new __sourceFilePath_8096e0368a60a74a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}`
   };
 }
 async function De(e, t) {

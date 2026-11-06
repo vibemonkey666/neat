@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_d53ef29c9738ee9a,
-  URL as __filePath_d53ef29c9738ee9a_URL
+  fileURLToPath as __sourceFilePath_d53ef29c9738ee9a,
+  URL as __sourceFilePath_d53ef29c9738ee9a_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -4872,8 +4872,8 @@ import { sd } from "./chunk-6jbh8yja.js";
 import { ve } from "./chunk-vk5p9xv3.js";
 var gan = x(function (Qfl, Wir) {
   Wir.exports = Fe(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL(
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL(
         "../text-modules/simple_plan-s5yyk7xh.txt.cjs",
         import.meta.url
       )
@@ -4882,8 +4882,8 @@ var gan = x(function (Qfl, Wir) {
 });
 var han = x(function (Jfl, Gir) {
   Gir.exports = Fe(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL(
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL(
         "../text-modules/visual_plan-9bza2qe2.txt.cjs",
         import.meta.url
       )
@@ -4892,8 +4892,8 @@ var han = x(function (Jfl, Gir) {
 });
 var _an = x(function (Zfl, Qir) {
   Qir.exports = Fe(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL(
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL(
         "../text-modules/three_subagents_with_critique-bd1egk7q.txt.cjs",
         import.meta.url
       )
@@ -11899,8 +11899,8 @@ var euo =
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -11915,8 +11915,8 @@ var euo =
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-            new __filePath_d53ef29c9738ee9a_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+            new __sourceFilePath_d53ef29c9738ee9a_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -16766,8 +16766,8 @@ function Qco({
   });
 }
 var Jco = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-hkb7hgd0.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-hkb7hgd0.js", import.meta.url)
     )
   ).tetherShape,
   uLt = h2(Jco, null);
@@ -17740,8 +17740,8 @@ var eMt =
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -17756,8 +17756,8 @@ var eMt =
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-            new __filePath_d53ef29c9738ee9a_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+            new __sourceFilePath_d53ef29c9738ee9a_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -21458,8 +21458,8 @@ async function Pgt(e) {
     if (Ee)
       try {
         let xe = import.meta.require(
-          __filePath_d53ef29c9738ee9a(
-            new __filePath_d53ef29c9738ee9a_URL("./chunk-f3fmrjg2.js", import.meta.url)
+          __sourceFilePath_d53ef29c9738ee9a(
+            new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-f3fmrjg2.js", import.meta.url)
           )
         );
         await xe.repointTaskOutputSymlinks(we, Te);
@@ -21491,8 +21491,8 @@ async function UBe(e) {
     throw s;
   }
   let { isRetentionExemptionDisabled: r } = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-xsm95eag.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-xsm95eag.js", import.meta.url)
     )
   );
   if (!r()) {
@@ -22362,8 +22362,8 @@ function YKn(e) {
         if (
           import.meta
             .require(
-              __filePath_d53ef29c9738ee9a(
-                new __filePath_d53ef29c9738ee9a_URL("./chunk-w4af92p2.js", import.meta.url)
+              __sourceFilePath_d53ef29c9738ee9a(
+                new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-w4af92p2.js", import.meta.url)
               )
             )
             .builtInCommandNames()
@@ -27455,8 +27455,8 @@ function nmo(e) {
           if (
             import.meta
               .require(
-                __filePath_d53ef29c9738ee9a(
-                  new __filePath_d53ef29c9738ee9a_URL("./chunk-w4af92p2.js", import.meta.url)
+                __sourceFilePath_d53ef29c9738ee9a(
+                  new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-w4af92p2.js", import.meta.url)
                 )
               )
               .builtInCommandNames()
@@ -29483,8 +29483,8 @@ import { isAbsolute as _Ne, sep as Zws } from "path";
 function kOt() {
   return import.meta
     .require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpClientModule();
@@ -35460,8 +35460,8 @@ async function Gyo(e, n, r) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -58813,23 +58813,23 @@ function KWn(e) {
 }
 var NVt = null,
   LVt = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-8sback0q.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-8sback0q.js", import.meta.url)
     )
   ).SEARCH_MCP_REGISTRY_TOOL_NAME,
   FVt = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-jw117816.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-jw117816.js", import.meta.url)
     )
   ).SUGGEST_CONNECTORS_TOOL_NAME,
   BVt = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-msh485vz.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-msh485vz.js", import.meta.url)
     )
   ).LIST_CONNECTORS_TOOL_NAME,
   bGo = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-84dhhtyx.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-84dhhtyx.js", import.meta.url)
     )
   ).PLUGIN_SKILL_SAFE_TOOL_NAMES,
   HVt = null,
@@ -59827,8 +59827,8 @@ function kWn() {
 function wzo(e) {
   if (!Tzo(e)) return !1;
   let { NetworkConfigSchema: n } = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-wrz9h488.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-wrz9h488.js", import.meta.url)
     )
   );
   return n.shape.allowedDomains.element.safeParse(e).success;
@@ -62716,23 +62716,23 @@ function Xpt() {
   return pt().includeGitInstructions ?? !0;
 }
 var GKo = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-z6p7951q.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-z6p7951q.js", import.meta.url)
     )
   ).getProjectContextBlock,
   YKo = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-z6p7951q.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-z6p7951q.js", import.meta.url)
     )
   ).retryProjectContextWhenPolicyLands,
   XKo = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-z6p7951q.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-z6p7951q.js", import.meta.url)
     )
   ).forgetKeptProjectDetail,
   H6t = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-b78ejatq.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-b78ejatq.js", import.meta.url)
     )
   ).clearProjectMemoryCache,
   QKo = [5000, 30000, 120000],
@@ -69841,8 +69841,8 @@ async function rH(e, n) {
     Jt = Rt(e, Lt)
       ? import.meta
           .require(
-            __filePath_d53ef29c9738ee9a(
-              new __filePath_d53ef29c9738ee9a_URL("./chunk-8b8f1sas.js", import.meta.url)
+            __sourceFilePath_d53ef29c9738ee9a(
+              new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-8b8f1sas.js", import.meta.url)
             )
           )
           .artifactCorePromptCacheKeyBit(n.tools)
@@ -69852,8 +69852,8 @@ async function rH(e, n) {
         ? "WA1:"
         : import.meta
               .require(
-                __filePath_d53ef29c9738ee9a(
-                  new __filePath_d53ef29c9738ee9a_URL("./chunk-9kdcegxj.js", import.meta.url)
+                __sourceFilePath_d53ef29c9738ee9a(
+                  new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-9kdcegxj.js", import.meta.url)
                 )
               )
               .artifactMcpToolsReplaceBuiltIn(n.tools)
@@ -69863,8 +69863,8 @@ async function rH(e, n) {
     fn = Rt(e, V7e) ? (n.tools.some((lo) => Rt(lo, gze)) ? "PS1:" : "PS0:") : "",
     Kn = import.meta
       .require(
-        __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL("./chunk-whdvwma2.js", import.meta.url)
+        __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-whdvwma2.js", import.meta.url)
         )
       )
       .inboxSurfaceCacheKeyBit(e, n.tools),
@@ -69872,8 +69872,8 @@ async function rH(e, n) {
       e.mcpInfo?.fileReference === !0
         ? import.meta
             .require(
-              __filePath_d53ef29c9738ee9a(
-                new __filePath_d53ef29c9738ee9a_URL("./chunk-rjgzz068.js", import.meta.url)
+              __sourceFilePath_d53ef29c9738ee9a(
+                new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-rjgzz068.js", import.meta.url)
               )
             )
             .fileReferenceHintKeyBit(e)
@@ -70023,8 +70023,8 @@ async function VMs(e, n, r, s, h, y) {
       try {
         let { prefetchAllMcpResources: kt } = import.meta
           .require(
-            __filePath_d53ef29c9738ee9a(
-              new __filePath_d53ef29c9738ee9a_URL("./chunk-43z4gqzg.js", import.meta.url)
+            __sourceFilePath_d53ef29c9738ee9a(
+              new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-43z4gqzg.js", import.meta.url)
             )
           )
           .mcpClientModule();
@@ -96404,7 +96404,7 @@ var $ar = {
     requires: { ink: !0 }
   },
   Bar = async () => {
-    let e = `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(new __filePath_d53ef29c9738ee9a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}${l5()}`;
+    let e = `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(new __sourceFilePath_d53ef29c9738ee9a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}${l5()}`;
     return {
       type: "text",
       value: {
@@ -96415,15 +96415,15 @@ var $ar = {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
         ),
         DD_SOURCEMAP_GROUP: "default"
       }.BUILD_TIME
-        ? `${e} (built ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(new __filePath_d53ef29c9738ee9a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.BUILD_TIME})`
+        ? `${e} (built ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(new __sourceFilePath_d53ef29c9738ee9a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.BUILD_TIME})`
         : e
     };
   },
@@ -96671,8 +96671,8 @@ function TNt(e) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -96700,8 +96700,8 @@ function H2n(e = Jan) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -97258,24 +97258,24 @@ var u8e = null,
   Lln = null,
   Fln = null,
   Rlr = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-ag9wqm8n.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-ag9wqm8n.js", import.meta.url)
     )
   ).default,
   Bln = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-tg4z7n0z.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-tg4z7n0z.js", import.meta.url)
     )
   ).default,
   f8e = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-eynb0pb0.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-eynb0pb0.js", import.meta.url)
     )
   ).default,
   $Z = null,
   BZ = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-81tmxf49.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-81tmxf49.js", import.meta.url)
     )
   ).default,
   jZ = null,
@@ -97283,39 +97283,39 @@ var u8e = null,
   m8e = null,
   g8e = null,
   h8e = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-gz2xf6vs.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-gz2xf6vs.js", import.meta.url)
     )
   ),
   Clr = h8e.default,
   y8e = h8e.goalNonInteractive,
   jln = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-q7m3cnm3.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-q7m3cnm3.js", import.meta.url)
     )
   ).default,
   xlr = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-5r3r881j.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-5r3r881j.js", import.meta.url)
     )
   ).default,
   Alr = [],
   Sve = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-646h8pc1.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-646h8pc1.js", import.meta.url)
     )
   ).default,
   bve = null,
   Hln = null,
   x2 = null,
   Plr = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-t6012gc3.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-t6012gc3.js", import.meta.url)
     )
   ).default,
   Wln = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-b09fy5yn.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-b09fy5yn.js", import.meta.url)
     )
   ),
   Olr = Wln?.default ?? null,
@@ -97901,8 +97901,8 @@ var {
   invalidateWorkflowCache: Ulr,
   warmWorkflows: jlr
 } = import.meta.require(
-  __filePath_d53ef29c9738ee9a(
-    new __filePath_d53ef29c9738ee9a_URL("./chunk-3r4gzd8n.js", import.meta.url)
+  __sourceFilePath_d53ef29c9738ee9a(
+    new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-3r4gzd8n.js", import.meta.url)
   )
 );
 function ACo(e, n = Lrn(), r = _Jn()) {
@@ -99404,13 +99404,13 @@ function jko(e, n) {
   return `You've inherited the conversation context above from a parent agent working in ${e}. You are operating in an isolated git worktree at ${n} \u2014 same repository, same relative file structure, separate working copy. Paths in the inherited context refer to the parent's working directory; translate them to your worktree root. Re-read files before editing if the parent may have modified them since they appear in the context. Your changes stay in this worktree and will not affect the parent's files.`;
 }
 var Kdr = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-ejwr8q50.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-ejwr8q50.js", import.meta.url)
     )
   ).BRIEF_PROACTIVE_SECTION,
   Pve = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-r91z6px2.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-r91z6px2.js", import.meta.url)
     )
   );
 function Vdr(e = !1) {
@@ -99602,7 +99602,7 @@ function Tur() {
     ],
     r = [
       "/help: Get help with using Claude Code",
-      `To give feedback, users should ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(new __filePath_d53ef29c9738ee9a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.ISSUES_EXPLAINER}`
+      `To give feedback, users should ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(new __sourceFilePath_d53ef29c9738ee9a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.ISSUES_EXPLAINER}`
     ],
     s = [
       'The user will primarily request you to perform software engineering tasks. These may include solving bugs, adding new functionality, refactoring code, explaining code, and more. When given an unclear or generic instruction, consider it in the context of these software engineering tasks and the current working directory. For example, if the user asks you to change "methodName" to snake case, do not reply with just "method_name", instead find the method in the code and modify the code.',
@@ -99948,8 +99948,8 @@ Date: ${d8s()}`
       ng("autonomy_append", () => kur(y, s)),
       ng("endconv_deferred_hint", () => {
         let rt = import.meta.require(
-            __filePath_d53ef29c9738ee9a(
-              new __filePath_d53ef29c9738ee9a_URL("./chunk-51mmz8m5.js", import.meta.url)
+            __sourceFilePath_d53ef29c9738ee9a(
+              new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-51mmz8m5.js", import.meta.url)
             )
           ),
           lt = v2t();
@@ -101103,8 +101103,8 @@ function Acr() {
       : "`/skill-doctor` is NOT available in this session. It is on by default in current releases; a session lacks it on an older release, or when this client does not receive feature settings (Bedrock/Vertex/Foundry, telemetry or non-essential traffic disabled, or a first launch that has not fetched them yet) and no administrator has switched it on. Describe it if asked and suggest updating or asking their administrator, but do not tell the user to run it here.",
     r = lPr(() =>
       import.meta.require(
-        __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL("./chunk-rzbhs12e.js", import.meta.url)
+        __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-rzbhs12e.js", import.meta.url)
         )
       )
     );
@@ -101116,7 +101116,7 @@ ${r}`;
 }
 function Pcr() {
   if (Ioe() || !zP())
-    return `- When you cannot find an answer or the feature doesn't exist, direct the user to ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(new __filePath_d53ef29c9738ee9a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.ISSUES_EXPLAINER}`;
+    return `- When you cannot find an answer or the feature doesn't exist, direct the user to ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(new __sourceFilePath_d53ef29c9738ee9a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.ISSUES_EXPLAINER}`;
   return "- When you cannot find an answer or the feature doesn't exist, direct the user to use /feedback to report a feature request or bug";
 }
 var $un = {
@@ -101494,8 +101494,8 @@ function Tje() {
   if (e === "none") return [];
   if (e === "coordinator") {
     let { getCoordinatorAgents: s } = import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-f6dpayaf.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-f6dpayaf.js", import.meta.url)
       )
     );
     return s();
@@ -101504,8 +101504,8 @@ function Tje() {
   if (!Mr()) n.push(Hun);
   if (!EFt()) {
     let { CLAUDE_AGENT: s } = import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-p2nf2k55.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-p2nf2k55.js", import.meta.url)
       )
     );
     n.push(s);
@@ -102095,13 +102095,13 @@ function Kcr({
     let Q = W7n()?.prompt,
       Se = MJn(),
       { getCoordinatorSystemPrompt: be } = import.meta.require(
-        __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL("./chunk-atxvbyzx.js", import.meta.url)
+        __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-atxvbyzx.js", import.meta.url)
         )
       ),
       { hasCommsRoledServer: we } = import.meta.require(
-        __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL("./chunk-99nr1arq.js", import.meta.url)
+        __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-99nr1arq.js", import.meta.url)
         )
       ),
       Te = Li([
@@ -111295,8 +111295,8 @@ var DQe =
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -111311,8 +111311,8 @@ var DQe =
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-            new __filePath_d53ef29c9738ee9a_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+            new __sourceFilePath_d53ef29c9738ee9a_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -112075,8 +112075,8 @@ function q2n(e) {
 }
 function hsn() {
   return import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-v5c5f1qb.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-v5c5f1qb.js", import.meta.url)
     )
   );
 }
@@ -112747,8 +112747,8 @@ function r0s() {
   PS((e) => e.end());
 }
 var Sgr = import.meta.require(
-  __filePath_d53ef29c9738ee9a(
-    new __filePath_d53ef29c9738ee9a_URL("./chunk-avngwckh.js", import.meta.url)
+  __sourceFilePath_d53ef29c9738ee9a(
+    new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-avngwckh.js", import.meta.url)
   )
 );
 function bgr(e) {
@@ -114851,8 +114851,8 @@ function nyn() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -114870,8 +114870,8 @@ function nyn() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -116694,8 +116694,8 @@ function vOr(e, n) {
   for (let r of e) if (r.startsWith(`${n}:`)) e.delete(r);
 }
 var _yr = import.meta.require(
-  __filePath_d53ef29c9738ee9a(
-    new __filePath_d53ef29c9738ee9a_URL("./chunk-v5c5f1qb.js", import.meta.url)
+  __sourceFilePath_d53ef29c9738ee9a(
+    new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-v5c5f1qb.js", import.meta.url)
   )
 );
 function Dv() {
@@ -119169,8 +119169,8 @@ function TRe(e, n) {
   }
 }
 var Bee = import.meta.require(
-  __filePath_d53ef29c9738ee9a(
-    new __filePath_d53ef29c9738ee9a_URL("./chunk-v5c5f1qb.js", import.meta.url)
+  __sourceFilePath_d53ef29c9738ee9a(
+    new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-v5c5f1qb.js", import.meta.url)
   )
 );
 function Hee(e, n) {
@@ -121310,8 +121310,8 @@ async function* rSn(e, n, r, s, h, { modelFacts: y, ...S }) {
   if (Q.evictCacheOnComplete && Q.stickyBetas !== void 0 && ekr()) iF(dt, nrt);
   let II = import.meta
       .require(
-        __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL("./chunk-wf28mfqa.js", import.meta.url)
+        __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-wf28mfqa.js", import.meta.url)
         )
       )
       .createContextHintController({
@@ -127863,8 +127863,8 @@ var LRe;
 function _Sr() {
   if (LRe && LRe.userType === "external") return LRe.map;
   let e = import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-fkxpd7gr.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-fkxpd7gr.js", import.meta.url)
       )
     ),
     n = new Map(),
@@ -127954,8 +127954,8 @@ function Ntt() {
 var Ltt = p(() =>
     TSr(
       import.meta.require(
-        __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL("./chunk-fkxpd7gr.js", import.meta.url)
+        __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-fkxpd7gr.js", import.meta.url)
         )
       )
     )
@@ -128295,8 +128295,8 @@ function BRe(e) {
 var jSr = new Set([qe, Ar, uo, B1, ki, qG, o0, Z1]);
 function WSr() {
   return import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-s3akf0vg.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-s3akf0vg.js", import.meta.url)
     )
   );
 }
@@ -130825,8 +130825,8 @@ function uje(e, n, r) {
   });
 }
 var Jbn = import.meta.require(
-  __filePath_d53ef29c9738ee9a(
-    new __filePath_d53ef29c9738ee9a_URL("./chunk-e23wtp0r.js", import.meta.url)
+  __sourceFilePath_d53ef29c9738ee9a(
+    new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-e23wtp0r.js", import.meta.url)
   )
 );
 function Zrn(e) {
@@ -140261,8 +140261,8 @@ var SRn = (() => {
   return () => {
     if (!e)
       e = import.meta.require(
-        __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL("./chunk-3ykk7zcv.js", import.meta.url)
+        __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-3ykk7zcv.js", import.meta.url)
         )
       ).PowerShellTool;
     return e;
@@ -143616,8 +143616,8 @@ async function XRr() {
 async function JRr() {
   if (ha()) {
     let { listLivePeerSessions: e, SessionRecordsUnreadableError: n } = import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-w0prrq68.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-w0prrq68.js", import.meta.url)
       )
     );
     try {
@@ -144668,8 +144668,8 @@ function ECn() {
     FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
     BUILD_TIME: "2026-10-23T17:43:32Z",
     GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-    HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL(
+    HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL(
         "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         import.meta.url
       )
@@ -144858,8 +144858,8 @@ function KCo(e) {
 async function pMr(e, n, r) {
   return import.meta
     .require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-43z4gqzg.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-43z4gqzg.js", import.meta.url)
       )
     )
     .mcpClientModule()
@@ -146142,8 +146142,8 @@ function HLr(e) {
   return (Vd(e.config)
     ? import.meta
         .require(
-          __filePath_d53ef29c9738ee9a(
-            new __filePath_d53ef29c9738ee9a_URL("./chunk-dyqwyx2x.js", import.meta.url)
+          __sourceFilePath_d53ef29c9738ee9a(
+            new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-dyqwyx2x.js", import.meta.url)
           )
         )
         .isArtifactsMcpLaptopEntry(e.config)
@@ -146991,13 +146991,13 @@ function Dxn(e, n, r) {
   return (g("output_limit_note"), [{ type: "output_limit_note", model: n, text: S }]);
 }
 var Pxe = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-ejwr8q50.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-ejwr8q50.js", import.meta.url)
     )
   ),
   Kxn = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-r91z6px2.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-r91z6px2.js", import.meta.url)
     )
   ),
   Vxn = Pxe.BRIEF_TOOL_NAME,
@@ -147875,14 +147875,14 @@ function eAn() {
 function P0r() {
   {
     let { isAppifactReplToolEnabled: e } = import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-dk6mjb62.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-dk6mjb62.js", import.meta.url)
       )
     );
     if (e()) return !0;
     let { quickstartOnForSession: n } = import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-9s8ag8xe.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-9s8ag8xe.js", import.meta.url)
       )
     );
     return n();
@@ -147894,8 +147894,8 @@ async function M0r(e, n, r = null, s = !1) {
     if (!eAn() || n === void 0 || e.agentId !== void 0 || n.some((Se) => Se.type === "assistant"))
       return [];
     let { preToolUseHookMayCoverArtifact: h } = import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-hn5s63mw.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-hn5s63mw.js", import.meta.url)
       )
     );
     if (h(e)) return (t("[artifactOpeningPrefetch] skipped: hooked"), []);
@@ -151453,8 +151453,8 @@ function Rk(e, n, r) {
 }
 var lUr = () =>
   import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-dyqwyx2x.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-dyqwyx2x.js", import.meta.url)
     )
   );
 function tPn(e, n) {
@@ -163066,9 +163066,9 @@ async function uCi(e, n, r) {
           "env",
           "CLAUDE_CODE_RESTRICT_PERSONAL_CONFIG=1",
           process.execPath,
-          ...__invocation_d53ef29c9738ee9a.cliPrefix()
+          ...__sourceInvocation_d53ef29c9738ee9a.cliPrefix()
         ]
-      : [process.execPath, ...__invocation_d53ef29c9738ee9a.cliPrefix()],
+      : [process.execPath, ...__sourceInvocation_d53ef29c9738ee9a.cliPrefix()],
     we = [...(mie() ? ["--restricted"] : []), ...[], ...NGr(e)],
     Te = "C-b",
     Ee = await h(["show-options", "-g", "prefix"]);
@@ -163347,8 +163347,8 @@ function HGr({
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -163668,8 +163668,8 @@ function JGr() {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -163685,8 +163685,8 @@ function JGr() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -164208,8 +164208,8 @@ var HOn = () =>
     FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
     BUILD_TIME: "2026-10-23T17:43:32Z",
     GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-    HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL(
+    HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL(
         "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         import.meta.url
       )
@@ -164225,8 +164225,8 @@ var HOn = () =>
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-            new __filePath_d53ef29c9738ee9a_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+            new __sourceFilePath_d53ef29c9738ee9a_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -167454,8 +167454,8 @@ function p9r(e, n, r, s) {
 }
 var $Nn = (e, n, r) => !r && n.deny === void 0 && dB(e);
 var h9r = import.meta.require(
-  __filePath_d53ef29c9738ee9a(
-    new __filePath_d53ef29c9738ee9a_URL("./chunk-tammv83f.js", import.meta.url)
+  __sourceFilePath_d53ef29c9738ee9a(
+    new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-tammv83f.js", import.meta.url)
   )
 ).END_CONVERSATION_TOOL_NAME;
 function uGn(e, n, r) {
@@ -173544,8 +173544,8 @@ function VLs() {
   return BFn();
 }
 var d7r = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-v5c5f1qb.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-v5c5f1qb.js", import.meta.url)
     )
   ),
   qLs = 500,
@@ -184109,8 +184109,8 @@ async function MIe(e, n, r) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-          new __filePath_d53ef29c9738ee9a_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+          new __sourceFilePath_d53ef29c9738ee9a_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -187202,13 +187202,13 @@ function Sgt() {
   return Fg();
 }
 var g6 = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-mng42373.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-mng42373.js", import.meta.url)
     )
   ),
   Mqn = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-scfvfa8h.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-scfvfa8h.js", import.meta.url)
     )
   );
 function NR() {
@@ -204010,8 +204010,8 @@ var Bws = -32801,
   Uws = 60000;
 function dXn(e, n) {
   let { createLSPClient: r } = import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-za0xbtb6.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-za0xbtb6.js", import.meta.url)
       )
     ),
     s = "stopped",
@@ -204108,8 +204108,8 @@ function dXn(e, n) {
               FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
               BUILD_TIME: "2026-10-23T17:43:32Z",
               GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-              HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(
-                new __filePath_d53ef29c9738ee9a_URL(
+              HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(
+                new __sourceFilePath_d53ef29c9738ee9a_URL(
                   "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                   import.meta.url
                 )
@@ -205979,8 +205979,8 @@ var Rft;
 function Ozn() {
   if (Rft) return Rft;
   let { PowerShellTool: e } = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-3ykk7zcv.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-3ykk7zcv.js", import.meta.url)
     )
   );
   return (Rft = [jv, Ck, kh, SD, wD, na, e, Ske]);
@@ -206311,32 +206311,32 @@ function H6(e) {
 }
 var zse = null;
 var STs = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-2rgbd01q.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-2rgbd01q.js", import.meta.url)
     )
   ).ARTIFACT_TOOL_NAME,
   bTs = [zo, Qc, "webagent", ...poi].map(FRe),
   wTs = import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-2rgbd01q.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-2rgbd01q.js", import.meta.url)
     )
   ).isPublishShapedArtifactAction,
   TTs = () =>
     import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-bfvm9vxm.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-bfvm9vxm.js", import.meta.url)
       )
     ).isScratchpadDisplayPath,
   vTs = () =>
     import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-bfvm9vxm.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-bfvm9vxm.js", import.meta.url)
       )
     ).isWorkshopDisplayPath,
   ETs = () =>
     import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-g807t8t3.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-g807t8t3.js", import.meta.url)
       )
     ).getPlansDirectory;
 function Kse(e) {
@@ -214173,8 +214173,8 @@ class oZn {
   module;
   requireModule = () =>
     import.meta.require(
-      __filePath_d53ef29c9738ee9a(
-        new __filePath_d53ef29c9738ee9a_URL("./chunk-n7w9ejvb.js", import.meta.url)
+      __sourceFilePath_d53ef29c9738ee9a(
+        new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-n7w9ejvb.js", import.meta.url)
       )
     );
   load() {
@@ -214219,8 +214219,8 @@ function aZn(e) {
 }
 function xCs() {
   return import.meta.require(
-    __filePath_d53ef29c9738ee9a(
-      new __filePath_d53ef29c9738ee9a_URL("./chunk-s3akf0vg.js", import.meta.url)
+    __sourceFilePath_d53ef29c9738ee9a(
+      new __sourceFilePath_d53ef29c9738ee9a_URL("./chunk-s3akf0vg.js", import.meta.url)
     )
   );
 }
@@ -219427,7 +219427,7 @@ This is an administrative block, not a connection failure: retrying will not hel
         V.push(`The following MCP servers are configured, but Claude Code itself refuses them because it reserves their address for its own use. Their tools are unavailable for this session:
 ${pn}${jn}
 
-This is not a connection failure or an administrator's setting, so retrying will not help. If the user's request depends on one of these servers, tell them that Claude Code refuses the entry, and that whoever added it can remove it or change its address. If the refusal looks like a mistake, they can ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_d53ef29c9738ee9a(new __filePath_d53ef29c9738ee9a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.ISSUES_EXPLAINER}.`);
+This is not a connection failure or an administrator's setting, so retrying will not help. If the user's request depends on one of these servers, tell them that Claude Code refuses the entry, and that whoever added it can remove it or change its address. If the refusal looks like a mistake, they can ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_d53ef29c9738ee9a(new __sourceFilePath_d53ef29c9738ee9a_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.ISSUES_EXPLAINER}.`);
       }
       let sn = Bi(e.pendingMcpServers);
       if (sn.length > 0) {
@@ -224650,6 +224650,6 @@ export {
   gFs
 };
 
-import * as __invocation_d53ef29c9738ee9a from "./__invocation.mjs";
+import * as __sourceInvocation_d53ef29c9738ee9a from "./__invocation.mjs";
 
 //# sourceMappingURL=chunk-j0tbz6ra.js.map

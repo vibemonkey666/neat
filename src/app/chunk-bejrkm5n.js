@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_88136f3c97a38402,
-  URL as __filePath_88136f3c97a38402_URL
+  fileURLToPath as __sourceFilePath_88136f3c97a38402,
+  URL as __sourceFilePath_88136f3c97a38402_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -1294,8 +1294,8 @@ async function On(e, n = !1) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_88136f3c97a38402(
-            new __filePath_88136f3c97a38402_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_88136f3c97a38402(
+            new __sourceFilePath_88136f3c97a38402_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -1332,8 +1332,8 @@ async function On(e, n = !1) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_88136f3c97a38402(
-            new __filePath_88136f3c97a38402_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_88136f3c97a38402(
+            new __sourceFilePath_88136f3c97a38402_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -1345,7 +1345,7 @@ async function On(e, n = !1) {
     )
       return (
         t(
-          `Native installer: current version ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_88136f3c97a38402(new __filePath_88136f3c97a38402_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION} is already at or above maxVersion ${w}, skipping update`
+          `Native installer: current version ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_88136f3c97a38402(new __sourceFilePath_88136f3c97a38402_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION} is already at or above maxVersion ${w}, skipping update`
         ),
         a("tengu_native_update_skipped_max_version", {
           latency_ms: Date.now() - r,
@@ -1367,8 +1367,8 @@ async function On(e, n = !1) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_88136f3c97a38402(
-          new __filePath_88136f3c97a38402_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_88136f3c97a38402(
+          new __sourceFilePath_88136f3c97a38402_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )
@@ -1407,8 +1407,8 @@ async function On(e, n = !1) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-10-23T17:43:32Z",
           GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-          HOOKS_WORKER_URL: __filePath_88136f3c97a38402(
-            new __filePath_88136f3c97a38402_URL(
+          HOOKS_WORKER_URL: __sourceFilePath_88136f3c97a38402(
+            new __sourceFilePath_88136f3c97a38402_URL(
               "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               import.meta.url
             )
@@ -1475,7 +1475,7 @@ async function On(e, n = !1) {
     return (
       a("tengu_native_update_skipped_unverified_release", { latency_ms: I, target_version: pa(S) }),
       t(
-        `Native installer: resolved ${S} predates manifest signature enforcement; staying on ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __filePath_88136f3c97a38402(new __filePath_88136f3c97a38402_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}`,
+        `Native installer: resolved ${S} predates manifest signature enforcement; staying on ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.310", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-10-23T17:43:32Z", GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add", HOOKS_WORKER_URL: __sourceFilePath_88136f3c97a38402(new __sourceFilePath_88136f3c97a38402_URL("./src/plugins/functionHooks/hooks-worker/hooks-worker.js", import.meta.url)), DD_SOURCEMAP_GROUP: "default" }.VERSION}`,
         { level: "warn" }
       ),
       { success: !0, wasSkipped: !0, skippedUnverifiedRelease: !0, latestVersion: S }
@@ -2169,8 +2169,8 @@ async function pvo() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_88136f3c97a38402(
-        new __filePath_88136f3c97a38402_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_88136f3c97a38402(
+        new __sourceFilePath_88136f3c97a38402_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -2185,8 +2185,8 @@ async function pvo() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-10-23T17:43:32Z",
       GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-      HOOKS_WORKER_URL: __filePath_88136f3c97a38402(
-        new __filePath_88136f3c97a38402_URL(
+      HOOKS_WORKER_URL: __sourceFilePath_88136f3c97a38402(
+        new __sourceFilePath_88136f3c97a38402_URL(
           "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           import.meta.url
         )
@@ -2203,8 +2203,8 @@ async function pvo() {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-10-23T17:43:32Z",
         GIT_SHA: "0d2056ecf42d9452a8cd8e054600024e7c557add",
-        HOOKS_WORKER_URL: __filePath_88136f3c97a38402(
-          new __filePath_88136f3c97a38402_URL(
+        HOOKS_WORKER_URL: __sourceFilePath_88136f3c97a38402(
+          new __sourceFilePath_88136f3c97a38402_URL(
             "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             import.meta.url
           )

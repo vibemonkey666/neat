@@ -1,6 +1,6 @@
 import {
-  fileURLToPath as __filePath_8ab06e9c1d5486c5,
-  URL as __filePath_8ab06e9c1d5486c5_URL
+  fileURLToPath as __sourceFilePath_8ab06e9c1d5486c5,
+  URL as __sourceFilePath_8ab06e9c1d5486c5_URL
 } from "node:url";
 // Recovered JavaScript source; compiled-input directive removed
 // Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
@@ -3510,33 +3510,33 @@ function Ul(e, o, n) {
   return e?.agentType === "teammate" ? Fl(e, o, n) : Ll(e);
 }
 var In = import.meta.require(
-    __filePath_8ab06e9c1d5486c5(
-      new __filePath_8ab06e9c1d5486c5_URL("./chunk-sagkb0t3.js", import.meta.url)
+    __sourceFilePath_8ab06e9c1d5486c5(
+      new __sourceFilePath_8ab06e9c1d5486c5_URL("./chunk-sagkb0t3.js", import.meta.url)
     )
   ),
   $o = import.meta.require(
-    __filePath_8ab06e9c1d5486c5(
-      new __filePath_8ab06e9c1d5486c5_URL("./chunk-29va0b45.js", import.meta.url)
+    __sourceFilePath_8ab06e9c1d5486c5(
+      new __sourceFilePath_8ab06e9c1d5486c5_URL("./chunk-29va0b45.js", import.meta.url)
     )
   ),
   bm = import.meta.require(
-    __filePath_8ab06e9c1d5486c5(
-      new __filePath_8ab06e9c1d5486c5_URL("./chunk-7367ht8f.js", import.meta.url)
+    __sourceFilePath_8ab06e9c1d5486c5(
+      new __sourceFilePath_8ab06e9c1d5486c5_URL("./chunk-7367ht8f.js", import.meta.url)
     )
   );
 var Fr = import.meta.require(
-    __filePath_8ab06e9c1d5486c5(
-      new __filePath_8ab06e9c1d5486c5_URL("./chunk-r91z6px2.js", import.meta.url)
+    __sourceFilePath_8ab06e9c1d5486c5(
+      new __sourceFilePath_8ab06e9c1d5486c5_URL("./chunk-r91z6px2.js", import.meta.url)
     )
   ),
   Ao = import.meta.require(
-    __filePath_8ab06e9c1d5486c5(
-      new __filePath_8ab06e9c1d5486c5_URL("./chunk-ejwr8q50.js", import.meta.url)
+    __sourceFilePath_8ab06e9c1d5486c5(
+      new __sourceFilePath_8ab06e9c1d5486c5_URL("./chunk-ejwr8q50.js", import.meta.url)
     )
   );
 var wo = import.meta.require(
-  __filePath_8ab06e9c1d5486c5(
-    new __filePath_8ab06e9c1d5486c5_URL("./chunk-9p9ayzty.js", import.meta.url)
+  __sourceFilePath_8ab06e9c1d5486c5(
+    new __sourceFilePath_8ab06e9c1d5486c5_URL("./chunk-9p9ayzty.js", import.meta.url)
   )
 );
 function ql(e) {
@@ -6697,14 +6697,14 @@ function Eu(e, o) {
 var Ru = null,
   no = () =>
     import.meta.require(
-      __filePath_8ab06e9c1d5486c5(
-        new __filePath_8ab06e9c1d5486c5_URL("./chunk-29va0b45.js", import.meta.url)
+      __sourceFilePath_8ab06e9c1d5486c5(
+        new __sourceFilePath_8ab06e9c1d5486c5_URL("./chunk-29va0b45.js", import.meta.url)
       )
     ),
   rr = () =>
     import.meta.require(
-      __filePath_8ab06e9c1d5486c5(
-        new __filePath_8ab06e9c1d5486c5_URL("./chunk-7367ht8f.js", import.meta.url)
+      __sourceFilePath_8ab06e9c1d5486c5(
+        new __sourceFilePath_8ab06e9c1d5486c5_URL("./chunk-7367ht8f.js", import.meta.url)
       )
     );
 var Pf = new W(() => ({ state: void 0 }));
@@ -6714,8 +6714,8 @@ function Lo(e) {
   return o.state;
 }
 var ui = import.meta.require(
-    __filePath_8ab06e9c1d5486c5(
-      new __filePath_8ab06e9c1d5486c5_URL("./chunk-k954bd5f.js", import.meta.url)
+    __sourceFilePath_8ab06e9c1d5486c5(
+      new __sourceFilePath_8ab06e9c1d5486c5_URL("./chunk-k954bd5f.js", import.meta.url)
     )
   ),
   Of = {
@@ -10377,8 +10377,8 @@ async function* Ou(e, o, n, r) {
     let S = yield* Du();
     if (S !== xo) {
       let { recordProjectsReplyTurnError: Ze } = import.meta.require(
-        __filePath_8ab06e9c1d5486c5(
-          new __filePath_8ab06e9c1d5486c5_URL("./chunk-wfjcsrgn.js", import.meta.url)
+        __sourceFilePath_8ab06e9c1d5486c5(
+          new __sourceFilePath_8ab06e9c1d5486c5_URL("./chunk-wfjcsrgn.js", import.meta.url)
         )
       );
       Ze(S, T, {

@@ -22,3 +22,11 @@ This tree corresponds to Claude Code 2.1.310 for Linux x64. It is a source
 publication for inspection and experimentation and is not an official product
 distribution. Review applicable notices for Claude Code and bundled dependencies
 before redistribution or deployment.
+
+## Legal status and research use
+
+This repository is intended for research and learning. The maintainer reports
+legal-counsel approval of the project's clean-room reverse-engineering process
+and fair-use position. See [Legal status and research use](LEGAL.md) for the
+statement, supporting authorities, and scope. Existing third-party rights and
+notices continue to apply.

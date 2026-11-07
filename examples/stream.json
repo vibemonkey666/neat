@@ -1,0 +1,10 @@
+{
+  "schema": "workflow-script/1",
+  "operations": [
+    {"id": "read-before", "tool": "echo", "arguments": {"value": "ready"}},
+    {"id": "write-once", "tool": "store", "arguments": {"value": "example effect"}},
+    {"id": "read-after", "tool": "read", "arguments": {}}
+  ],
+  "stop": {"block_attempts": 0, "limit": 2},
+  "summary": "This text does not control operation state."
+}

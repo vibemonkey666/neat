@@ -1,0 +1,4 @@
+__pycache__/
+outputs/
+example-state/
+example-effects.sqlite*

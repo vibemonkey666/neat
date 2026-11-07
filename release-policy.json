@@ -1,0 +1,34 @@
+{
+  "schema": "neat-release-policy/1",
+  "files": [
+    ".gitignore",
+    "CLEANROOM.md",
+    "DESIGN.md",
+    "INSTRUMENTS.md",
+    "LEGAL.md",
+    "NOTICE.md",
+    "README.md",
+    "ROADMAP.md",
+    "examples/stream.json",
+    "managed_validate.py",
+    "release-policy.json",
+    "release_check.py",
+    "tests/test_engine.py",
+    "tests/test_invocation.py",
+    "tests/test_journal.py",
+    "tests/test_release.py",
+    "workflow_alt/__init__.py",
+    "workflow_alt/__main__.py",
+    "workflow_alt/effects.py",
+    "workflow_alt/engine.py",
+    "workflow_alt/invocation.py",
+    "workflow_alt/journal.py",
+    "workflow_alt/worker.py"
+  ],
+  "third_party_bundles": [],
+  "runtime_requirements": [
+    "Python >=3.11",
+    "POSIX flock and process groups"
+  ],
+  "scope": "Standalone demonstration. No process certification or full client equivalence."
+}
